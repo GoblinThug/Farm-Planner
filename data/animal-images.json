@@ -1,0 +1,14 @@
+{
+  "Курица": { "file": "assets/animals/chicken.png" },
+  "Пустотная курица": { "file": "assets/animals/void-chicken.png" },
+  "Золотая курица": { "file": "assets/animals/golden-chicken.png" },
+  "Утка": { "file": "assets/animals/duck.png" },
+  "Кролик": { "file": "assets/animals/rabbit.png" },
+  "Динозавр": { "file": "assets/animals/dinosaur.png" },
+  "Корова": { "file": "assets/animals/cow.png" },
+  "Коза": { "file": "assets/animals/goat.png" },
+  "Овца": { "file": "assets/animals/sheep.png" },
+  "Свинья": { "file": "assets/animals/pig.png" },
+  "Страус": { "file": "assets/animals/ostrich.png" },
+  "Слизень": { "file": "assets/animals/green-slime.png" }
+}

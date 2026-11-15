@@ -1,0 +1,20 @@
+{
+  "Яйцо": { "file": "assets/items/wiki/Egg.png" },
+  "Большое яйцо": { "file": "assets/items/wiki/Large_Egg.png" },
+  "Пустотное яйцо": { "file": "assets/items/wiki/Void_Egg.png" },
+  "Золотое яйцо": { "file": "assets/items/wiki/Golden_Egg.png" },
+  "Утиное яйцо": { "file": "assets/items/wiki/Duck_Egg.png" },
+  "Утиное перо": { "file": "assets/items/wiki/Duck_Feather.png" },
+  "Шерсть (кролик)": { "file": "assets/items/wiki/Wool.png" },
+  "Кроличья лапка": { "file": "assets/items/wiki/Rabbit's_Foot.png" },
+  "Динозавровое яйцо": { "file": "assets/items/wiki/Dinosaur_Egg.png" },
+  "Молоко": { "file": "assets/items/wiki/Milk.png" },
+  "Большое молоко": { "file": "assets/items/wiki/Large_Milk.png" },
+  "Козье молоко": { "file": "assets/items/wiki/Goat_Milk.png" },
+  "Большое козье молоко": { "file": "assets/items/wiki/Large_Goat_Milk.png" },
+  "Шерсть": { "file": "assets/items/wiki/Wool.png" },
+  "Трюфель": { "file": "assets/items/wiki/Truffle.png" },
+  "Страусиное яйцо": { "file": "assets/items/wiki/Ostrich_Egg.png" },
+  "Слизь": { "file": "assets/items/wiki/Slime.png" },
+  "Петардная слизь / другие виды": { "file": "assets/items/wiki/Slime.png" }
+}

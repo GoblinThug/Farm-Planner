@@ -101,8 +101,12 @@ npx expo run:android
 │   ├── crops.json
 │   ├── fish.json
 │   └── *.json
+├── scripts/
+│   └── extract-asset-manifests.mjs
 └── src/
-    ├── data/appData.js
+    ├── assets/          # единый реестр require() для PNG
+    ├── components/      # иконки UI
+    ├── data/            # JSON, тема, форматирование, реэкспорт appData.js
     └── styles/styles.js
 ```
 
@@ -114,6 +118,7 @@ npx expo run:android
 - `data/crop-images.json`, `data/fish-images.json`, `data/bundle-item-icons.json` — сопоставления изображений.
 - `data/bundle-image-manifest.json` — названия файлов изображений наборов и соответствующие локальные имена.
 - `assets/` — PNG-изображения, используемые приложением локально.
+- После добавления новых PNG или строк в манифесты выполни `npm run sync:assets`, чтобы обновить `src/assets/assetRegistry.js`.
 
 ## 🛠️ Сборка Android через GitHub Actions
 

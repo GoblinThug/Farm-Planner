@@ -1,0 +1,388 @@
+[
+  {
+    "name": "Курица",
+    "aliases": ["Белая курица", "Коричневая курица", "Синяя курица"],
+    "category": "coop",
+    "building": "Курятник",
+    "buildingUpgrade": "Базовый, Улучшенный или Роскошный курятник",
+    "housingType": "coop",
+    "purchasePrice": 800,
+    "purchaseSource": "Мэри",
+    "incubationDays": null,
+    "feed": "Сено в кормушке или пастбище с травой",
+    "produceInterval": "Каждое утро при настроении ≥ 150",
+    "toolRequired": null,
+    "products": [
+      {
+        "name": "Яйцо",
+        "basePrice": 50,
+        "frequency": "1 в день",
+        "condition": "Настроение ≥ 150; при дружбе < 200 чаще обычное яйцо"
+      },
+      {
+        "name": "Большое яйцо",
+        "basePrice": 95,
+        "frequency": "1 в день",
+        "condition": "Выше шанс при дружбе ≥ 200 и счастливом настроении"
+      }
+    ],
+    "moodNotes": "Нужны корм, обогрев зимой, поглаживание и выгул на пастбище (кроме зимы и дождя).",
+    "specialNotes": [
+      "Синяя квартира курицы — косметический вариант после сердец Шейна; яйца те же.",
+      "Яйца можно продавать, сдавать в набор или класть в инкубатор."
+    ],
+    "professionNotes": "Профессия «Птицевод» (Rancher): продукты курятника +20% к цене.",
+    "wikiSource": "Stardew Valley Wiki: Animals / Chickens"
+  },
+  {
+    "name": "Пустотная курица",
+    "aliases": ["Void Chicken"],
+    "category": "coop",
+    "building": "Курятник",
+    "buildingUpgrade": "Любой уровень курятника",
+    "housingType": "coop",
+    "purchasePrice": null,
+    "purchaseSource": "Инкубатор: пустотное яйцо из случайного события или купленное у Коробуса",
+    "incubationDays": "Около 20 000 минут игрового времени (≈ 12.5 дней)",
+    "feed": "Сено или пастбище",
+    "produceInterval": "Каждое утро при настроении ≥ 150",
+    "toolRequired": null,
+    "products": [
+      {
+        "name": "Пустотное яйцо",
+        "basePrice": 65,
+        "frequency": "1 в день",
+        "condition": "При счастливом настроении"
+      }
+    ],
+    "moodNotes": "Те же правила настроения, что у обычной курицы.",
+    "specialNotes": [
+      "Не покупается у Мэри — только из пустотного яйца.",
+      "Подходит для набора «Пустотные яйца» в общественном центре."
+    ],
+    "professionNotes": "Птицевод (+20% к пустотному яйцу).",
+    "wikiSource": "Stardew Valley Wiki: Void Chicken"
+  },
+  {
+    "name": "Золотая курица",
+    "aliases": ["Golden Chicken"],
+    "category": "special",
+    "building": "Курятник",
+    "buildingUpgrade": "Любой уровень курятника",
+    "housingType": "coop",
+    "purchasePrice": null,
+    "purchaseSource": "Инкубатор: золотое яйцо (квест «Основательный урожай» / Qi)",
+    "incubationDays": "Около 20 000 минут игрового времени",
+    "feed": "Сено или пастбище",
+    "produceInterval": "Каждое утро при настроении ≥ 150",
+    "toolRequired": null,
+    "products": [
+      {
+        "name": "Золотое яйцо",
+        "basePrice": 500,
+        "frequency": "1 в день",
+        "condition": "При счастливом настроении"
+      }
+    ],
+    "moodNotes": "Стандартные правила курятника.",
+    "specialNotes": [
+      "Редкая птица; не продаётся у Мэри.",
+      "Золотые яйца — ценный продукт для продажи или подарков."
+    ],
+    "professionNotes": "Птицевод (+20%).",
+    "wikiSource": "Stardew Valley Wiki: Golden Chicken"
+  },
+  {
+    "name": "Утка",
+    "aliases": [],
+    "category": "coop",
+    "building": "Улучшенный или Роскошный курятник",
+    "buildingUpgrade": "Нужен как минимум Улучшенный курятник",
+    "housingType": "coop",
+    "purchasePrice": 1200,
+    "purchaseSource": "Мэри",
+    "incubationDays": null,
+    "feed": "Сено или пастбище",
+    "produceInterval": "Каждое утро при настроении ≥ 150",
+    "toolRequired": null,
+    "products": [
+      {
+        "name": "Утиное яйцо",
+        "basePrice": 95,
+        "frequency": "1 в день",
+        "condition": "Обычный ежедневный продукт"
+      },
+      {
+        "name": "Утиное перо",
+        "basePrice": 250,
+        "frequency": "Иногда (не каждый день)",
+        "condition": "Чаще при высокой дружбе и счастливом настроении; только в Роскошном курятнике"
+      }
+    ],
+    "moodNotes": "Перо выпадает только если животное счастливо; отношения влияют на шанс.",
+    "specialNotes": [
+      "Утиные яйца участвуют в наборе «Полевые исследования».",
+      "Перо нужно для набора «Набор ремесленника»."
+    ],
+    "professionNotes": "Птицевод (+20% к яйцам и перу).",
+    "wikiSource": "Stardew Valley Wiki: Duck"
+  },
+  {
+    "name": "Кролик",
+    "aliases": [],
+    "category": "coop",
+    "building": "Роскошный курятник",
+    "buildingUpgrade": "Только Роскошный курятник",
+    "housingType": "coop",
+    "purchasePrice": 8000,
+    "purchaseSource": "Мэри",
+    "incubationDays": null,
+    "feed": "Сено или пастбище",
+    "produceInterval": "Шерсть — примерно раз в 4 дня; лапка — редко",
+    "toolRequired": null,
+    "products": [
+      {
+        "name": "Шерсть (кролик)",
+        "basePrice": 340,
+        "frequency": "≈ 1 раз в 4 дня",
+        "condition": "При дружбе ≥ 200 и настроении ≥ 150"
+      },
+      {
+        "name": "Кроличья лапка",
+        "basePrice": 565,
+        "frequency": "Редко",
+        "condition": "Высокая дружба (близко к 10 сердцам), счастливое настроение"
+      }
+    ],
+    "moodNotes": "Без ежедневного продукта, как у курицы; важны стабильный уход и дружба.",
+    "specialNotes": [
+      "Лапка — ценный подарок и предмет для набора «Сталкер» на доске объявлений.",
+      "Дорогая покупка; окупается за счёт лапок и шерсти при хорошем уходе."
+    ],
+    "professionNotes": "Птицевод (+20% к шерсти и лапке).",
+    "wikiSource": "Stardew Valley Wiki: Rabbit"
+  },
+  {
+    "name": "Динозавр",
+    "aliases": [],
+    "category": "special",
+    "building": "Курятник",
+    "buildingUpgrade": "Любой уровень курятника",
+    "housingType": "coop",
+    "purchasePrice": null,
+    "purchaseSource": "Инкубатор: динозавровое яйцо (артефакт, рыбалка, склепок)",
+    "incubationDays": "Около 20 000 минут игрового времени",
+    "feed": "Сено или пастбище",
+    "produceInterval": "Каждое утро при настроении ≥ 150",
+    "toolRequired": null,
+    "products": [
+      {
+        "name": "Динозавровое яйцо",
+        "basePrice": 350,
+        "frequency": "1 в день",
+        "condition": "При счастливом настроении"
+      }
+    ],
+    "moodNotes": "Считается обитателем курятника по тем же правилам, что курица.",
+    "specialNotes": [
+      "Не покупается у Мэри.",
+      "Можно снова инкубировать яйца или продавать их."
+    ],
+    "professionNotes": "Птицевод (+20%).",
+    "wikiSource": "Stardew Valley Wiki: Dinosaur"
+  },
+  {
+    "name": "Корова",
+    "aliases": [],
+    "category": "barn",
+    "building": "Хлев",
+    "buildingUpgrade": "Базовый, Улучшенный или Роскошный хлев",
+    "housingType": "barn",
+    "purchasePrice": 1500,
+    "purchaseSource": "Мэри",
+    "incubationDays": null,
+    "feed": "Сено в кормушке или пастбище",
+    "produceInterval": "Каждое утро при настроении ≥ 150",
+    "toolRequired": "Ведро",
+    "products": [
+      {
+        "name": "Молоко",
+        "basePrice": 125,
+        "frequency": "1 в день",
+        "condition": "До высокой дружбы чаще обычное молоко"
+      },
+      {
+        "name": "Большое молоко",
+        "basePrice": 190,
+        "frequency": "1 в день",
+        "condition": "Выше шанс при дружбе ≥ 200"
+      }
+    ],
+    "moodNotes": "Подойди с ведром каждое утро. В хлеву есть автокормушка на улучшении.",
+    "specialNotes": [
+      "Из молока — сыр и творожная масса в прессах.",
+      "Молоко можно собирать в наборах общественного центра."
+    ],
+    "professionNotes": "Птицевод (+20% к молоку) или «Сыровар» (+40% к сыру из молока) — выбор при 10 ур. животноводства.",
+    "wikiSource": "Stardew Valley Wiki: Cow"
+  },
+  {
+    "name": "Коза",
+    "aliases": [],
+    "category": "barn",
+    "building": "Улучшенный или Роскошный хлев",
+    "buildingUpgrade": "Нужен как минимум Улучшенный хлев",
+    "housingType": "barn",
+    "purchasePrice": 4000,
+    "purchaseSource": "Мэри",
+    "incubationDays": null,
+    "feed": "Сено или пастбище",
+    "produceInterval": "Каждые 2 дня при настроении ≥ 150",
+    "toolRequired": "Ведро",
+    "products": [
+      {
+        "name": "Козье молоко",
+        "basePrice": 225,
+        "frequency": "1 раз в 2 дня",
+        "condition": "Базовый продукт"
+      },
+      {
+        "name": "Большое козье молоко",
+        "basePrice": 345,
+        "frequency": "1 раз в 2 дня",
+        "condition": "Выше шанс при дружбе ≥ 200"
+      }
+    ],
+    "moodNotes": "Не каждый день — планируй сбор через день.",
+    "specialNotes": [
+      "Делает козий сыр в прессе — очень прибыльная переработка с профессией «Сыровар».",
+      "Собирай молоко через день, чтобы не пропустить день производства."
+    ],
+    "professionNotes": "Птицевод (+20% к молоку) или «Сыровар» (+40% к сыру).",
+    "wikiSource": "Stardew Valley Wiki: Goat"
+  },
+  {
+    "name": "Овца",
+    "aliases": [],
+    "category": "barn",
+    "building": "Улучшенный или Роскошный хлев",
+    "buildingUpgrade": "Нужен как минимум Улучшенный хлев",
+    "housingType": "barn",
+    "purchasePrice": 8000,
+    "purchaseSource": "Мэри",
+    "incubationDays": null,
+    "feed": "Сено или пастбище",
+    "produceInterval": "Шерсть готова примерно раз в 3 дня",
+    "toolRequired": "Ножницы",
+    "products": [
+      {
+        "name": "Шерсть",
+        "basePrice": 340,
+        "frequency": "≈ 1 раз в 3 дня",
+        "condition": "Подстригай, когда пузо показывает «готовую» шерсть; качество от дружбы"
+      }
+    ],
+    "moodNotes": "Без ножниц продукт не соберёшь. На пастбище овцы сами едят траву.",
+    "specialNotes": [
+      "Шерсть идёт в ткацкий станок для ткани.",
+      "Нужна для наборов с качественной шерстью."
+    ],
+    "professionNotes": "Птицевод (+20% к шерсти); переработка в ткань не получает бонус «Сыровара».",
+    "wikiSource": "Stardew Valley Wiki: Sheep"
+  },
+  {
+    "name": "Свинья",
+    "aliases": [],
+    "category": "barn",
+    "building": "Роскошный хлев",
+    "buildingUpgrade": "Только Роскошный хлев",
+    "housingType": "barn",
+    "purchasePrice": 16000,
+    "purchaseSource": "Мэри",
+    "incubationDays": null,
+    "feed": "Сено (на пастбище ест сама)",
+    "produceInterval": "В ненастную погоду не ищет; весной–осенью — находки трюфелей на траве",
+    "toolRequired": null,
+    "products": [
+      {
+        "name": "Трюфель",
+        "basePrice": 625,
+        "frequency": "0–2+ в день на свинью",
+        "condition": "Выгул вне хлева, не зима, обычно в солнечный день; чем выше дружба, тем чаще"
+      }
+    ],
+    "moodNotes": "Свиньи не дают продукцию внутри хлева — только на траве. Зимой трюфелей нет.",
+    "specialNotes": [
+      "Самое дорогое животное у Мэри; окупается трюфелями при выгуле.",
+      "Трюфельное масло в бочке — очень дорогая переработка.",
+      "Профессия «Сборщик» (Gatherer): шанс удвоить собранный трюфель."
+    ],
+    "professionNotes": "Птицевод не влияет на трюфели; «Сборщик» (собирательная ветка) — удвоение урожая с шансом.",
+    "wikiSource": "Stardew Valley Wiki: Pig"
+  },
+  {
+    "name": "Страус",
+    "aliases": ["Ostrich"],
+    "category": "special",
+    "building": "Хлев",
+    "buildingUpgrade": "Любой уровень хлева",
+    "housingType": "barn",
+    "purchasePrice": null,
+    "purchaseSource": "Инкубатор острова: страусиное яйцо из сундуков острова Джинджер",
+    "incubationDays": "Около 20 000 минут на островном инкубаторе",
+    "feed": "Сено или пастбище",
+    "produceInterval": "Примерно раз в 7–8 дней",
+    "toolRequired": null,
+    "products": [
+      {
+        "name": "Страусиное яйцо",
+        "basePrice": 600,
+        "frequency": "≈ 1 раз в 7–8 дней",
+        "condition": "При счастливом настроении; не каждый день"
+      }
+    ],
+    "moodNotes": "Живёт в хлеву на острове или на основной ферме после переноса.",
+    "specialNotes": [
+      "Не продаётся у Мэри — только разведение с острова.",
+      "Редкое яйцо с высокой ценой продажи."
+    ],
+    "professionNotes": "Птицевод (+20% к яйцу).",
+    "wikiSource": "Stardew Valley Wiki: Ostrich"
+  },
+  {
+    "name": "Слизень",
+    "aliases": ["Слизни в хлеву для слизней"],
+    "category": "special",
+    "building": "Хлев для слизней",
+    "buildingUpgrade": "Отдельное строение (Робин); не курятник/хлев",
+    "housingType": "slimeHutch",
+    "purchasePrice": null,
+    "purchaseSource": "Заселяются вручную (до 20); появляются в шахтах, откладывают яйца слизи",
+    "incubationDays": "Слизиное яйцо в инкубаторе сарая (не курятник)",
+    "feed": "Вода из поилки; «слизь» как дружба не нужна",
+    "produceInterval": "Слизь на полу при счастливых слизнях (кормление водой)",
+    "toolRequired": null,
+    "products": [
+      {
+        "name": "Слизь",
+        "basePrice": 5,
+        "frequency": "Периодически на полу хлева",
+        "condition": "Достаточно воды в поилках; осторожно — слизни агрессивны без кольца"
+      },
+      {
+        "name": "Петардная слизь / другие виды",
+        "basePrice": 5,
+        "frequency": "От вида слизня",
+        "condition": "Разные цвета дают разные ресурсы (напр. петарды, железный слиток)"
+      }
+    ],
+    "moodNotes": "Не обычные фермерские питомцы: не в Мэри, погода и пастбище не при чём.",
+    "specialNotes": [
+      "Кольцо приручения слизней или нахождение «солёных» уменьшает урон.",
+      "Кристаллизатор может работать со слизью.",
+      "Хлев вмещает до 20 слизней."
+    ],
+    "professionNotes": "Профессии животновода на капли слизи не действуют.",
+    "wikiSource": "Stardew Valley Wiki: Slime Hutch"
+  }
+]
