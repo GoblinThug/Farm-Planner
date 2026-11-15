@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/icon.png" alt="Farm Planner" width="104" height="104" />
+  <img src="assets/icon.png" alt="Farm Planner" width="256" height="256" />
 </p>
 
 <h1 align="center">Stardew Farm Planner</h1>
