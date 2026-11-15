@@ -1005,7 +1005,8 @@
     "id": "grape",
     "wikiSource": "https://stardewvalleywiki.com/Crops",
     "wikiVersionContext": "Stardew Valley 1.6+",
-    "giantCropPossible": false
+    "giantCropPossible": false,
+    "specialNotes": "Обычная культура выращивается осенью на шпалере. Также виноград может случайно вырасти летом из Летних семян за 7 дней; этот вариант не требует шпалеры."
   },
   {
     "name": "Клюква",
@@ -1363,7 +1364,7 @@
     "giantCropPossible": false
   },
   {
-    "name": "Волокна",
+    "name": "Волокно",
     "icon": "🌿",
     "growthDays": 7,
     "season": "Весна",
@@ -1380,19 +1381,19 @@
       "greenhouse",
       "gingerIsland"
     ],
-    "specialNotes": "Не требует полива.",
+    "specialNotes": "Не требует полива. Собирается косой; каждое растение даёт 4–7 волокон. Есть 10% шанс дополнительно получить 1 смешанное семя.",
     "seasons": [
       "Весна",
       "Лето",
       "Осень",
       "Зима"
     ],
-    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "growthTimeDefinition": "7 дней роста; полив не требуется. День посадки не учитывается.",
     "harvestYield": {
       "min": 4,
       "max": 7
     },
-    "extraHarvestChance": 0.01,
+    "extraHarvestChance": 0.1,
     "id": "fiber",
     "wikiSource": "https://stardewvalleywiki.com/Crops",
     "wikiVersionContext": "Stardew Valley 1.6+",
@@ -1438,5 +1439,439 @@
     "wikiVersionContext": "Stardew Valley 1.6+",
     "harvestType": "single",
     "trellis": false
+  },
+  {
+    "name": "Дикий хрен",
+    "icon": "🥕",
+    "growthDays": 7,
+    "season": "Весна",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "specialNotes": "Вырастает случайным образом из Spring Seeds. Вероятность появления этого растения — 25%; каждый вариант из этой группы имеет одинаковый шанс.",
+    "seasons": [
+      "Весна"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "7 ночей роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "id": "wild-horseradish",
+    "wikiSource": "https://stardewvalleywiki.com/Spring_Seeds",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Нарцисс",
+    "icon": "🌼",
+    "growthDays": 7,
+    "season": "Весна",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "specialNotes": "Вырастает случайным образом из Spring Seeds. Вероятность появления этого растения — 25%; каждый вариант из этой группы имеет одинаковый шанс.",
+    "seasons": [
+      "Весна"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "7 ночей роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "id": "daffodil",
+    "wikiSource": "https://stardewvalleywiki.com/Spring_Seeds",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Лук-порей",
+    "icon": "🥬",
+    "growthDays": 7,
+    "season": "Весна",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "specialNotes": "Вырастает случайным образом из Spring Seeds. Вероятность появления этого растения — 25%; каждый вариант из этой группы имеет одинаковый шанс.",
+    "seasons": [
+      "Весна"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "7 ночей роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "id": "leek",
+    "wikiSource": "https://stardewvalleywiki.com/Spring_Seeds",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Одуванчик",
+    "icon": "🌼",
+    "growthDays": 7,
+    "season": "Весна",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "specialNotes": "Вырастает случайным образом из Spring Seeds. Вероятность появления этого растения — 25%; каждый вариант из этой группы имеет одинаковый шанс.",
+    "seasons": [
+      "Весна"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "7 ночей роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "id": "dandelion",
+    "wikiSource": "https://stardewvalleywiki.com/Spring_Seeds",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Острая ягода",
+    "icon": "🫐",
+    "growthDays": 7,
+    "season": "Лето",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "specialNotes": "Вырастает случайным образом из Summer Seeds. Вероятность появления этого растения — 33.33%; каждый вариант из этой группы имеет одинаковый шанс.",
+    "seasons": [
+      "Лето"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "7 ночей роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "id": "spice-berry",
+    "wikiSource": "https://stardewvalleywiki.com/Summer_Seeds",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Душистый горошек",
+    "icon": "🌸",
+    "growthDays": 7,
+    "season": "Лето",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "specialNotes": "Вырастает случайным образом из Summer Seeds. Вероятность появления этого растения — 33.33%; каждый вариант из этой группы имеет одинаковый шанс.",
+    "seasons": [
+      "Лето"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "7 ночей роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "id": "sweet-pea",
+    "wikiSource": "https://stardewvalleywiki.com/Summer_Seeds",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Ежевика",
+    "icon": "🫐",
+    "growthDays": 7,
+    "season": "Осень",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "specialNotes": "Вырастает случайным образом из Fall Seeds. Вероятность появления этого растения — 25%; каждый вариант из этой группы имеет одинаковый шанс.",
+    "seasons": [
+      "Осень"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "7 ночей роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "id": "blackberry",
+    "wikiSource": "https://stardewvalleywiki.com/Fall_Seeds",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Обыкновенный гриб",
+    "icon": "🍄",
+    "growthDays": 7,
+    "season": "Осень",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "specialNotes": "Вырастает случайным образом из Fall Seeds. Вероятность появления этого растения — 25%; каждый вариант из этой группы имеет одинаковый шанс.",
+    "seasons": [
+      "Осень"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "7 ночей роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "id": "common-mushroom",
+    "wikiSource": "https://stardewvalleywiki.com/Fall_Seeds",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Лесной орех",
+    "icon": "🌰",
+    "growthDays": 7,
+    "season": "Осень",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "specialNotes": "Вырастает случайным образом из Fall Seeds. Вероятность появления этого растения — 25%; каждый вариант из этой группы имеет одинаковый шанс.",
+    "seasons": [
+      "Осень"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "7 ночей роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "id": "hazelnut",
+    "wikiSource": "https://stardewvalleywiki.com/Fall_Seeds",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Дикая слива",
+    "icon": "🍑",
+    "growthDays": 7,
+    "season": "Осень",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "specialNotes": "Вырастает случайным образом из Fall Seeds. Вероятность появления этого растения — 25%; каждый вариант из этой группы имеет одинаковый шанс.",
+    "seasons": [
+      "Осень"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "7 ночей роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "id": "wild-plum",
+    "wikiSource": "https://stardewvalleywiki.com/Fall_Seeds",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Крокус",
+    "icon": "🌷",
+    "growthDays": 7,
+    "season": "Зима",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Зима"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "specialNotes": "Вырастает случайным образом из Winter Seeds. Вероятность появления этого растения — 25%; каждый вариант из этой группы имеет одинаковый шанс.",
+    "seasons": [
+      "Зима"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "7 ночей роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "id": "crocus",
+    "wikiSource": "https://stardewvalleywiki.com/Winter_Seeds",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Хрустальный фрукт",
+    "icon": "💎",
+    "growthDays": 7,
+    "season": "Зима",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Зима"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "specialNotes": "Вырастает случайным образом из Winter Seeds. Вероятность появления этого растения — 25%; каждый вариант из этой группы имеет одинаковый шанс.",
+    "seasons": [
+      "Зима"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "7 ночей роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "id": "crystal-fruit",
+    "wikiSource": "https://stardewvalleywiki.com/Winter_Seeds",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Снежный ямс",
+    "icon": "🥔",
+    "growthDays": 7,
+    "season": "Зима",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Зима"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "specialNotes": "Вырастает случайным образом из Winter Seeds. Вероятность появления этого растения — 25%; каждый вариант из этой группы имеет одинаковый шанс.",
+    "seasons": [
+      "Зима"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "7 ночей роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "id": "snow-yam",
+    "wikiSource": "https://stardewvalleywiki.com/Winter_Seeds",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Корень зимы",
+    "icon": "🥕",
+    "growthDays": 7,
+    "season": "Зима",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Зима"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "specialNotes": "Вырастает случайным образом из Winter Seeds. Вероятность появления этого растения — 25%; каждый вариант из этой группы имеет одинаковый шанс.",
+    "seasons": [
+      "Зима"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "7 ночей роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "id": "winter-root",
+    "wikiSource": "https://stardewvalleywiki.com/Winter_Seeds",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
   }
 ]

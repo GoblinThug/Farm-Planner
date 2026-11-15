@@ -265,48 +265,6 @@
     "dataNotes": [],
     "seedCostType": "gold"
   },
-  "Волокна": {
-    "seed": "Бесплатно",
-    "source": "Изготовление семян волокон",
-    "sell": 1,
-    "yield": "4–7",
-    "xp": null,
-    "use": "Растёт круглый год, не требует полива; урожай 4–7 волокон",
-    "bundles": "Нет",
-    "growthDays": 7,
-    "regrowthDays": 0,
-    "seasons": [
-      "Весна",
-      "Лето",
-      "Осень",
-      "Зима"
-    ],
-    "farmSeasons": [
-      "Весна",
-      "Лето",
-      "Осень",
-      "Зима"
-    ],
-    "growingLocations": [
-      "farm",
-      "greenhouse",
-      "gingerIsland"
-    ],
-    "harvestYield": {
-      "min": 4,
-      "max": 7
-    },
-    "harvestType": "single",
-    "requiresWatering": false,
-    "trellis": false,
-    "giantCropPossible": false,
-    "wikiSource": "https://stardewvalleywiki.com/Crops",
-    "seedAvailability": "Семена волокон создаются по рецепту; рецепт открывается через специальный игровой прогресс.",
-    "dataNotes": [
-      "Опыт за сбор не указан в исходных данных; значение не подставлено без отдельной проверки."
-    ],
-    "seedCostType": "non_shop_or_reward"
-  },
   "Древний плод": {
     "seed": "Артефакт / Экстрактор семян / Странствующая торговка",
     "source": "Несколько способов получения",
@@ -1597,5 +1555,551 @@
     "seedAvailability": "Доступен в магазине Пьера начиная со 2-го года.",
     "dataNotes": [],
     "seedCostType": "gold"
+  },
+  "Волокно": {
+    "seed": "Бесплатно",
+    "source": "Изготовление семян волокон",
+    "sell": 1,
+    "yield": "4–7",
+    "xp": 0,
+    "use": "Волокно для изготовления предметов; урожай 4–7 волокон",
+    "bundles": "Нет",
+    "growthDays": 7,
+    "regrowthDays": 0,
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "farmSeasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "harvestYield": {
+      "min": 4,
+      "max": 7
+    },
+    "harvestType": "single",
+    "requiresWatering": false,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Fiber_Seeds",
+    "seedAvailability": "Семена создаются по рецепту «Семена волокон» после выполнения особого заказа «Очистка сообщества»; рецепт даёт 4 семени.",
+    "dataNotes": [
+      "При сборе семян волокон опыт фермерства не начисляется."
+    ],
+    "seedCostType": "non_shop_or_reward"
+  },
+  "Дикий хрен": {
+    "seed": "Бесплатно",
+    "source": "Сезонные дикие семена (весна)",
+    "sell": 50,
+    "yield": 1,
+    "xp": 7,
+    "use": "Корень; используется в рецепте коктейля из креветок и для изготовления весенних диких семян.",
+    "bundles": "Весенний набор собирательства",
+    "growthDays": 7,
+    "regrowthDays": 0,
+    "seasons": [
+      "Весна"
+    ],
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Seed",
+    "seedAvailability": "Получается случайным образом при выращивании весенних диких семян; вероятность каждого результата в наборе одинакова.",
+    "dataNotes": [
+      "Это собирательный предмет, выращенный из диких семян; указан опыт собирательства, а не фермерства."
+    ],
+    "seedCostType": "non_shop_or_reward"
+  },
+  "Нарцисс": {
+    "seed": "Бесплатно",
+    "source": "Сезонные дикие семена (весна)",
+    "sell": 30,
+    "yield": 1,
+    "xp": 7,
+    "use": "Цветок; используется в весеннем наборе собирательства и как подарок.",
+    "bundles": "Весенний набор собирательства",
+    "growthDays": 7,
+    "regrowthDays": 0,
+    "seasons": [
+      "Весна"
+    ],
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Seed",
+    "seedAvailability": "Получается случайным образом при выращивании весенних диких семян; вероятность каждого результата в наборе одинакова.",
+    "dataNotes": [
+      "Это собирательный предмет, выращенный из диких семян; указан опыт собирательства, а не фермерства."
+    ],
+    "seedCostType": "non_shop_or_reward"
+  },
+  "Лук-порей": {
+    "seed": "Бесплатно",
+    "source": "Сезонные дикие семена (весна)",
+    "sell": 60,
+    "yield": 1,
+    "xp": 7,
+    "use": "Корнеплод; используется в весеннем наборе собирательства и кулинарии.",
+    "bundles": "Весенний набор собирательства",
+    "growthDays": 7,
+    "regrowthDays": 0,
+    "seasons": [
+      "Весна"
+    ],
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Seed",
+    "seedAvailability": "Получается случайным образом при выращивании весенних диких семян; вероятность каждого результата в наборе одинакова.",
+    "dataNotes": [
+      "Это собирательный предмет, выращенный из диких семян; указан опыт собирательства, а не фермерства."
+    ],
+    "seedCostType": "non_shop_or_reward"
+  },
+  "Одуванчик": {
+    "seed": "Бесплатно",
+    "source": "Сезонные дикие семена (весна)",
+    "sell": 40,
+    "yield": 1,
+    "xp": 7,
+    "use": "Растение; используется в весеннем наборе собирательства и кулинарии.",
+    "bundles": "Весенний набор собирательства",
+    "growthDays": 7,
+    "regrowthDays": 0,
+    "seasons": [
+      "Весна"
+    ],
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Seed",
+    "seedAvailability": "Получается случайным образом при выращивании весенних диких семян; вероятность каждого результата в наборе одинакова.",
+    "dataNotes": [
+      "Это собирательный предмет, выращенный из диких семян; указан опыт собирательства, а не фермерства."
+    ],
+    "seedCostType": "non_shop_or_reward"
+  },
+  "Острая ягода": {
+    "seed": "Бесплатно",
+    "source": "Сезонные дикие семена (лето)",
+    "sell": 80,
+    "yield": 1,
+    "xp": 7,
+    "use": "Летний собирательный плод; используется в кулинарии и для изготовления летних диких семян.",
+    "bundles": "Нет",
+    "growthDays": 7,
+    "regrowthDays": 0,
+    "seasons": [
+      "Лето"
+    ],
+    "farmSeasons": [
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Seed",
+    "seedAvailability": "Получается случайным образом при выращивании летних диких семян; вероятность каждого результата в наборе одинакова.",
+    "dataNotes": [
+      "Это собирательный предмет, выращенный из диких семян; указан опыт собирательства, а не фермерства."
+    ],
+    "seedCostType": "non_shop_or_reward"
+  },
+  "Душистый горошек": {
+    "seed": "Бесплатно",
+    "source": "Сезонные дикие семена (лето)",
+    "sell": 50,
+    "yield": 1,
+    "xp": 7,
+    "use": "Летний цветок; используется как подарок и для изготовления летних диких семян.",
+    "bundles": "Нет",
+    "growthDays": 7,
+    "regrowthDays": 0,
+    "seasons": [
+      "Лето"
+    ],
+    "farmSeasons": [
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Seed",
+    "seedAvailability": "Получается случайным образом при выращивании летних диких семян; вероятность каждого результата в наборе одинакова.",
+    "dataNotes": [
+      "Это собирательный предмет, выращенный из диких семян; указан опыт собирательства, а не фермерства."
+    ],
+    "seedCostType": "non_shop_or_reward"
+  },
+  "Ежевика": {
+    "seed": "Бесплатно",
+    "source": "Сезонные дикие семена (осень)",
+    "sell": 20,
+    "yield": 1,
+    "xp": 7,
+    "use": "Осенняя ягода; также собирается с кустов в сезон ежевики.",
+    "bundles": "Осенний набор собирательства",
+    "growthDays": 7,
+    "regrowthDays": 0,
+    "seasons": [
+      "Осень"
+    ],
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Seed",
+    "seedAvailability": "Получается случайным образом при выращивании осенних диких семян; вероятность каждого результата в наборе одинакова.",
+    "dataNotes": [
+      "Это собирательный предмет, выращенный из диких семян; указан опыт собирательства, а не фермерства."
+    ],
+    "seedCostType": "non_shop_or_reward"
+  },
+  "Обыкновенный гриб": {
+    "seed": "Бесплатно",
+    "source": "Сезонные дикие семена (осень)",
+    "sell": 40,
+    "yield": 1,
+    "xp": 7,
+    "use": "Гриб; используется в кулинарии и некоторых рецептах.",
+    "bundles": "Нет",
+    "growthDays": 7,
+    "regrowthDays": 0,
+    "seasons": [
+      "Осень"
+    ],
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Seed",
+    "seedAvailability": "Получается случайным образом при выращивании осенних диких семян; вероятность каждого результата в наборе одинакова.",
+    "dataNotes": [
+      "Это собирательный предмет, выращенный из диких семян; указан опыт собирательства, а не фермерства."
+    ],
+    "seedCostType": "non_shop_or_reward"
+  },
+  "Лесной орех": {
+    "seed": "Бесплатно",
+    "source": "Сезонные дикие семена (осень)",
+    "sell": 90,
+    "yield": 1,
+    "xp": 7,
+    "use": "Орех; используется в осеннем наборе собирательства и кулинарии.",
+    "bundles": "Осенний набор собирательства",
+    "growthDays": 7,
+    "regrowthDays": 0,
+    "seasons": [
+      "Осень"
+    ],
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Seed",
+    "seedAvailability": "Получается случайным образом при выращивании осенних диких семян; вероятность каждого результата в наборе одинакова.",
+    "dataNotes": [
+      "Это собирательный предмет, выращенный из диких семян; указан опыт собирательства, а не фермерства."
+    ],
+    "seedCostType": "non_shop_or_reward"
+  },
+  "Дикая слива": {
+    "seed": "Бесплатно",
+    "source": "Сезонные дикие семена (осень)",
+    "sell": 80,
+    "yield": 1,
+    "xp": 7,
+    "use": "Осенний плод; используется в осеннем наборе собирательства и кулинарии.",
+    "bundles": "Осенний набор собирательства",
+    "growthDays": 7,
+    "regrowthDays": 0,
+    "seasons": [
+      "Осень"
+    ],
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Seed",
+    "seedAvailability": "Получается случайным образом при выращивании осенних диких семян; вероятность каждого результата в наборе одинакова.",
+    "dataNotes": [
+      "Это собирательный предмет, выращенный из диких семян; указан опыт собирательства, а не фермерства."
+    ],
+    "seedCostType": "non_shop_or_reward"
+  },
+  "Крокус": {
+    "seed": "Бесплатно",
+    "source": "Сезонные дикие семена (зима)",
+    "sell": 60,
+    "yield": 1,
+    "xp": 7,
+    "use": "Зимний цветок; используется в зимнем наборе собирательства.",
+    "bundles": "Зимний набор собирательства",
+    "growthDays": 7,
+    "regrowthDays": 0,
+    "seasons": [
+      "Зима"
+    ],
+    "farmSeasons": [
+      "Зима"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Seed",
+    "seedAvailability": "Получается случайным образом при выращивании зимних диких семян; вероятность каждого результата в наборе одинакова.",
+    "dataNotes": [
+      "Это собирательный предмет, выращенный из диких семян; указан опыт собирательства, а не фермерства."
+    ],
+    "seedCostType": "non_shop_or_reward"
+  },
+  "Хрустальный фрукт": {
+    "seed": "Бесплатно",
+    "source": "Сезонные дикие семена (зима)",
+    "sell": 150,
+    "yield": 1,
+    "xp": 7,
+    "use": "Зимний плод; используется в зимнем наборе собирательства и для изготовления зимних диких семян.",
+    "bundles": "Зимний набор собирательства",
+    "growthDays": 7,
+    "regrowthDays": 0,
+    "seasons": [
+      "Зима"
+    ],
+    "farmSeasons": [
+      "Зима"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Seed",
+    "seedAvailability": "Получается случайным образом при выращивании зимних диких семян; вероятность каждого результата в наборе одинакова.",
+    "dataNotes": [
+      "Это собирательный предмет, выращенный из диких семян; указан опыт собирательства, а не фермерства."
+    ],
+    "seedCostType": "non_shop_or_reward"
+  },
+  "Снежный ямс": {
+    "seed": "Бесплатно",
+    "source": "Сезонные дикие семена (зима)",
+    "sell": 100,
+    "yield": 1,
+    "xp": 7,
+    "use": "Зимний корнеплод; используется в зимнем наборе собирательства и кулинарии.",
+    "bundles": "Зимний набор собирательства",
+    "growthDays": 7,
+    "regrowthDays": 0,
+    "seasons": [
+      "Зима"
+    ],
+    "farmSeasons": [
+      "Зима"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Seed",
+    "seedAvailability": "Получается случайным образом при выращивании зимних диких семян; вероятность каждого результата в наборе одинакова.",
+    "dataNotes": [
+      "Это собирательный предмет, выращенный из диких семян; указан опыт собирательства, а не фермерства."
+    ],
+    "seedCostType": "non_shop_or_reward"
+  },
+  "Корень зимы": {
+    "seed": "Бесплатно",
+    "source": "Сезонные дикие семена (зима)",
+    "sell": 70,
+    "yield": 1,
+    "xp": 7,
+    "use": "Зимний корнеплод; используется в зимнем наборе собирательства и для изготовления зимних диких семян.",
+    "bundles": "Зимний набор собирательства",
+    "growthDays": 7,
+    "regrowthDays": 0,
+    "seasons": [
+      "Зима"
+    ],
+    "farmSeasons": [
+      "Зима"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Seed",
+    "seedAvailability": "Получается случайным образом при выращивании зимних диких семян; вероятность каждого результата в наборе одинакова.",
+    "dataNotes": [
+      "Это собирательный предмет, выращенный из диких семян; указан опыт собирательства, а не фермерства."
+    ],
+    "seedCostType": "non_shop_or_reward"
   }
 }
