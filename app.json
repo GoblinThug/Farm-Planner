@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Farm Planner",
+    "slug": "stardew-farm-planner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "icon": "./assets/icon.png",
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#e8d5a9"
+      },
+      "package": "com.anonymous.stardewfarmplanner"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "expo-status-bar",
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#e8d5a9"
+        }
+      ]
+    ]
+  }
+}

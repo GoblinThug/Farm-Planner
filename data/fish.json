@@ -1,0 +1,2359 @@
+[
+  {
+    "name": "Иглобрюх",
+    "type": "regular",
+    "place": "Океан; океан острова Джинджер",
+    "season": [
+      "Лето"
+    ],
+    "time": [
+      "12:00",
+      "16:00"
+    ],
+    "weather": [
+      "Солнце"
+    ],
+    "basePrice": 200,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "locations": [
+      "Океан",
+      "океан острова Джинджер"
+    ],
+    "gingerIslandSeasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Лето"
+    ],
+    "availabilityNotes": [],
+    "timeWindow": [
+      "12:00",
+      "16:00"
+    ],
+    "weatherCondition": [
+      "Солнце"
+    ],
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Анчоус",
+    "type": "regular",
+    "place": "Океан",
+    "season": "Весна; Осень",
+    "time": [
+      "06:00",
+      "02:00"
+    ],
+    "weather": [
+      "Любая"
+    ],
+    "basePrice": 30,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Осень"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Океан"
+    ],
+    "timeWindow": [
+      "06:00",
+      "02:00"
+    ],
+    "weatherCondition": [
+      "Любая"
+    ],
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Тунец",
+    "type": "regular",
+    "place": "Океан; океан острова Джинджер",
+    "season": "Лето; Зима; остров - все сезоны",
+    "time": "06:00–19:00",
+    "weather": "Любая",
+    "basePrice": 100,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Лето",
+      "Зима"
+    ],
+    "availabilityNotes": [
+      "Лето; Зима; остров - все сезоны"
+    ],
+    "locations": [
+      "Океан",
+      "океан острова Джинджер"
+    ],
+    "timeWindow": "06:00–19:00",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Сардина",
+    "type": "regular",
+    "place": "Океан",
+    "season": "Весна; Осень; Зима",
+    "time": [
+      "06:00",
+      "19:00"
+    ],
+    "weather": "Любая",
+    "basePrice": 40,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Океан"
+    ],
+    "timeWindow": [
+      "06:00",
+      "19:00"
+    ],
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Барабулька",
+    "type": "regular",
+    "place": "Океан",
+    "season": "Лето; Зима",
+    "time": "06:00–19:00",
+    "weather": "Любая",
+    "basePrice": 75,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Лето",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Океан"
+    ],
+    "timeWindow": "06:00–19:00",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Сельдь",
+    "type": "regular",
+    "place": "Океан",
+    "season": "Весна; Зима",
+    "time": [
+      "06:00",
+      "02:00"
+    ],
+    "weather": "Любая",
+    "basePrice": 30,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Океан"
+    ],
+    "timeWindow": [
+      "06:00",
+      "02:00"
+    ],
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Угорь",
+    "type": "regular",
+    "place": "Океан",
+    "season": "Весна; Осень",
+    "time": "16:00–02:00",
+    "weather": "Дождь",
+    "basePrice": 85,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Осень"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Океан"
+    ],
+    "timeWindow": "16:00–02:00",
+    "weatherCondition": "Дождь",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Осьминог",
+    "type": "regular",
+    "place": "Океан; океан острова Джинджер",
+    "season": "Лето; остров - все сезоны",
+    "time": "06:00–13:00",
+    "weather": "Любая",
+    "basePrice": 150,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Лето"
+    ],
+    "availabilityNotes": [
+      "Лето; остров - все сезоны"
+    ],
+    "locations": [
+      "Океан",
+      "океан острова Джинджер"
+    ],
+    "timeWindow": "06:00–13:00",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Берикс",
+    "type": "regular",
+    "place": "Океан",
+    "season": "Лето; Осень; Зима с Тотемом дождя",
+    "time": "06:00–19:00",
+    "weather": "Дождь",
+    "basePrice": 50,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Лето",
+      "Осень"
+    ],
+    "availabilityNotes": [
+      "Лето; Осень; Зима с Тотемом дождя"
+    ],
+    "locations": [
+      "Океан"
+    ],
+    "timeWindow": "06:00–19:00",
+    "weatherCondition": "Дождь",
+    "sizeInches": null,
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Кальмар",
+    "type": "regular",
+    "place": "Океан",
+    "season": "Зима",
+    "time": "18:00–02:00",
+    "weather": "Любая",
+    "basePrice": 80,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Океан"
+    ],
+    "timeWindow": "18:00–02:00",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Морской огурец",
+    "type": "regular",
+    "place": "Океан",
+    "season": "Осень; Зима",
+    "time": "06:00–19:00",
+    "weather": "Любая",
+    "basePrice": 75,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Океан"
+    ],
+    "timeWindow": "06:00–19:00",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Суперогурец",
+    "type": "regular",
+    "place": "Океан; океан острова Джинджер",
+    "season": "Лето; Осень; остров - все сезоны",
+    "time": "18:00–02:00",
+    "weather": "Любая",
+    "basePrice": 250,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Лето",
+      "Осень"
+    ],
+    "availabilityNotes": [
+      "Лето; Осень; остров - все сезоны"
+    ],
+    "locations": [
+      "Океан",
+      "океан острова Джинджер"
+    ],
+    "timeWindow": "18:00–02:00",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Камбала",
+    "type": "regular",
+    "place": "Океан; океан острова Джинджер",
+    "season": [
+      "Весна",
+      "Лето"
+    ],
+    "time": [
+      "06:00",
+      "20:00"
+    ],
+    "weather": "Любая",
+    "basePrice": 100,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Океан",
+      "океан острова Джинджер"
+    ],
+    "timeWindow": [
+      "06:00",
+      "20:00"
+    ],
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Тиляпия",
+    "type": "regular",
+    "place": "Океан; реки острова Джинджер",
+    "season": "Лето; Осень; остров - все сезоны",
+    "time": [
+      "06:00",
+      "14:00"
+    ],
+    "weather": "Любая",
+    "basePrice": 75,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Лето",
+      "Осень"
+    ],
+    "availabilityNotes": [
+      "Лето; Осень; остров - все сезоны"
+    ],
+    "locations": [
+      "Океан",
+      "реки острова Джинджер"
+    ],
+    "timeWindow": [
+      "06:00",
+      "14:00"
+    ],
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Альбакор",
+    "type": "regular",
+    "place": "Океан",
+    "season": "Осень; Зима",
+    "time": "06:00–11:00 и 18:00–02:00",
+    "weather": "Любая",
+    "basePrice": 75,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Океан"
+    ],
+    "timeWindow": "06:00–11:00 и 18:00–02:00",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Палтус",
+    "type": "regular",
+    "place": "Океан",
+    "season": "Весна; Лето; Зима",
+    "time": "06:00–11:00 и 19:00–02:00",
+    "weather": "Любая",
+    "basePrice": 80,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Океан"
+    ],
+    "timeWindow": "06:00–11:00 и 19:00–02:00",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Лещ",
+    "type": "regular",
+    "place": "Река города; река леса",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "18:00–02:00",
+    "weather": "Любая",
+    "basePrice": 45,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Река города",
+      "река леса"
+    ],
+    "timeWindow": "18:00–02:00",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Большеротый окунь",
+    "type": "regular",
+    "place": "Горное озеро",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "06:00–19:00",
+    "weather": "Любая",
+    "basePrice": 100,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Горное озеро"
+    ],
+    "timeWindow": "06:00–19:00",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Малоротый окунь",
+    "type": "regular",
+    "place": "Река города; лесной пруд",
+    "season": "Весна; Осень",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 50,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Осень"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Река города",
+      "лесной пруд"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Радужная форель",
+    "type": "regular",
+    "place": "Река города; река леса; горное озеро",
+    "season": "Лето",
+    "time": "06:00–19:00",
+    "weather": "Солнце",
+    "basePrice": 65,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Лето"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Река города",
+      "река леса",
+      "горное озеро"
+    ],
+    "timeWindow": "06:00–19:00",
+    "weatherCondition": "Солнце",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Лосось",
+    "type": "regular",
+    "place": "Река города; река леса; водопады леса",
+    "season": "Осень",
+    "time": "06:00–19:00",
+    "weather": "Любая",
+    "basePrice": 75,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Осень"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Река города",
+      "река леса",
+      "водопады леса"
+    ],
+    "timeWindow": "06:00–19:00",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Судак",
+    "type": "regular",
+    "place": "Река города; река леса; лесной пруд; горное озеро",
+    "season": "Осень; Зима с Тотемом дождя",
+    "time": "12:00–02:00",
+    "weather": "Дождь",
+    "basePrice": 105,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Осень"
+    ],
+    "availabilityNotes": [
+      "Осень; Зима с Тотемом дождя"
+    ],
+    "locations": [
+      "Река города",
+      "река леса",
+      "лесной пруд",
+      "горное озеро"
+    ],
+    "timeWindow": "12:00–02:00",
+    "weatherCondition": "Дождь",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Окунь",
+    "type": "regular",
+    "place": "Река города; река леса; лесной пруд; горное озеро",
+    "season": "Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 55,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Река города",
+      "река леса",
+      "лесной пруд",
+      "горное озеро"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Карп",
+    "type": "regular",
+    "place": "Горное озеро; Тайный лес; Канализация; Логово мутантов",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 30,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Горное озеро",
+      "Тайный лес",
+      "Канализация",
+      "Логово мутантов"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Сом",
+    "type": "regular",
+    "place": "Река города; река леса; Тайный лес; Ведьмино болото",
+    "season": "Весна; Осень; Зима с Тотемом дождя",
+    "time": "06:00–00:00",
+    "weather": "Дождь",
+    "basePrice": 200,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Осень"
+    ],
+    "availabilityNotes": [
+      "Весна; Осень; Зима с Тотемом дождя"
+    ],
+    "locations": [
+      "Река города",
+      "река леса",
+      "Тайный лес",
+      "Ведьмино болото"
+    ],
+    "timeWindow": "06:00–00:00",
+    "weatherCondition": "Дождь",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Щука",
+    "type": "regular",
+    "place": "Река города; река леса; лесной пруд",
+    "season": "Лето; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 100,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Лето",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Река города",
+      "река леса",
+      "лесной пруд"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Солнечник",
+    "type": "regular",
+    "place": "Река города; река леса",
+    "season": "Весна; Лето",
+    "time": "06:00–19:00",
+    "weather": "Солнце",
+    "basePrice": 30,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Река города",
+      "река леса"
+    ],
+    "timeWindow": "06:00–19:00",
+    "weatherCondition": "Солнце",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Полуночный карп",
+    "type": "regular",
+    "place": "Лесной пруд; горное озеро; реки острова Джинджер",
+    "season": "Осень; Зима; остров - все сезоны",
+    "time": "22:00–02:00",
+    "weather": "Любая",
+    "basePrice": 150,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [
+      "Осень; Зима; остров - все сезоны"
+    ],
+    "locations": [
+      "Лесной пруд",
+      "горное озеро",
+      "реки острова Джинджер"
+    ],
+    "timeWindow": "22:00–02:00",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Осётр",
+    "type": "regular",
+    "place": "Горное озеро",
+    "season": "Лето; Зима",
+    "time": "06:00–19:00",
+    "weather": "Любая",
+    "basePrice": 200,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Лето",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Горное озеро"
+    ],
+    "timeWindow": "06:00–19:00",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Тигровая форель",
+    "type": "regular",
+    "place": "Река города; река леса",
+    "season": "Осень; Зима",
+    "time": "06:00–19:00",
+    "weather": "Любая",
+    "basePrice": 150,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Река города",
+      "река леса"
+    ],
+    "timeWindow": "06:00–19:00",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Сомик",
+    "type": "regular",
+    "place": "Горное озеро",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 75,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Горное озеро"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "sizeInches": null,
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Голавль",
+    "type": "regular",
+    "place": "Река леса; горное озеро",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 50,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Река леса",
+      "горное озеро"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Дорадо",
+    "type": "regular",
+    "place": "Река леса",
+    "season": "Лето",
+    "time": "06:00–19:00",
+    "weather": "Любая",
+    "basePrice": 100,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Лето"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Река леса"
+    ],
+    "timeWindow": "06:00–19:00",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Шэд",
+    "type": "regular",
+    "place": "Река города; река леса",
+    "season": "Весна; Лето; Осень",
+    "time": "09:00–02:00",
+    "weather": "Дождь",
+    "basePrice": 60,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Река города",
+      "река леса"
+    ],
+    "timeWindow": "09:00–02:00",
+    "weatherCondition": "Дождь",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Змеезуб",
+    "type": "regular",
+    "place": "Река города; река леса; горное озеро",
+    "season": "Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 120,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Река города",
+      "река леса",
+      "горное озеро"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "sizeInches": null,
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Лесоплюх",
+    "type": "regular",
+    "place": "Тайный лес; лесная ферма",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 75,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Тайный лес",
+      "лесная ферма"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Бычок",
+    "type": "regular",
+    "place": "Водопады леса",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 150,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Водопады леса"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Песковник",
+    "type": "regular",
+    "place": "Пруд в пустыне",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "06:00–20:00",
+    "weather": "Любая",
+    "basePrice": 75,
+    "fishingLevelRequired": 0,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Пруд в пустыне"
+    ],
+    "timeWindow": "06:00–20:00",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Скорпионовый карп",
+    "type": "regular",
+    "place": "Пруд в пустыне",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "06:00–20:00",
+    "weather": "Любая",
+    "basePrice": 150,
+    "fishingLevelRequired": 4,
+    "category": "Обычная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Пруд в пустыне"
+    ],
+    "timeWindow": "06:00–20:00",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Пятнистый криворот",
+    "type": "regular",
+    "place": "Шахта, этажи 20 и 60; выпадает с призраков",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 45,
+    "fishingLevelRequired": 0,
+    "category": "Особая рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Шахта, этажи 20 и 60",
+      "выпадает с призраков"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Рыба-камень",
+    "type": "regular",
+    "place": "Шахта, этаж 20",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 300,
+    "fishingLevelRequired": 0,
+    "category": "Особая рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Шахта, этаж 20"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Ледопип",
+    "type": "regular",
+    "place": "Шахта, этаж 60",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 500,
+    "fishingLevelRequired": 0,
+    "category": "Особая рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Шахта, этаж 60"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Лавовый угорь",
+    "type": "regular",
+    "place": "Шахта, этаж 100; кальдера вулкана",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 700,
+    "fishingLevelRequired": 0,
+    "category": "Особая рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Шахта, этаж 100",
+      "кальдера вулкана"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Пустотный лосось",
+    "type": "regular",
+    "place": "Ведьмино болото",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 150,
+    "fishingLevelRequired": 0,
+    "category": "Особая рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Ведьмино болото"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Слаймджек",
+    "type": "regular",
+    "place": "Логово мутантов",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 100,
+    "fishingLevelRequired": 0,
+    "category": "Особая рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Логово мутантов"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Скат",
+    "type": "regular",
+    "place": "Пиратская бухта, остров Джинджер",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 180,
+    "fishingLevelRequired": 0,
+    "category": "Островная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Пиратская бухта, остров Джинджер"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Крылатка",
+    "type": "regular",
+    "place": "Океан острова Джинджер",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 100,
+    "fishingLevelRequired": 0,
+    "category": "Островная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Океан острова Джинджер"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Голубой дискус",
+    "type": "regular",
+    "place": "Реки острова Джинджер",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 120,
+    "fishingLevelRequired": 0,
+    "category": "Островная рыба",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Реки острова Джинджер"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Ночной кальмар",
+    "type": "nightMarket",
+    "place": "Подводная лодка на Ночном рынке",
+    "season": "Зима, 15–17 числа",
+    "time": "17:00–02:00",
+    "weather": "Любая",
+    "basePrice": 100,
+    "fishingLevelRequired": 0,
+    "category": "Ночной рынок",
+    "catchMethod": "nightMarketSubmarine",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Зима, 15–17 числа"
+    ],
+    "availabilityNotes": [
+      "Ловится только в подводной лодке Ночного рынка 15–17 зимы."
+    ],
+    "locations": [
+      "Подводная лодка на Ночном рынке"
+    ],
+    "timeWindow": "17:00–02:00",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Жуть-рыба",
+    "type": "nightMarket",
+    "place": "Подводная лодка на Ночном рынке",
+    "season": "Зима, 15–17 числа",
+    "time": "17:00–02:00",
+    "weather": "Любая",
+    "basePrice": 220,
+    "fishingLevelRequired": 0,
+    "category": "Ночной рынок",
+    "catchMethod": "nightMarketSubmarine",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Зима, 15–17 числа"
+    ],
+    "availabilityNotes": [
+      "Ловится только в подводной лодке Ночного рынка 15–17 зимы."
+    ],
+    "locations": [
+      "Подводная лодка на Ночном рынке"
+    ],
+    "timeWindow": "17:00–02:00",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Рыба-капля",
+    "type": "nightMarket",
+    "place": "Подводная лодка на Ночном рынке",
+    "season": "Зима, 15–17 числа",
+    "time": "17:00–02:00",
+    "weather": "Любая",
+    "basePrice": 500,
+    "fishingLevelRequired": 0,
+    "category": "Ночной рынок",
+    "catchMethod": "nightMarketSubmarine",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Зима, 15–17 числа"
+    ],
+    "availabilityNotes": [
+      "Ловится только в подводной лодке Ночного рынка 15–17 зимы."
+    ],
+    "locations": [
+      "Подводная лодка на Ночном рынке"
+    ],
+    "timeWindow": "17:00–02:00",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Багрянник",
+    "type": "legendary",
+    "place": "Восточный пирс пляжа, глубокая вода",
+    "season": "Лето",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 1500,
+    "fishingLevelRequired": 5,
+    "category": "Легендарная",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Лето"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Восточный пирс пляжа, глубокая вода"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Морской черт",
+    "type": "legendary",
+    "place": "К северу от JojaMart, у деревянного моста",
+    "season": "Осень",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 900,
+    "fishingLevelRequired": 3,
+    "category": "Легендарная",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Осень"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "К северу от JojaMart, у деревянного моста"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Легенда",
+    "type": "legendary",
+    "place": "Горное озеро, у затонувшего бревна",
+    "season": "Весна",
+    "time": "Любое",
+    "weather": "Дождь",
+    "basePrice": 5000,
+    "fishingLevelRequired": 10,
+    "category": "Легендарная",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Горное озеро, у затонувшего бревна"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Дождь",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Ледорыб",
+    "type": "legendary",
+    "place": "Южная оконечность островка в лесу Синдерсап",
+    "season": "Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 1000,
+    "fishingLevelRequired": 6,
+    "category": "Легендарная",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Южная оконечность островка в лесу Синдерсап"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Карп-мутант",
+    "type": "legendary",
+    "place": "Канализация",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 1000,
+    "fishingLevelRequired": 0,
+    "category": "Легендарная",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Канализация"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Малек Багрянника",
+    "type": "legendaryExtended",
+    "place": "Восточный пирс пляжа, глубокая вода",
+    "season": "Весна; Лето; Осень; Зима, только квест «Расширенное семейство»",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 1500,
+    "fishingLevelRequired": 5,
+    "category": "Легендарная II",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень"
+    ],
+    "availabilityNotes": [
+      "Весна; Лето; Осень; Зима, только квест «Расширенное семейство»",
+      "Доступна только во время особого заказа мистера Ки «Расширенное семейство»."
+    ],
+    "locations": [
+      "Восточный пирс пляжа, глубокая вода"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "requiresActiveQuest": "Расширенное семейство",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Мисс Морской черт",
+    "type": "legendaryExtended",
+    "place": "К северу от JojaMart, у деревянного моста",
+    "season": "Весна; Лето; Осень; Зима, только квест «Расширенное семейство»",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 900,
+    "fishingLevelRequired": 3,
+    "category": "Легендарная II",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень"
+    ],
+    "availabilityNotes": [
+      "Весна; Лето; Осень; Зима, только квест «Расширенное семейство»",
+      "Доступна только во время особого заказа мистера Ки «Расширенное семейство»."
+    ],
+    "locations": [
+      "К северу от JojaMart, у деревянного моста"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "requiresActiveQuest": "Расширенное семейство",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Легенда II",
+    "type": "legendaryExtended",
+    "place": "Горное озеро, у затонувшего бревна",
+    "season": "Весна; Лето; Осень; Зима, только квест «Расширенное семейство»",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 5000,
+    "fishingLevelRequired": 10,
+    "category": "Легендарная II",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень"
+    ],
+    "availabilityNotes": [
+      "Весна; Лето; Осень; Зима, только квест «Расширенное семейство»",
+      "Доступна только во время особого заказа мистера Ки «Расширенное семейство»."
+    ],
+    "locations": [
+      "Горное озеро, у затонувшего бревна"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "requiresActiveQuest": "Расширенное семейство",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Ледорыб-младший",
+    "type": "legendaryExtended",
+    "place": "Южная оконечность островка в лесу Синдерсап",
+    "season": "Весна; Лето; Осень; Зима, только квест «Расширенное семейство»",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 1000,
+    "fishingLevelRequired": 6,
+    "category": "Легендарная II",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень"
+    ],
+    "availabilityNotes": [
+      "Весна; Лето; Осень; Зима, только квест «Расширенное семейство»",
+      "Доступна только во время особого заказа мистера Ки «Расширенное семейство»."
+    ],
+    "locations": [
+      "Южная оконечность островка в лесу Синдерсап"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "requiresActiveQuest": "Расширенное семейство",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Радиоактивный карп",
+    "type": "legendaryExtended",
+    "place": "Канализация",
+    "season": "Весна; Лето; Осень; Зима, только квест «Расширенное семейство»",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 1000,
+    "fishingLevelRequired": 0,
+    "category": "Легендарная II",
+    "catchMethod": "fishingRod",
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "sizeInches": null,
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень"
+    ],
+    "availabilityNotes": [
+      "Весна; Лето; Осень; Зима, только квест «Расширенное семейство»",
+      "Доступна только во время особого заказа мистера Ки «Расширенное семейство»."
+    ],
+    "locations": [
+      "Канализация"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "requiresActiveQuest": "Расширенное семейство",
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Гребешок",
+    "type": "crabPot",
+    "place": "Крабовая ловушка в океане",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 50,
+    "fishingLevelRequired": 0,
+    "category": "Крабовая ловушка",
+    "catchMethod": "crabPot",
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Крабовая ловушка в океане"
+    ],
+    "timeWindow": "Не зависит от времени суток",
+    "weatherCondition": "Не зависит от погоды",
+    "sizeInches": null,
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Сердцевидка",
+    "type": "crabPot",
+    "place": "Крабовая ловушка в океане",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 50,
+    "fishingLevelRequired": 0,
+    "category": "Крабовая ловушка",
+    "catchMethod": "crabPot",
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Крабовая ловушка в океане"
+    ],
+    "timeWindow": "Не зависит от времени суток",
+    "weatherCondition": "Не зависит от погоды",
+    "sizeInches": null,
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Краб",
+    "type": "crabPot",
+    "place": "Крабовая ловушка в океане",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 100,
+    "fishingLevelRequired": 0,
+    "category": "Крабовая ловушка",
+    "catchMethod": "crabPot",
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Крабовая ловушка в океане"
+    ],
+    "timeWindow": "Не зависит от времени суток",
+    "weatherCondition": "Не зависит от погоды",
+    "sizeInches": null,
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Рак",
+    "type": "crabPot",
+    "place": "Крабовая ловушка в пресной воде",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 75,
+    "fishingLevelRequired": 0,
+    "category": "Крабовая ловушка",
+    "catchMethod": "crabPot",
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Крабовая ловушка в пресной воде"
+    ],
+    "timeWindow": "Не зависит от времени суток",
+    "weatherCondition": "Не зависит от погоды",
+    "sizeInches": null,
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Омар",
+    "type": "crabPot",
+    "place": "Крабовая ловушка в океане",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 120,
+    "fishingLevelRequired": 0,
+    "category": "Крабовая ловушка",
+    "catchMethod": "crabPot",
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Крабовая ловушка в океане"
+    ],
+    "timeWindow": "Не зависит от времени суток",
+    "weatherCondition": "Не зависит от погоды",
+    "sizeInches": null,
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Мидия",
+    "type": "crabPot",
+    "place": "Крабовая ловушка в океане",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 30,
+    "fishingLevelRequired": 0,
+    "category": "Крабовая ловушка",
+    "catchMethod": "crabPot",
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Крабовая ловушка в океане"
+    ],
+    "timeWindow": "Не зависит от времени суток",
+    "weatherCondition": "Не зависит от погоды",
+    "sizeInches": null,
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Устрица",
+    "type": "crabPot",
+    "place": "Крабовая ловушка в океане",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 40,
+    "fishingLevelRequired": 0,
+    "category": "Крабовая ловушка",
+    "catchMethod": "crabPot",
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Крабовая ловушка в океане"
+    ],
+    "timeWindow": "Не зависит от времени суток",
+    "weatherCondition": "Не зависит от погоды",
+    "sizeInches": null,
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Литорина",
+    "type": "crabPot",
+    "place": "Крабовая ловушка в пресной воде",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 20,
+    "fishingLevelRequired": 0,
+    "category": "Крабовая ловушка",
+    "catchMethod": "crabPot",
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Крабовая ловушка в пресной воде"
+    ],
+    "timeWindow": "Не зависит от времени суток",
+    "weatherCondition": "Не зависит от погоды",
+    "sizeInches": null,
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Креветка",
+    "type": "crabPot",
+    "place": "Крабовая ловушка в океане",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 60,
+    "fishingLevelRequired": 0,
+    "category": "Крабовая ловушка",
+    "catchMethod": "crabPot",
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Крабовая ловушка в океане"
+    ],
+    "timeWindow": "Не зависит от времени суток",
+    "weatherCondition": "Не зависит от погоды",
+    "sizeInches": null,
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Улитка",
+    "type": "crabPot",
+    "place": "Крабовая ловушка в пресной воде",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 65,
+    "fishingLevelRequired": 0,
+    "category": "Крабовая ловушка",
+    "catchMethod": "crabPot",
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Крабовая ловушка в пресной воде"
+    ],
+    "timeWindow": "Не зависит от времени суток",
+    "weatherCondition": "Не зависит от погоды",
+    "sizeInches": null,
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Морская водоросль",
+    "type": "otherCatch",
+    "place": "Океан; ловля на удочку",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 20,
+    "fishingLevelRequired": 0,
+    "category": "Другой улов",
+    "catchMethod": "fishingRod",
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Океан",
+      "ловля на удочку"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "sizeInches": null,
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Зелёная водоросль",
+    "type": "otherCatch",
+    "place": "Пресная вода; ловля на удочку",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 15,
+    "fishingLevelRequired": 0,
+    "category": "Другой улов",
+    "catchMethod": "fishingRod",
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Пресная вода",
+      "ловля на удочку"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "sizeInches": null,
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Белая водоросль",
+    "type": "otherCatch",
+    "place": "Шахты, канализация и другие подземные воды",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 25,
+    "fishingLevelRequired": 0,
+    "category": "Другой улов",
+    "catchMethod": "fishingRod",
+    "source": "Stardew Valley Wiki: Fish",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Шахты, канализация и другие подземные воды"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "sizeInches": null,
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Морское желе",
+    "type": "otherCatch",
+    "place": "Океан; ловля на удочку",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 200,
+    "fishingLevelRequired": 0,
+    "category": "Особый улов 1.6",
+    "catchMethod": "fishingRod",
+    "source": "Stardew Valley Wiki: Sea Jelly",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Океан",
+      "ловля на удочку"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "sizeInches": null,
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Речное желе",
+    "type": "otherCatch",
+    "place": "Реки и пресная вода; ловля на удочку",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 125,
+    "fishingLevelRequired": 0,
+    "category": "Особый улов 1.6",
+    "catchMethod": "fishingRod",
+    "source": "Stardew Valley Wiki: River Jelly",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Реки и пресная вода",
+      "ловля на удочку"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "sizeInches": null,
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  },
+  {
+    "name": "Пещерное желе",
+    "type": "otherCatch",
+    "place": "Подземные воды; ловля на удочку",
+    "season": "Весна; Лето; Осень; Зима",
+    "time": "Любое",
+    "weather": "Любая",
+    "basePrice": 180,
+    "fishingLevelRequired": 0,
+    "category": "Особый улов 1.6",
+    "catchMethod": "fishingRod",
+    "source": "Stardew Valley Wiki: Cave Jelly",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "availabilityNotes": [],
+    "locations": [
+      "Подземные воды",
+      "ловля на удочку"
+    ],
+    "timeWindow": "Любое",
+    "weatherCondition": "Любая",
+    "sizeInches": null,
+    "difficulty": null,
+    "behavior": null,
+    "baseXP": null,
+    "statisticsVerification": "Не внесено: требуется построчная сверка с таблицей Wiki"
+  }
+]

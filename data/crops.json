@@ -1,0 +1,1442 @@
+[
+  {
+    "name": "Зелёная фасоль",
+    "icon": "🫘",
+    "growthDays": 10,
+    "season": "Весна",
+    "regrowthDays": 3,
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Весна"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "trellis": true,
+    "harvestType": "repeat",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "growingCondition": "Требуется шпалера; через зрелое растение нельзя пройти.",
+    "id": "green-bean",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "giantCropPossible": false
+  },
+  {
+    "name": "Картофель",
+    "icon": "🥔",
+    "growthDays": 6,
+    "season": "Весна",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Весна"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "harvestYield": {
+      "min": 1,
+      "max": 2,
+      "average": 1.25
+    },
+    "extraHarvestChance": 0.25,
+    "id": "potato",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Клубника",
+    "icon": "🍓",
+    "growthDays": 8,
+    "season": "Весна",
+    "regrowthDays": 4,
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Весна"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "strawberry",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "repeat",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Кофейное зерно",
+    "icon": "☕",
+    "growthDays": 10,
+    "season": "Весна",
+    "regrowthDays": 2,
+    "multiSeasonCrop": true,
+    "farmSeasons": [
+      "Весна",
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Весна",
+      "Лето"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "harvestYield": {
+      "min": 4,
+      "max": 4
+    },
+    "extraHarvestChance": 0.02,
+    "id": "coffee-bean",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestType": "repeat",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Кудрявая капуста",
+    "icon": "🥬",
+    "growthDays": 6,
+    "season": "Весна",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Весна"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "kale",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Морковь",
+    "icon": "🥕",
+    "growthDays": 3,
+    "season": "Весна",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Весна"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "carrot",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Неочищенный рис",
+    "icon": "🌾",
+    "growthDays": 8,
+    "season": "Весна",
+    "regrowthDays": 0,
+    "irrigatedGrowthDays": 6,
+    "growingCondition": "Базовый срок - 8 дней. При естественном орошении рядом с водой - 6 дней.",
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "specialNotes": "Базовый срок - 8 дней; при естественном орошении рядом с водой - 6 дней.",
+    "seasons": [
+      "Весна"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "unmilled-rice",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Пастернак",
+    "icon": "🥕",
+    "growthDays": 4,
+    "season": "Весна",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Весна"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "parsnip",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Ревень",
+    "icon": "🌱",
+    "growthDays": 13,
+    "season": "Весна",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Весна"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "rhubarb",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Синий яркоцвет",
+    "icon": "💠",
+    "growthDays": 7,
+    "season": "Весна",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Весна"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "blue-jazz",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Тюльпан",
+    "icon": "🌷",
+    "growthDays": 6,
+    "season": "Весна",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Весна"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "tulip",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Цветная капуста",
+    "icon": "🥦",
+    "growthDays": 12,
+    "season": "Весна",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Весна"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "giantCropPossible": true,
+    "id": "cauliflower",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "trellis": false
+  },
+  {
+    "name": "Чеснок",
+    "icon": "🧄",
+    "growthDays": 4,
+    "season": "Весна",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Весна"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "garlic",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Дыня",
+    "icon": "🍈",
+    "growthDays": 12,
+    "season": "Лето",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Лето"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "giantCropPossible": true,
+    "id": "melon",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "trellis": false
+  },
+  {
+    "name": "Жгучий перец",
+    "icon": "🌶️",
+    "growthDays": 5,
+    "season": "Лето",
+    "regrowthDays": 3,
+    "farmSeasons": [
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Лето"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "hot-pepper",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "repeat",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Карамбола",
+    "icon": "⭐",
+    "growthDays": 13,
+    "season": "Лето",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Лето"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "starfruit",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Красная капуста",
+    "icon": "🥬",
+    "growthDays": 9,
+    "season": "Лето",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Лето"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "red-cabbage",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Кукуруза",
+    "icon": "🌽",
+    "growthDays": 14,
+    "season": "Лето",
+    "regrowthDays": 4,
+    "multiSeasonCrop": true,
+    "farmSeasons": [
+      "Лето",
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Лето",
+      "Осень"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "corn",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "repeat",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Летний блестник",
+    "icon": "🌿",
+    "growthDays": 8,
+    "season": "Лето",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Лето"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "summer-spangle",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Мак",
+    "icon": "🌺",
+    "growthDays": 7,
+    "season": "Лето",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Лето"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "poppy",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Подсолнух",
+    "icon": "🌻",
+    "growthDays": 8,
+    "season": "Лето",
+    "regrowthDays": 0,
+    "multiSeasonCrop": true,
+    "farmSeasons": [
+      "Лето",
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Лето",
+      "Осень"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "sunflower",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Помидор",
+    "icon": "🍅",
+    "growthDays": 11,
+    "season": "Лето",
+    "regrowthDays": 4,
+    "farmSeasons": [
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Лето"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "tomato",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "repeat",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Пшеница",
+    "icon": "🌾",
+    "growthDays": 4,
+    "season": "Лето",
+    "regrowthDays": 0,
+    "multiSeasonCrop": true,
+    "farmSeasons": [
+      "Лето",
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Лето",
+      "Осень"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "wheat",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Редис",
+    "icon": "🔴",
+    "growthDays": 6,
+    "season": "Лето",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Лето"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "radish",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Сквош",
+    "icon": "🎃",
+    "growthDays": 6,
+    "season": "Лето",
+    "regrowthDays": 3,
+    "farmSeasons": [
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Лето"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "summer-squash",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "repeat",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Хмель",
+    "icon": "🍃",
+    "growthDays": 11,
+    "season": "Лето",
+    "regrowthDays": 1,
+    "farmSeasons": [
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Лето"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "trellis": true,
+    "harvestType": "repeat",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "growingCondition": "Требуется шпалера; через зрелое растение нельзя пройти.",
+    "id": "hops",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "giantCropPossible": false
+  },
+  {
+    "name": "Черника",
+    "icon": "🫐",
+    "growthDays": 13,
+    "season": "Лето",
+    "regrowthDays": 4,
+    "farmSeasons": [
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Лето"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "harvestYield": {
+      "min": 3,
+      "max": 3
+    },
+    "extraHarvestChance": 0.02,
+    "id": "blueberry",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestType": "repeat",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Амарант",
+    "icon": "🌾",
+    "growthDays": 7,
+    "season": "Осень",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Осень"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "amaranth",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Артишок",
+    "icon": "🌿",
+    "growthDays": 8,
+    "season": "Осень",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Осень"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "artichoke",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Баклажан",
+    "icon": "🍆",
+    "growthDays": 5,
+    "season": "Осень",
+    "regrowthDays": 5,
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Осень"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "eggplant",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "repeat",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Батат",
+    "icon": "🍠",
+    "growthDays": 10,
+    "season": "Осень",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Осень"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "yam",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Бок-чой",
+    "icon": "🥬",
+    "growthDays": 4,
+    "season": "Осень",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Осень"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "bok-choy",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Брокколи",
+    "icon": "🥦",
+    "growthDays": 8,
+    "season": "Осень",
+    "regrowthDays": 4,
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Осень"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "broccoli",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "repeat",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Виноград",
+    "icon": "🍇",
+    "growthDays": 10,
+    "season": "Осень",
+    "regrowthDays": 3,
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Осень"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "trellis": true,
+    "harvestType": "single",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "growingCondition": "Требуется шпалера; через зрелое растение нельзя пройти.",
+    "id": "grape",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "giantCropPossible": false
+  },
+  {
+    "name": "Клюква",
+    "icon": "🍒",
+    "growthDays": 7,
+    "season": "Осень",
+    "regrowthDays": 5,
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Осень"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "harvestYield": {
+      "min": 2,
+      "max": 2
+    },
+    "extraHarvestChance": 0.1,
+    "id": "cranberries",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestType": "repeat",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Свёкла",
+    "icon": "🫜",
+    "growthDays": 6,
+    "season": "Осень",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Осень"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "beet",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Сказочная роза",
+    "icon": "🌹",
+    "growthDays": 12,
+    "season": "Осень",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Осень"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "fairy-rose",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Тыква",
+    "icon": "🎃",
+    "growthDays": 13,
+    "season": "Осень",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Осень"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "giantCropPossible": true,
+    "id": "pumpkin",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "trellis": false
+  },
+  {
+    "name": "Снегодыня",
+    "icon": "🍈",
+    "growthDays": 7,
+    "season": "Зима",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Зима"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Зима"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "giantCropPossible": true,
+    "id": "powdermelon",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "trellis": false
+  },
+  {
+    "name": "Ананас",
+    "icon": "🍍",
+    "growthDays": 14,
+    "season": "Лето",
+    "regrowthDays": 7,
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "farmSeasons": [
+      "Лето"
+    ],
+    "specialNotes": "На обычной ферме - только летом; на Имбирном острове - круглый год.",
+    "seasons": [
+      "Лето"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "islandYearRound": true,
+    "harvestType": "repeat",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "id": "pineapple",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Древний плод",
+    "icon": "🫐",
+    "growthDays": 28,
+    "season": "Весна",
+    "regrowthDays": 7,
+    "multiSeasonCrop": true,
+    "farmSeasons": [
+      "Весна",
+      "Лето",
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "id": "ancient-fruit",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestType": "repeat",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Корень таро",
+    "icon": "🌱",
+    "growthDays": 10,
+    "season": "Лето",
+    "regrowthDays": 0,
+    "irrigatedGrowthDays": 7,
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "growingCondition": "Базовый срок - 10 дней; при орошении рядом с водой - 7 дней.",
+    "farmSeasons": [
+      "Лето"
+    ],
+    "specialNotes": "На обычной ферме - летом; на Имбирном острове - круглый год.",
+    "seasons": [
+      "Лето"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "islandYearRound": true,
+    "autoWaterNearWater": true,
+    "harvestType": "single",
+    "id": "taro-root",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Плод кактуса",
+    "icon": "🌵",
+    "growthDays": 12,
+    "season": "Весна",
+    "regrowthDays": 3,
+    "growingLocations": [
+      "greenhouse",
+      "indoorPot",
+      "gingerIsland"
+    ],
+    "growingCondition": "Не выращивается на открытой обычной ферме.",
+    "farmSeasons": [],
+    "specialNotes": "Нельзя выращивать на открытой обычной ферме. Доступен в теплице, садовом горшке в помещении и на Имбирном острове.",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "harvestType": "repeat",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "id": "cactus-fruit",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Сладкая самоцветинка",
+    "icon": "🍓",
+    "growthDays": 24,
+    "season": "Осень",
+    "regrowthDays": 0,
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "seasons": [
+      "Осень"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "id": "sweet-gem-berry",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Чайные листья",
+    "icon": "🍃",
+    "growthDays": 20,
+    "season": "Весна",
+    "regrowthDays": 1,
+    "harvestWindow": {
+      "startDay": 22,
+      "endDay": 28,
+      "seasons": [
+        "Весна",
+        "Лето",
+        "Осень"
+      ]
+    },
+    "winterHarvestCondition": "Зимой куст можно держать в помещении; сбор листьев возможен только в помещении/теплице.",
+    "farmSeasons": [
+      "Весна",
+      "Лето",
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "indoorPot"
+    ],
+    "specialNotes": "Куст растёт весной, летом и осенью на открытой ферме. Листья собирают с 22-го по 28-е число каждого из этих сезонов; зимой сбор возможен только в помещении или теплице.",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "harvestType": "seasonalDaily",
+    "id": "tea-leaves",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Волокна",
+    "icon": "🌿",
+    "growthDays": 7,
+    "season": "Весна",
+    "regrowthDays": 0,
+    "requiresWatering": false,
+    "farmSeasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "specialNotes": "Не требует полива.",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "harvestYield": {
+      "min": 4,
+      "max": 7
+    },
+    "extraHarvestChance": 0.01,
+    "id": "fiber",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestType": "single",
+    "trellis": false,
+    "giantCropPossible": false
+  },
+  {
+    "name": "Фрукт Ки",
+    "icon": "🥝",
+    "growthDays": 4,
+    "season": "Весна",
+    "regrowthDays": 0,
+    "requiresActiveQuest": "Урожай Ки",
+    "growingCondition": "Только при активном особом заказе «Урожай Ки». Уже выросший гигантский фрукт Ки не исчезает после завершения заказа.",
+    "farmSeasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "specialNotes": "Можно выращивать только во время задания «Урожай Ки».",
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "requiresWatering": true,
+    "growthTimeDefinition": "Ночи роста; день посадки не учитывается. Предполагается полив в день посадки и каждый следующий день.",
+    "giantCropPossible": true,
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "id": "qi-fruit",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "wikiVersionContext": "Stardew Valley 1.6+",
+    "harvestType": "single",
+    "trellis": false
+  }
+]

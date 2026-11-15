@@ -1,0 +1,190 @@
+{
+  "Амарант": {
+    "file": "assets/crops/amaranth.png",
+    "status": "existing"
+  },
+  "Ананас": {
+    "file": "assets/crops/pineapple.png",
+    "status": "existing"
+  },
+  "Артишок": {
+    "file": "assets/crops/artichoke.png",
+    "status": "existing"
+  },
+  "Баклажан": {
+    "file": "assets/crops/eggplant.png",
+    "status": "existing"
+  },
+  "Батат": {
+    "file": "assets/crops/yam.png",
+    "status": "existing"
+  },
+  "Бок-чой": {
+    "file": "assets/crops/bok-choy.png",
+    "status": "existing"
+  },
+  "Брокколи": {
+    "file": "assets/crops/broccoli.png",
+    "status": "existing"
+  },
+  "Виноград": {
+    "file": "assets/crops/grape.png",
+    "status": "existing"
+  },
+  "Волокна": {
+    "file": "assets/crops/fiber.png",
+    "status": "placeholder"
+  },
+  "Древний плод": {
+    "file": "assets/crops/ancient-fruit.png",
+    "status": "placeholder"
+  },
+  "Дыня": {
+    "file": "assets/crops/melon.png",
+    "status": "existing"
+  },
+  "Жгучий перец": {
+    "file": "assets/crops/hot-pepper.png",
+    "status": "existing"
+  },
+  "Зелёная фасоль": {
+    "file": "assets/crops/green-bean.png",
+    "status": "existing"
+  },
+  "Карамбола": {
+    "file": "assets/crops/starfruit.png",
+    "status": "existing"
+  },
+  "Картофель": {
+    "file": "assets/crops/potato.png",
+    "status": "existing"
+  },
+  "Клубника": {
+    "file": "assets/crops/strawberry.png",
+    "status": "existing"
+  },
+  "Клюква": {
+    "file": "assets/crops/cranberry.png",
+    "status": "existing"
+  },
+  "Корень таро": {
+    "file": "assets/crops/taro-root.png",
+    "status": "existing"
+  },
+  "Кофейное зерно": {
+    "file": "assets/crops/coffee-bean.png",
+    "status": "existing"
+  },
+  "Красная капуста": {
+    "file": "assets/crops/red-cabbage.png",
+    "status": "existing"
+  },
+  "Кудрявая капуста": {
+    "file": "assets/crops/kale.png",
+    "status": "existing"
+  },
+  "Кукуруза": {
+    "file": "assets/crops/corn.png",
+    "status": "existing"
+  },
+  "Летний блестник": {
+    "file": "assets/crops/summer-spangle.png",
+    "status": "existing"
+  },
+  "Мак": {
+    "file": "assets/crops/poppy.png",
+    "status": "existing"
+  },
+  "Морковь": {
+    "file": "assets/crops/carrot.png",
+    "status": "existing"
+  },
+  "Неочищенный рис": {
+    "file": "assets/crops/rice.png",
+    "status": "existing"
+  },
+  "Пастернак": {
+    "file": "assets/crops/parsnip.png",
+    "status": "existing"
+  },
+  "Плод кактуса": {
+    "file": "assets/crops/cactus-fruit.png",
+    "status": "placeholder"
+  },
+  "Подсолнух": {
+    "file": "assets/crops/sunflower.png",
+    "status": "existing"
+  },
+  "Помидор": {
+    "file": "assets/crops/tomato.png",
+    "status": "existing"
+  },
+  "Пшеница": {
+    "file": "assets/crops/wheat.png",
+    "status": "existing"
+  },
+  "Ревень": {
+    "file": "assets/crops/rhubarb.png",
+    "status": "existing"
+  },
+  "Редис": {
+    "file": "assets/crops/radish.png",
+    "status": "existing"
+  },
+  "Свёкла": {
+    "file": "assets/crops/beet.png",
+    "status": "existing"
+  },
+  "Синий яркоцвет": {
+    "file": "assets/crops/blue-jazz.png",
+    "status": "existing"
+  },
+  "Сказочная роза": {
+    "file": "assets/crops/fairy-rose.png",
+    "status": "placeholder"
+  },
+  "Сквош": {
+    "file": "assets/crops/summer-squash.png",
+    "status": "existing"
+  },
+  "Сладкая самоцветинка": {
+    "file": "assets/crops/sweet-gem-berry.png",
+    "status": "existing"
+  },
+  "Снегодыня": {
+    "file": "assets/crops/powdermelon.png",
+    "status": "existing"
+  },
+  "Тыква": {
+    "file": "assets/crops/pumpkin.png",
+    "status": "existing"
+  },
+  "Тюльпан": {
+    "file": "assets/crops/tulip.png",
+    "status": "existing"
+  },
+  "Фрукт Ки": {
+    "file": "assets/crops/qi-fruit.png",
+    "status": "placeholder"
+  },
+  "Хмель": {
+    "file": "assets/crops/hops.png",
+    "status": "existing"
+  },
+  "Цветная капуста": {
+    "file": "assets/crops/cauliflower.png",
+    "status": "existing"
+  },
+  "Чайные листья": {
+    "file": "assets/crops/tea-leaves.png",
+    "status": "placeholder"
+  },
+  "Черника": {
+    "file": "assets/crops/blueberry.png",
+    "status": "existing"
+  },
+  "Чеснок": {
+    "file": "assets/crops/garlic.png",
+    "status": "existing"
+  }
+}

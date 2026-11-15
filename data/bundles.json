@@ -1,0 +1,3358 @@
+{
+  "schemaVersion": "1.0.0",
+  "game": "Stardew Valley",
+  "gameVersionReference": "1.6.x (Wiki checked 2026-11-14; some raw color indices documented from Wiki raw bundle data 1.5.1)",
+  "language": "ru",
+  "description": "Справочник наборов Центра сообщества, способов получения предметов, наград и условий. Стандартные наборы и варианты перемешивания хранятся отдельно.",
+  "sources": [
+    {
+      "title": "Stardew Valley Wiki - Bundles",
+      "url": "https://stardewvalleywiki.com/Bundles",
+      "usedFor": "Состав стандартных наборов, требования, способы получения, награды, комнаты и Missing Bundle."
+    },
+    {
+      "title": "Stardew Valley Wiki - Remixed Bundles",
+      "url": "https://stardewvalleywiki.com/Remixed_Bundles",
+      "usedFor": "Варианты наборов при включённой опции Remixed Bundles."
+    },
+    {
+      "title": "Stardew Valley Wiki - Modding:Bundles",
+      "url": "https://stardewvalleywiki.com/Modding:Bundles",
+      "usedFor": "Цветовые индексы (0–6), структура требований и описание цветовой палитры; приведённый на странице raw data обозначен как 1.5.1."
+    },
+    {
+      "title": "Stardew Valley Wiki - Community Center",
+      "url": "https://stardewvalleywiki.com/Community_Center",
+      "usedFor": "Открытие Центра сообщества, прогресс и условия."
+    }
+  ],
+  "colorPalette": [
+    {
+      "index": 0,
+      "name": "Зелёный",
+      "completeIcon": "зелёный"
+    },
+    {
+      "index": 1,
+      "name": "Фиолетовый",
+      "completeIcon": "фиолетовый"
+    },
+    {
+      "index": 2,
+      "name": "Оранжевый",
+      "completeIcon": "оранжевый"
+    },
+    {
+      "index": 3,
+      "name": "Жёлтый",
+      "completeIcon": "розовый"
+    },
+    {
+      "index": 4,
+      "name": "Красный",
+      "completeIcon": "цветок с жёлтой серединой и красно-зелёными листьями"
+    },
+    {
+      "index": 5,
+      "name": "Синий",
+      "completeIcon": "синий"
+    },
+    {
+      "index": 6,
+      "name": "Бирюзовый",
+      "completeIcon": "бирюзовый"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "crafts-room",
+      "name": "Комната ремёсел",
+      "completionReward": "Восстановление моста к Карьеру"
+    },
+    {
+      "id": "pantry",
+      "name": "Кладовая",
+      "completionReward": "Восстановление теплицы на ферме"
+    },
+    {
+      "id": "fish-tank",
+      "name": "Аквариум",
+      "completionReward": "Удаление сияющего валуна у входа в Шахту; медный лоток от Вилли"
+    },
+    {
+      "id": "boiler-room",
+      "name": "Котельная",
+      "completionReward": "Восстановление вагонеток"
+    },
+    {
+      "id": "bulletin-board",
+      "name": "Доска объявлений",
+      "completionReward": "+2 сердца дружбы (500 очков) с встреченными недоступными для брака жителями; Дварф требует руководство по переводу"
+    },
+    {
+      "id": "vault",
+      "name": "Хранилище",
+      "completionReward": "Ремонт автобуса и доступ в пустыню Калику"
+    },
+    {
+      "id": "abandoned-joja-mart",
+      "name": "Заброшенный JojaMart",
+      "completionReward": "Кинотеатр"
+    }
+  ],
+  "standardBundles": [
+    {
+      "id": "crafts-spring-foraging",
+      "room": "crafts-room",
+      "name": "Весенний сбор",
+      "variant": "standard",
+      "type": "items",
+      "color": {
+        "index": 0,
+        "name": "Зелёный"
+      },
+      "items": [
+        {
+          "name": "Дикий хрен",
+          "quantity": 1,
+          "methods": [
+            "Собирательство"
+          ],
+          "seasons": [
+            "Весна"
+          ]
+        },
+        {
+          "name": "Нарцисс",
+          "quantity": 1,
+          "methods": [
+            "Собирательство",
+            "Покупка у Пьера на Танце цветов"
+          ],
+          "seasons": [
+            "Весна"
+          ]
+        },
+        {
+          "name": "Лук-порей",
+          "quantity": 1,
+          "methods": [
+            "Собирательство"
+          ],
+          "seasons": [
+            "Весна"
+          ]
+        },
+        {
+          "name": "Одуванчик",
+          "quantity": 1,
+          "methods": [
+            "Собирательство",
+            "Покупка у Пьера на Танце цветов"
+          ],
+          "seasons": [
+            "Весна"
+          ]
+        }
+      ],
+      "itemsRequired": 4,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Весенние семена",
+        "quantity": 30
+      }
+    },
+    {
+      "id": "crafts-summer-foraging",
+      "room": "crafts-room",
+      "name": "Летний сбор",
+      "variant": "standard",
+      "type": "items",
+      "color": {
+        "index": 3,
+        "name": "Жёлтый"
+      },
+      "items": [
+        {
+          "name": "Виноград",
+          "quantity": 1,
+          "methods": [
+            "Собирательство",
+            "Выращивание"
+          ],
+          "seasons": [
+            "Лето",
+            "Осень"
+          ]
+        },
+        {
+          "name": "Пряная ягода",
+          "quantity": 1,
+          "methods": [
+            "Собирательство",
+            "Пещера фермы (летучие мыши)"
+          ],
+          "seasons": [
+            "Лето"
+          ]
+        },
+        {
+          "name": "Душистый горошек",
+          "quantity": 1,
+          "methods": [
+            "Собирательство"
+          ],
+          "seasons": [
+            "Лето"
+          ]
+        }
+      ],
+      "itemsRequired": 3,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Летние семена",
+        "quantity": 30
+      }
+    },
+    {
+      "id": "crafts-fall-foraging",
+      "room": "crafts-room",
+      "name": "Осенний сбор",
+      "variant": "standard",
+      "type": "items",
+      "color": {
+        "index": 2,
+        "name": "Оранжевый"
+      },
+      "items": [
+        {
+          "name": "Обычный гриб",
+          "quantity": 1,
+          "methods": [
+            "Собирательство осенью",
+            "Тайный лес весной и осенью",
+            "Пещера фермы (грибы)",
+            "Грибное дерево с подсочником"
+          ],
+          "seasons": [
+            "Весна",
+            "Осень"
+          ]
+        },
+        {
+          "name": "Дикая слива",
+          "quantity": 1,
+          "methods": [
+            "Собирательство",
+            "Пещера фермы (летучие мыши)"
+          ],
+          "seasons": [
+            "Осень"
+          ]
+        },
+        {
+          "name": "Лесной орех",
+          "quantity": 1,
+          "methods": [
+            "Собирательство"
+          ],
+          "seasons": [
+            "Осень"
+          ]
+        },
+        {
+          "name": "Ежевика",
+          "quantity": 1,
+          "methods": [
+            "Собирательство",
+            "Пещера фермы (летучие мыши)"
+          ],
+          "seasons": [
+            "Осень"
+          ]
+        }
+      ],
+      "itemsRequired": 4,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Осенние семена",
+        "quantity": 30
+      }
+    },
+    {
+      "id": "crafts-winter-foraging",
+      "room": "crafts-room",
+      "name": "Зимний сбор",
+      "variant": "standard",
+      "type": "items",
+      "color": {
+        "index": 6,
+        "name": "Бирюзовый"
+      },
+      "items": [
+        {
+          "name": "Зимний корень",
+          "quantity": 1,
+          "methods": [
+            "Обработка земли мотыгой зимой",
+            "Артефактные места зимой",
+            "Синие слизни на 41–79 этажах Шахты"
+          ],
+          "seasons": [
+            "Зима"
+          ]
+        },
+        {
+          "name": "Хрустальный фрукт",
+          "quantity": 1,
+          "methods": [
+            "Собирательство зимой",
+            "Пыльные духи на 41–79 этажах Шахты"
+          ],
+          "seasons": [
+            "Зима"
+          ]
+        },
+        {
+          "name": "Снежный ямс",
+          "quantity": 1,
+          "methods": [
+            "Обработка земли мотыгой зимой",
+            "Артефактные места зимой"
+          ],
+          "seasons": [
+            "Зима"
+          ]
+        },
+        {
+          "name": "Крокус",
+          "quantity": 1,
+          "methods": [
+            "Собирательство"
+          ],
+          "seasons": [
+            "Зима"
+          ]
+        }
+      ],
+      "itemsRequired": 4,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Зимние семена",
+        "quantity": 30
+      }
+    },
+    {
+      "id": "crafts-construction",
+      "room": "crafts-room",
+      "name": "Строительный набор",
+      "variant": "standard",
+      "type": "items",
+      "color": {
+        "index": 4,
+        "name": "Красный"
+      },
+      "items": [
+        {
+          "name": "Древесина",
+          "quantity": 99,
+          "methods": [
+            "Рубка деревьев и веток",
+            "Покупка в мастерской плотника"
+          ]
+        },
+        {
+          "name": "Древесина",
+          "quantity": 99,
+          "methods": [
+            "Рубка деревьев и веток",
+            "Покупка в мастерской плотника"
+          ]
+        },
+        {
+          "name": "Камень",
+          "quantity": 99,
+          "methods": [
+            "Разбивать камни киркой",
+            "Покупка в мастерской плотника"
+          ]
+        },
+        {
+          "name": "Твёрдая древесина",
+          "quantity": 10,
+          "methods": [
+            "Пни и брёвна улучшенным топором",
+            "Ящики в Шахте",
+            "Красное дерево"
+          ]
+        }
+      ],
+      "itemsRequired": 4,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Угольная печь",
+        "quantity": 1
+      }
+    },
+    {
+      "id": "crafts-exotic-foraging",
+      "room": "crafts-room",
+      "name": "Экзотический сбор",
+      "variant": "standard",
+      "type": "items",
+      "color": {
+        "index": 1,
+        "name": "Фиолетовый"
+      },
+      "items": [
+        {
+          "name": "Кокос",
+          "quantity": 1,
+          "methods": [
+            "Собирательство в пустыне",
+            "Оазис",
+            "Пальмы в пустыне и на Имбирном острове"
+          ]
+        },
+        {
+          "name": "Плод кактуса",
+          "quantity": 1,
+          "methods": [
+            "Собирательство в пустыне",
+            "Оазис"
+          ]
+        },
+        {
+          "name": "Пещерная морковь",
+          "quantity": 1,
+          "methods": [
+            "Ящики в Шахте",
+            "Обработка земли мотыгой в Шахте"
+          ]
+        },
+        {
+          "name": "Красный гриб",
+          "quantity": 1,
+          "methods": [
+            "Шахта",
+            "Тайный лес летом и осенью",
+            "Пещера фермы (грибы)",
+            "Грибное дерево",
+            "Лесная ферма осенью"
+          ]
+        },
+        {
+          "name": "Фиолетовый гриб",
+          "quantity": 1,
+          "methods": [
+            "Шахта",
+            "Пещера фермы (грибы)",
+            "Лесная ферма осенью"
+          ]
+        },
+        {
+          "name": "Кленовый сироп",
+          "quantity": 1,
+          "methods": [
+            "Подсочник на клёне"
+          ]
+        },
+        {
+          "name": "Дубовая смола",
+          "quantity": 1,
+          "methods": [
+            "Подсочник на дубе",
+            "Призрачные черепа"
+          ]
+        },
+        {
+          "name": "Сосновая смола",
+          "quantity": 1,
+          "methods": [
+            "Подсочник на сосне"
+          ]
+        },
+        {
+          "name": "Сморчок",
+          "quantity": 1,
+          "methods": [
+            "Тайный лес весной",
+            "Лесная ферма весной",
+            "Пещера фермы (грибы)"
+          ]
+        }
+      ],
+      "itemsRequired": 5,
+      "selectionMode": "choose",
+      "reward": {
+        "name": "Осенний обед",
+        "quantity": 5
+      }
+    },
+    {
+      "id": "pantry-spring-crops",
+      "room": "pantry",
+      "name": "Весенние культуры",
+      "variant": "standard",
+      "type": "items",
+      "color": {
+        "index": 0,
+        "name": "Зелёный"
+      },
+      "items": [
+        {
+          "name": "Пастернак",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Весна"
+          ]
+        },
+        {
+          "name": "Зелёная фасоль",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Весна"
+          ]
+        },
+        {
+          "name": "Цветная капуста",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Весна"
+          ]
+        },
+        {
+          "name": "Картофель",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Весна"
+          ]
+        }
+      ],
+      "itemsRequired": 4,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Ускоритель роста",
+        "quantity": 20
+      }
+    },
+    {
+      "id": "pantry-summer-crops",
+      "room": "pantry",
+      "name": "Летние культуры",
+      "variant": "standard",
+      "type": "items",
+      "color": {
+        "index": 3,
+        "name": "Жёлтый"
+      },
+      "items": [
+        {
+          "name": "Помидор",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Лето"
+          ]
+        },
+        {
+          "name": "Острый перец",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Лето"
+          ]
+        },
+        {
+          "name": "Черника",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Лето"
+          ]
+        },
+        {
+          "name": "Дыня",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Лето"
+          ]
+        }
+      ],
+      "itemsRequired": 4,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Качественный разбрызгиватель",
+        "quantity": 1
+      }
+    },
+    {
+      "id": "pantry-fall-crops",
+      "room": "pantry",
+      "name": "Осенние культуры",
+      "variant": "standard",
+      "type": "items",
+      "color": {
+        "index": 2,
+        "name": "Оранжевый"
+      },
+      "items": [
+        {
+          "name": "Кукуруза",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Лето",
+            "Осень"
+          ]
+        },
+        {
+          "name": "Баклажан",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Осень"
+          ]
+        },
+        {
+          "name": "Тыква",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Осень"
+          ]
+        },
+        {
+          "name": "Ямс",
+          "quantity": 1,
+          "methods": [
+            "Выращивание осенью",
+            "Дроп с Дугги на 6–29 этажах Шахты (3%)"
+          ],
+          "seasons": [
+            "Осень"
+          ]
+        }
+      ],
+      "itemsRequired": 4,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Пчелиный домик",
+        "quantity": 1
+      }
+    },
+    {
+      "id": "pantry-quality-crops",
+      "room": "pantry",
+      "name": "Качественные культуры",
+      "variant": "standard",
+      "type": "items",
+      "color": {
+        "index": 6,
+        "name": "Бирюзовый"
+      },
+      "items": [
+        {
+          "name": "Пастернак",
+          "quantity": 5,
+          "minimumQuality": "золото",
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Весна"
+          ]
+        },
+        {
+          "name": "Дыня",
+          "quantity": 5,
+          "minimumQuality": "золото",
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Лето"
+          ]
+        },
+        {
+          "name": "Тыква",
+          "quantity": 5,
+          "minimumQuality": "золото",
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Осень"
+          ]
+        },
+        {
+          "name": "Кукуруза",
+          "quantity": 5,
+          "minimumQuality": "золото",
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Лето",
+            "Осень"
+          ]
+        }
+      ],
+      "itemsRequired": 3,
+      "selectionMode": "choose",
+      "reward": {
+        "name": "Банка для консервов",
+        "quantity": 1
+      },
+      "notes": "Нужно сдать любые 3 из 4 культур. Каждая - по 5 штук золотого качества."
+    },
+    {
+      "id": "pantry-animal",
+      "room": "pantry",
+      "name": "Животноводческий набор",
+      "variant": "standard",
+      "type": "items",
+      "color": {
+        "index": 4,
+        "name": "Красный"
+      },
+      "items": [
+        {
+          "name": "Большое молоко",
+          "quantity": 1,
+          "methods": [
+            "Корова"
+          ]
+        },
+        {
+          "name": "Большое коричневое яйцо",
+          "quantity": 1,
+          "methods": [
+            "Коричневая курица"
+          ]
+        },
+        {
+          "name": "Большое яйцо",
+          "quantity": 1,
+          "methods": [
+            "Белая курица"
+          ]
+        },
+        {
+          "name": "Большое козье молоко",
+          "quantity": 1,
+          "methods": [
+            "Коза"
+          ]
+        },
+        {
+          "name": "Шерсть",
+          "quantity": 1,
+          "methods": [
+            "Овца",
+            "Кролик"
+          ]
+        },
+        {
+          "name": "Утиное яйцо",
+          "quantity": 1,
+          "methods": [
+            "Утка"
+          ]
+        }
+      ],
+      "itemsRequired": 5,
+      "selectionMode": "choose",
+      "reward": {
+        "name": "Сырный пресс",
+        "quantity": 1
+      }
+    },
+    {
+      "id": "pantry-artisan",
+      "room": "pantry",
+      "name": "Ремесленный набор",
+      "variant": "standard",
+      "type": "items",
+      "color": {
+        "index": 1,
+        "name": "Фиолетовый"
+      },
+      "items": [
+        {
+          "name": "Трюфельное масло",
+          "quantity": 1,
+          "methods": [
+            "Трюфель в маслобойне"
+          ]
+        },
+        {
+          "name": "Ткань",
+          "quantity": 1,
+          "methods": [
+            "Ткацкий станок",
+            "Переработка мокрой газеты",
+            "Пустынный торговец",
+            "Мумии в Пещере Черепа"
+          ]
+        },
+        {
+          "name": "Козий сыр",
+          "quantity": 1,
+          "methods": [
+            "Сырный пресс"
+          ]
+        },
+        {
+          "name": "Сыр",
+          "quantity": 1,
+          "methods": [
+            "Сырный пресс",
+            "Пустынный торговец"
+          ]
+        },
+        {
+          "name": "Мёд",
+          "quantity": 1,
+          "methods": [
+            "Пчелиный домик",
+            "Оазис"
+          ]
+        },
+        {
+          "name": "Джем",
+          "quantity": 1,
+          "methods": [
+            "Банка для консервов"
+          ]
+        },
+        {
+          "name": "Яблоко",
+          "quantity": 1,
+          "methods": [
+            "Яблоня осенью",
+            "Пещера фермы (летучие мыши)"
+          ],
+          "seasons": [
+            "Осень"
+          ]
+        },
+        {
+          "name": "Абрикос",
+          "quantity": 1,
+          "methods": [
+            "Абрикосовое дерево весной",
+            "Пещера фермы (летучие мыши)"
+          ],
+          "seasons": [
+            "Весна"
+          ]
+        },
+        {
+          "name": "Апельсин",
+          "quantity": 1,
+          "methods": [
+            "Апельсиновое дерево летом",
+            "Пещера фермы (летучие мыши)"
+          ],
+          "seasons": [
+            "Лето"
+          ]
+        },
+        {
+          "name": "Персик",
+          "quantity": 1,
+          "methods": [
+            "Персиковое дерево летом",
+            "Пещера фермы (летучие мыши)"
+          ],
+          "seasons": [
+            "Лето"
+          ]
+        },
+        {
+          "name": "Гранат",
+          "quantity": 1,
+          "methods": [
+            "Гранатовое дерево осенью",
+            "Пещера фермы (летучие мыши)"
+          ],
+          "seasons": [
+            "Осень"
+          ]
+        },
+        {
+          "name": "Вишня",
+          "quantity": 1,
+          "methods": [
+            "Вишнёвое дерево весной",
+            "Пещера фермы (летучие мыши)"
+          ],
+          "seasons": [
+            "Весна"
+          ]
+        }
+      ],
+      "itemsRequired": 6,
+      "selectionMode": "choose",
+      "reward": {
+        "name": "Бочонок",
+        "quantity": 1
+      }
+    },
+    {
+      "id": "fish-river",
+      "room": "fish-tank",
+      "name": "Речная рыба",
+      "variant": "standard",
+      "type": "items",
+      "color": {
+        "index": 6,
+        "name": "Бирюзовый"
+      },
+      "items": [
+        {
+          "name": "Солнечник",
+          "quantity": 1,
+          "methods": [
+            "Рыбалка в реках"
+          ],
+          "seasons": [
+            "Весна",
+            "Лето"
+          ],
+          "time": "06:00–19:00",
+          "weather": "Солнечно"
+        },
+        {
+          "name": "Сом",
+          "quantity": 1,
+          "methods": [
+            "Рыбалка в реке и Тайном лесу"
+          ],
+          "seasons": [
+            "Весна",
+            "Осень"
+          ],
+          "time": "06:00–00:00",
+          "weather": "Дождь",
+          "notes": "Летом во время дождя встречается в Тайном лесу и Ведьмином болоте; зимой - с Тотемом дождя."
+        },
+        {
+          "name": "Шэд",
+          "quantity": 1,
+          "methods": [
+            "Рыбалка в реках"
+          ],
+          "seasons": [
+            "Весна",
+            "Лето",
+            "Осень"
+          ],
+          "time": "09:00–02:00",
+          "weather": "Дождь"
+        },
+        {
+          "name": "Тигровая форель",
+          "quantity": 1,
+          "methods": [
+            "Рыбалка в реках"
+          ],
+          "seasons": [
+            "Осень",
+            "Зима"
+          ],
+          "time": "06:00–19:00",
+          "weather": "Любая"
+        }
+      ],
+      "itemsRequired": 4,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Улучшенная наживка",
+        "quantity": 30
+      }
+    },
+    {
+      "id": "fish-lake",
+      "room": "fish-tank",
+      "name": "Озёрная рыба",
+      "variant": "standard",
+      "type": "items",
+      "color": {
+        "index": 0,
+        "name": "Зелёный"
+      },
+      "items": [
+        {
+          "name": "Большеротый окунь",
+          "quantity": 1,
+          "methods": [
+            "Горное озеро"
+          ],
+          "seasons": [
+            "Все"
+          ],
+          "time": "06:00–19:00",
+          "weather": "Любая"
+        },
+        {
+          "name": "Карп",
+          "quantity": 1,
+          "methods": [
+            "Горное озеро весной, летом и осенью",
+            "Тайный лес или Канализация круглый год"
+          ],
+          "seasons": [
+            "Весна",
+            "Лето",
+            "Осень",
+            "Все"
+          ]
+        },
+        {
+          "name": "Бычок",
+          "quantity": 1,
+          "methods": [
+            "Горное озеро"
+          ],
+          "seasons": [
+            "Все"
+          ],
+          "time": "В любое время"
+        },
+        {
+          "name": "Осётр",
+          "quantity": 1,
+          "methods": [
+            "Горное озеро"
+          ],
+          "seasons": [
+            "Лето",
+            "Зима"
+          ],
+          "time": "06:00–19:00"
+        }
+      ],
+      "itemsRequired": 4,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Дрессированный спиннер",
+        "quantity": 1
+      }
+    },
+    {
+      "id": "fish-ocean",
+      "room": "fish-tank",
+      "name": "Океанская рыба",
+      "variant": "standard",
+      "type": "items",
+      "color": {
+        "index": 5,
+        "name": "Синий"
+      },
+      "items": [
+        {
+          "name": "Сардина",
+          "quantity": 1,
+          "methods": [
+            "Океан"
+          ],
+          "seasons": [
+            "Весна",
+            "Осень",
+            "Зима"
+          ],
+          "time": "06:00–19:00"
+        },
+        {
+          "name": "Тунец",
+          "quantity": 1,
+          "methods": [
+            "Океан"
+          ],
+          "seasons": [
+            "Лето",
+            "Зима"
+          ],
+          "time": "06:00–19:00"
+        },
+        {
+          "name": "Красный луциан",
+          "quantity": 1,
+          "methods": [
+            "Океан"
+          ],
+          "seasons": [
+            "Лето",
+            "Осень"
+          ],
+          "time": "06:00–19:00",
+          "weather": "Дождь"
+        },
+        {
+          "name": "Тиляпия",
+          "quantity": 1,
+          "methods": [
+            "Океан"
+          ],
+          "seasons": [
+            "Лето",
+            "Осень"
+          ],
+          "time": "06:00–14:00"
+        }
+      ],
+      "itemsRequired": 4,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Тотем перемещения: пляж",
+        "quantity": 5
+      }
+    },
+    {
+      "id": "fish-night",
+      "room": "fish-tank",
+      "name": "Ночная рыбалка",
+      "variant": "standard",
+      "type": "items",
+      "color": {
+        "index": 1,
+        "name": "Фиолетовый"
+      },
+      "items": [
+        {
+          "name": "Судак",
+          "quantity": 1,
+          "methods": [
+            "Реки, Горное озеро, пруд леса Синдерсэп"
+          ],
+          "seasons": [
+            "Осень"
+          ],
+          "time": "12:00–02:00",
+          "weather": "Дождь",
+          "notes": "Зимой возможен с Тотемом дождя."
+        },
+        {
+          "name": "Лещ",
+          "quantity": 1,
+          "methods": [
+            "Реки"
+          ],
+          "seasons": [
+            "Все"
+          ],
+          "time": "18:00–02:00"
+        },
+        {
+          "name": "Угорь",
+          "quantity": 1,
+          "methods": [
+            "Океан"
+          ],
+          "seasons": [
+            "Весна",
+            "Осень"
+          ],
+          "time": "16:00–02:00",
+          "weather": "Дождь"
+        }
+      ],
+      "itemsRequired": 3,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Светящееся кольцо",
+        "quantity": 1
+      }
+    },
+    {
+      "id": "fish-crab-pot",
+      "room": "fish-tank",
+      "name": "Крабовый набор",
+      "variant": "standard",
+      "type": "items",
+      "color": {
+        "index": 1,
+        "name": "Фиолетовый"
+      },
+      "items": [
+        {
+          "name": "Лобстер",
+          "quantity": 1,
+          "methods": [
+            "Крабовая ловушка в океане"
+          ]
+        },
+        {
+          "name": "Речной рак",
+          "quantity": 1,
+          "methods": [
+            "Крабовая ловушка в пресной воде"
+          ]
+        },
+        {
+          "name": "Краб",
+          "quantity": 1,
+          "methods": [
+            "Крабовая ловушка в океане",
+            "Дроп с каменных и лавовых крабов в Шахте"
+          ]
+        },
+        {
+          "name": "Морской гребешок",
+          "quantity": 1,
+          "methods": [
+            "Крабовая ловушка в океане",
+            "Собирательство на пляже"
+          ]
+        },
+        {
+          "name": "Мидия",
+          "quantity": 1,
+          "methods": [
+            "Крабовая ловушка в океане",
+            "Собирательство на пляже"
+          ]
+        },
+        {
+          "name": "Креветка",
+          "quantity": 1,
+          "methods": [
+            "Крабовая ловушка в океане"
+          ]
+        },
+        {
+          "name": "Улитка",
+          "quantity": 1,
+          "methods": [
+            "Крабовая ловушка в пресной воде"
+          ]
+        },
+        {
+          "name": "Морской моллюск",
+          "quantity": 1,
+          "methods": [
+            "Крабовая ловушка в пресной воде"
+          ]
+        },
+        {
+          "name": "Устрица",
+          "quantity": 1,
+          "methods": [
+            "Крабовая ловушка в океане",
+            "Собирательство на пляже"
+          ]
+        },
+        {
+          "name": "Моллюск",
+          "quantity": 1,
+          "methods": [
+            "Крабовая ловушка в океане",
+            "Собирательство на пляже"
+          ]
+        }
+      ],
+      "itemsRequired": 5,
+      "selectionMode": "choose",
+      "reward": {
+        "name": "Крабовая ловушка",
+        "quantity": 3
+      },
+      "notes": "Нужно любые 5 из 10 предметов."
+    },
+    {
+      "id": "fish-specialty",
+      "room": "fish-tank",
+      "name": "Особая рыба",
+      "variant": "standard",
+      "type": "items",
+      "color": {
+        "index": 4,
+        "name": "Красный"
+      },
+      "items": [
+        {
+          "name": "Иглобрюх",
+          "quantity": 1,
+          "methods": [
+            "Океан"
+          ],
+          "seasons": [
+            "Лето"
+          ],
+          "time": "12:00–16:00",
+          "weather": "Солнечно"
+        },
+        {
+          "name": "Рыба-призрак",
+          "quantity": 1,
+          "methods": [
+            "Пруды на 20-м и 60-м этажах Шахты",
+            "Дроп с призраков"
+          ],
+          "seasons": [
+            "Все"
+          ],
+          "time": "В любое время"
+        },
+        {
+          "name": "Песчаная рыба",
+          "quantity": 1,
+          "methods": [
+            "Пруд в пустыне"
+          ],
+          "seasons": [
+            "Все"
+          ],
+          "time": "06:00–20:00"
+        },
+        {
+          "name": "Лесной прыгун",
+          "quantity": 1,
+          "methods": [
+            "Тайный лес",
+            "Лесная ферма"
+          ],
+          "seasons": [
+            "Все"
+          ],
+          "time": "В любое время"
+        }
+      ],
+      "itemsRequired": 4,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Морское блюдо",
+        "quantity": 5
+      },
+      "notes": "Песчаная рыба требует доступа в пустыню (починка автобуса), если не куплена у Странствующего торговца."
+    },
+    {
+      "id": "boiler-blacksmith",
+      "room": "boiler-room",
+      "name": "Набор кузнеца",
+      "variant": "standard",
+      "type": "items",
+      "color": {
+        "index": 2,
+        "name": "Оранжевый"
+      },
+      "items": [
+        {
+          "name": "Медный слиток",
+          "quantity": 1,
+          "methods": [
+            "Переплавка медной руды в печи"
+          ]
+        },
+        {
+          "name": "Железный слиток",
+          "quantity": 1,
+          "methods": [
+            "Переплавка железной руды",
+            "Рецепт Трансмутация (Fe)"
+          ]
+        },
+        {
+          "name": "Золотой слиток",
+          "quantity": 1,
+          "methods": [
+            "Переплавка золотой руды",
+            "Рецепт Трансмутация (Au)"
+          ]
+        }
+      ],
+      "itemsRequired": 3,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Печь",
+        "quantity": 1
+      }
+    },
+    {
+      "id": "boiler-geologist",
+      "room": "boiler-room",
+      "name": "Набор геолога",
+      "variant": "standard",
+      "type": "items",
+      "color": {
+        "index": 1,
+        "name": "Фиолетовый"
+      },
+      "items": [
+        {
+          "name": "Кварц",
+          "quantity": 1,
+          "methods": [
+            "Шахта - любой этаж"
+          ]
+        },
+        {
+          "name": "Земляной кристалл",
+          "quantity": 1,
+          "methods": [
+            "Шахта 1–39 этажи",
+            "Геоды и омни-геоды",
+            "Дугги на 6–29 этажах"
+          ]
+        },
+        {
+          "name": "Замороженная слеза",
+          "quantity": 1,
+          "methods": [
+            "Шахта 41–79 этажи",
+            "Замороженные геоды и омни-геоды",
+            "Пыльные духи на 41–79 этажах"
+          ]
+        },
+        {
+          "name": "Огненный кварц",
+          "quantity": 1,
+          "methods": [
+            "Шахта 81–119 этажи",
+            "Магматические геоды и омни-геоды"
+          ]
+        }
+      ],
+      "itemsRequired": 4,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Омни-геода",
+        "quantity": 5
+      }
+    },
+    {
+      "id": "boiler-adventurer",
+      "room": "boiler-room",
+      "name": "Набор искателя приключений",
+      "variant": "standard",
+      "type": "items",
+      "color": {
+        "index": 1,
+        "name": "Фиолетовый"
+      },
+      "items": [
+        {
+          "name": "Слизь",
+          "quantity": 99,
+          "methods": [
+            "Дроп со слизней"
+          ]
+        },
+        {
+          "name": "Крыло летучей мыши",
+          "quantity": 10,
+          "methods": [
+            "Дроп с летучих мышей в Шахте и Пещере Черепа"
+          ]
+        },
+        {
+          "name": "Солнечная эссенция",
+          "quantity": 1,
+          "methods": [
+            "Дроп с призраков, детей кальмара и металлических голов в Шахте",
+            "Мумии и иридиевые летучие мыши в Пещере Черепа",
+            "Рыбный пруд с солнечником",
+            "Покупка у Кробуса"
+          ]
+        },
+        {
+          "name": "Эссенция пустоты",
+          "quantity": 1,
+          "methods": [
+            "Дроп с теневых громил и шаманов в Шахте",
+            "Змеи в Пещере Черепа",
+            "Рыбный пруд с лососем пустоты",
+            "Покупка у Кробуса"
+          ]
+        }
+      ],
+      "itemsRequired": 2,
+      "selectionMode": "choose",
+      "reward": {
+        "name": "Малое магнитное кольцо",
+        "quantity": 1
+      }
+    },
+    {
+      "id": "bulletin-chef",
+      "room": "bulletin-board",
+      "name": "Набор повара",
+      "variant": "standard",
+      "type": "items",
+      "color": {
+        "index": 4,
+        "name": "Красный"
+      },
+      "items": [
+        {
+          "name": "Кленовый сироп",
+          "quantity": 1,
+          "methods": [
+            "Подсочник на клёне"
+          ]
+        },
+        {
+          "name": "Папоротник",
+          "quantity": 1,
+          "methods": [
+            "Тайный лес летом",
+            "Доисторические этажи Пещеры Черепа",
+            "Срубание зелёных деревьев во время Зелёного дождя"
+          ],
+          "seasons": [
+            "Лето"
+          ]
+        },
+        {
+          "name": "Трюфель",
+          "quantity": 1,
+          "methods": [
+            "Свинья на улице (не зимой)"
+          ]
+        },
+        {
+          "name": "Мак",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Лето"
+          ]
+        },
+        {
+          "name": "Маки-ролл",
+          "quantity": 1,
+          "methods": [
+            "Приготовление по рецепту Королевы соуса",
+            "Покупка в салуне"
+          ]
+        },
+        {
+          "name": "Яичница",
+          "quantity": 1,
+          "methods": [
+            "Приготовление из яйца"
+          ]
+        }
+      ],
+      "itemsRequired": 6,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Розовый торт",
+        "quantity": 3
+      }
+    },
+    {
+      "id": "bulletin-dye",
+      "room": "bulletin-board",
+      "name": "Набор красильщика",
+      "variant": "standard",
+      "type": "items",
+      "color": {
+        "index": 6,
+        "name": "Бирюзовый"
+      },
+      "items": [
+        {
+          "name": "Красный гриб",
+          "quantity": 1,
+          "methods": [
+            "Шахта",
+            "Тайный лес летом и осенью",
+            "Пещера фермы (грибы)",
+            "Грибное дерево"
+          ]
+        },
+        {
+          "name": "Морской ёж",
+          "quantity": 1,
+          "methods": [
+            "Пляж за мостом (300 древесины)",
+            "Пляжная ферма"
+          ]
+        },
+        {
+          "name": "Подсолнух",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Лето",
+            "Осень"
+          ]
+        },
+        {
+          "name": "Утиное перо",
+          "quantity": 1,
+          "methods": [
+            "Утка"
+          ]
+        },
+        {
+          "name": "Аквамарин",
+          "quantity": 1,
+          "methods": [
+            "Узлы аквамарина и ящики в Шахте",
+            "Сундуки при рыбалке"
+          ]
+        },
+        {
+          "name": "Красная капуста",
+          "quantity": 1,
+          "methods": [
+            "Выращивание летом",
+            "Семена у Пьера со 2-го года",
+            "Странствующий торговец",
+            "Дроп со змей, мумий и фиолетовых слизней"
+          ],
+          "seasons": [
+            "Лето"
+          ]
+        }
+      ],
+      "itemsRequired": 6,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Семенной экстрактор",
+        "quantity": 1
+      }
+    },
+    {
+      "id": "bulletin-field-research",
+      "room": "bulletin-board",
+      "name": "Набор полевых исследований",
+      "variant": "standard",
+      "type": "items",
+      "color": {
+        "index": 5,
+        "name": "Синий"
+      },
+      "items": [
+        {
+          "name": "Фиолетовый гриб",
+          "quantity": 1,
+          "methods": [
+            "Шахта",
+            "Пещера фермы (грибы)",
+            "Лесная ферма осенью"
+          ]
+        },
+        {
+          "name": "Наутилус",
+          "quantity": 1,
+          "methods": [
+            "Собирательство на пляже зимой",
+            "Пляжная ферма в любой сезон",
+            "Случайный подарок Деметриуса"
+          ],
+          "seasons": [
+            "Зима"
+          ],
+          "notes": "Это раковина Наутилуса, не артефакт «Окаменелость наутилуса»."
+        },
+        {
+          "name": "Голец",
+          "quantity": 1,
+          "methods": [
+            "Горное озеро",
+            "Река"
+          ],
+          "seasons": [
+            "Все"
+          ],
+          "time": "В любое время"
+        },
+        {
+          "name": "Замороженная геода",
+          "quantity": 1,
+          "methods": [
+            "Шахта, этажи 41–79"
+          ]
+        }
+      ],
+      "itemsRequired": 4,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Машина переработки",
+        "quantity": 1
+      }
+    },
+    {
+      "id": "bulletin-fodder",
+      "room": "bulletin-board",
+      "name": "Набор фуража",
+      "variant": "standard",
+      "type": "items",
+      "color": {
+        "index": 3,
+        "name": "Жёлтый"
+      },
+      "items": [
+        {
+          "name": "Пшеница",
+          "quantity": 10,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Лето",
+            "Осень"
+          ]
+        },
+        {
+          "name": "Сено",
+          "quantity": 10,
+          "methods": [
+            "Покупка у Марни или Пустынного торговца",
+            "Срезание травы",
+            "Урожай пшеницы"
+          ]
+        },
+        {
+          "name": "Яблоко",
+          "quantity": 3,
+          "methods": [
+            "Яблоня осенью",
+            "Пещера фермы (летучие мыши)"
+          ],
+          "seasons": [
+            "Осень"
+          ]
+        }
+      ],
+      "itemsRequired": 3,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Обогреватель",
+        "quantity": 1
+      }
+    },
+    {
+      "id": "bulletin-enchanter",
+      "room": "bulletin-board",
+      "name": "Набор чародея",
+      "variant": "standard",
+      "type": "items",
+      "color": {
+        "index": 1,
+        "name": "Фиолетовый"
+      },
+      "items": [
+        {
+          "name": "Дубовая смола",
+          "quantity": 1,
+          "methods": [
+            "Подсочник на дубе"
+          ]
+        },
+        {
+          "name": "Вино",
+          "quantity": 1,
+          "methods": [
+            "Бочонок"
+          ]
+        },
+        {
+          "name": "Кроличья лапка",
+          "quantity": 1,
+          "methods": [
+            "Кролик",
+            "Змея в Пещере Черепа (0,8%)",
+            "Кот (1,7%)"
+          ]
+        },
+        {
+          "name": "Гранат",
+          "quantity": 1,
+          "methods": [
+            "Гранатовое дерево осенью",
+            "Пещера фермы (летучие мыши)"
+          ],
+          "seasons": [
+            "Осень"
+          ]
+        }
+      ],
+      "itemsRequired": 4,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Золотой слиток",
+        "quantity": 5
+      }
+    },
+    {
+      "id": "vault-2500",
+      "room": "vault",
+      "name": "2 500 золотых",
+      "variant": "standard",
+      "type": "gold",
+      "color": {
+        "index": 4,
+        "name": "Красный"
+      },
+      "items": [],
+      "itemsRequired": 0,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Шоколадный торт",
+        "quantity": 3
+      },
+      "notes": "Внести 2 500 золотых."
+    },
+    {
+      "id": "vault-5000",
+      "room": "vault",
+      "name": "5 000 золотых",
+      "variant": "standard",
+      "type": "gold",
+      "color": {
+        "index": 2,
+        "name": "Оранжевый"
+      },
+      "items": [],
+      "itemsRequired": 0,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Удобрение высокого качества",
+        "quantity": 30
+      },
+      "notes": "Внести 5 000 золотых."
+    },
+    {
+      "id": "vault-10000",
+      "room": "vault",
+      "name": "10 000 золотых",
+      "variant": "standard",
+      "type": "gold",
+      "color": {
+        "index": 3,
+        "name": "Жёлтый"
+      },
+      "items": [],
+      "itemsRequired": 0,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Молниеотвод",
+        "quantity": 1
+      },
+      "notes": "Внести 10 000 золотых."
+    },
+    {
+      "id": "vault-25000",
+      "room": "vault",
+      "name": "25 000 золотых",
+      "variant": "standard",
+      "type": "gold",
+      "color": {
+        "index": 1,
+        "name": "Фиолетовый"
+      },
+      "items": [],
+      "itemsRequired": 0,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Кристаллариум",
+        "quantity": 1
+      },
+      "notes": "Внести 25 000 золотых."
+    },
+    {
+      "id": "missing-bundle",
+      "room": "abandoned-joja-mart",
+      "name": "Пропавший набор",
+      "variant": "standard",
+      "type": "items",
+      "color": {
+        "index": 1,
+        "name": "Фиолетовый"
+      },
+      "items": [
+        {
+          "name": "Вино",
+          "quantity": 1,
+          "minimumQuality": "серебро",
+          "methods": [
+            "Бочонок или курорт на Имбирном острове"
+          ]
+        },
+        {
+          "name": "Дино-майонез",
+          "quantity": 1,
+          "methods": [
+            "Машина для майонеза из яйца динозавра"
+          ]
+        },
+        {
+          "name": "Призматический осколок",
+          "quantity": 1,
+          "methods": [
+            "Добыча в шахтах и Пещере Черепа"
+          ]
+        },
+        {
+          "name": "Древний фрукт",
+          "quantity": 5,
+          "minimumQuality": "золото",
+          "methods": [
+            "Выращивание из древних семян"
+          ],
+          "seasons": [
+            "Весна",
+            "Лето",
+            "Осень"
+          ]
+        },
+        {
+          "name": "Лосось пустоты",
+          "quantity": 1,
+          "minimumQuality": "золото",
+          "methods": [
+            "Рыбалка в Ведьмином болоте"
+          ]
+        },
+        {
+          "name": "Икра",
+          "quantity": 1,
+          "methods": [
+            "Икра осетра в банке для консервов"
+          ]
+        }
+      ],
+      "itemsRequired": 5,
+      "selectionMode": "choose",
+      "reward": {
+        "name": "Кинотеатр",
+        "quantity": 1
+      },
+      "notes": "Открывается после завершения Центра сообщества и появления молнии на заброшенном JojaMart. Нужно любые 5 из 6 предметов."
+    }
+  ],
+  "remixedBundles": [
+    {
+      "id": "remix-crafts-spring",
+      "room": "crafts-room",
+      "name": "Весенний сбор (перемешанный)",
+      "variant": "remixed",
+      "type": "items",
+      "color": {
+        "index": null,
+        "name": null,
+        "verification": "Цвет конкретного перемешанного варианта не указан на странице Wiki; не назначать цвет наугад."
+      },
+      "items": [
+        {
+          "name": "Дикий хрен",
+          "quantity": 1,
+          "methods": [
+            "Весеннее собирательство"
+          ],
+          "seasons": [
+            "Весна"
+          ]
+        },
+        {
+          "name": "Нарцисс",
+          "quantity": 1,
+          "methods": [
+            "Весеннее собирательство",
+            "Танец цветов"
+          ],
+          "seasons": [
+            "Весна"
+          ]
+        },
+        {
+          "name": "Лук-порей",
+          "quantity": 1,
+          "methods": [
+            "Весеннее собирательство"
+          ],
+          "seasons": [
+            "Весна"
+          ]
+        },
+        {
+          "name": "Одуванчик",
+          "quantity": 1,
+          "methods": [
+            "Весеннее собирательство",
+            "Танец цветов"
+          ],
+          "seasons": [
+            "Весна"
+          ]
+        },
+        {
+          "name": "Весенний лук",
+          "quantity": 1,
+          "methods": [
+            "Собирательство"
+          ],
+          "seasons": [
+            "Весна"
+          ]
+        }
+      ],
+      "itemsRequired": 4,
+      "selectionMode": "choose",
+      "reward": {
+        "name": "Весенние семена",
+        "quantity": 30
+      }
+    },
+    {
+      "id": "remix-crafts-construction-sticky",
+      "room": "crafts-room",
+      "name": "Липкий набор",
+      "variant": "remixed",
+      "type": "items",
+      "color": {
+        "index": null,
+        "name": null,
+        "verification": "Цвет конкретного перемешанного варианта не указан на странице Wiki; не назначать цвет наугад."
+      },
+      "items": [
+        {
+          "name": "Сок",
+          "quantity": 500,
+          "methods": [
+            "Рубка деревьев",
+            "Дроп со слизней"
+          ]
+        }
+      ],
+      "itemsRequired": 1,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Угольная печь",
+        "quantity": 1
+      }
+    },
+    {
+      "id": "remix-crafts-forest",
+      "room": "crafts-room",
+      "name": "Лесной набор",
+      "variant": "remixed",
+      "type": "items",
+      "color": {
+        "index": null,
+        "name": null,
+        "verification": "Цвет конкретного перемешанного варианта не указан на странице Wiki; не назначать цвет наугад."
+      },
+      "items": [
+        {
+          "name": "Мох",
+          "quantity": 10,
+          "methods": [
+            "Срубание деревьев"
+          ]
+        },
+        {
+          "name": "Волокно",
+          "quantity": 200,
+          "methods": [
+            "Уничтожение сорняков",
+            "Выращивание волокнистых семян"
+          ]
+        },
+        {
+          "name": "Жёлудь",
+          "quantity": 10,
+          "methods": [
+            "Встряхивание дуба",
+            "Рубка дуба"
+          ]
+        },
+        {
+          "name": "Кленовое семечко",
+          "quantity": 10,
+          "methods": [
+            "Встряхивание клёна",
+            "Рубка клёна"
+          ]
+        }
+      ],
+      "itemsRequired": 3,
+      "selectionMode": "choose",
+      "reward": {
+        "name": "Угольная печь",
+        "quantity": 1
+      },
+      "notes": "Любые 3 из 4."
+    },
+    {
+      "id": "remix-crafts-wild-medicine",
+      "room": "crafts-room",
+      "name": "Набор дикой медицины",
+      "variant": "remixed",
+      "type": "items",
+      "color": {
+        "index": null,
+        "name": null,
+        "verification": "Цвет конкретного перемешанного варианта не указан на странице Wiki; не назначать цвет наугад."
+      },
+      "items": [
+        {
+          "name": "Фиолетовый гриб",
+          "quantity": 5,
+          "methods": [
+            "Шахта",
+            "Пещера фермы (грибы)",
+            "Лесная ферма осенью"
+          ]
+        },
+        {
+          "name": "Папоротник",
+          "quantity": 5,
+          "methods": [
+            "Тайный лес летом",
+            "Пещера Черепа",
+            "Зелёный дождь"
+          ],
+          "seasons": [
+            "Лето"
+          ]
+        },
+        {
+          "name": "Белая водоросль",
+          "quantity": 5,
+          "methods": [
+            "Рыбалка",
+            "Дроп монстров"
+          ]
+        },
+        {
+          "name": "Хмель",
+          "quantity": 5,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Лето"
+          ]
+        }
+      ],
+      "itemsRequired": 4,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Набор для готовки на костре",
+        "quantity": 2
+      }
+    },
+    {
+      "id": "remix-pantry-spring",
+      "room": "pantry",
+      "name": "Весенние культуры (перемешанный)",
+      "variant": "remixed",
+      "type": "items",
+      "color": {
+        "index": null,
+        "name": null,
+        "verification": "Цвет конкретного перемешанного варианта не указан на странице Wiki; не назначать цвет наугад."
+      },
+      "items": [
+        {
+          "name": "Пастернак",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Весна"
+          ]
+        },
+        {
+          "name": "Зелёная фасоль",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Весна"
+          ]
+        },
+        {
+          "name": "Цветная капуста",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Весна"
+          ]
+        },
+        {
+          "name": "Картофель",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Весна"
+          ]
+        },
+        {
+          "name": "Капуста кейл",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Весна"
+          ]
+        },
+        {
+          "name": "Морковь",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Весна"
+          ]
+        }
+      ],
+      "itemsRequired": 4,
+      "selectionMode": "choose",
+      "reward": {
+        "name": "Ускоритель роста",
+        "quantity": 20
+      },
+      "notes": "Любые 4 из 6."
+    },
+    {
+      "id": "remix-pantry-summer",
+      "room": "pantry",
+      "name": "Летние культуры (перемешанный)",
+      "variant": "remixed",
+      "type": "items",
+      "color": {
+        "index": null,
+        "name": null,
+        "verification": "Цвет конкретного перемешанного варианта не указан на странице Wiki; не назначать цвет наугад."
+      },
+      "items": [
+        {
+          "name": "Помидор",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Лето"
+          ]
+        },
+        {
+          "name": "Острый перец",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Лето"
+          ]
+        },
+        {
+          "name": "Черника",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Лето"
+          ]
+        },
+        {
+          "name": "Дыня",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Лето"
+          ]
+        },
+        {
+          "name": "Летняя тыква",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Лето"
+          ]
+        }
+      ],
+      "itemsRequired": 4,
+      "selectionMode": "choose",
+      "reward": {
+        "name": "Качественный разбрызгиватель",
+        "quantity": 1
+      },
+      "notes": "Любые 4 из 5."
+    },
+    {
+      "id": "remix-pantry-fall",
+      "room": "pantry",
+      "name": "Осенние культуры (перемешанный)",
+      "variant": "remixed",
+      "type": "items",
+      "color": {
+        "index": null,
+        "name": null,
+        "verification": "Цвет конкретного перемешанного варианта не указан на странице Wiki; не назначать цвет наугад."
+      },
+      "items": [
+        {
+          "name": "Кукуруза",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Лето",
+            "Осень"
+          ]
+        },
+        {
+          "name": "Баклажан",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Осень"
+          ]
+        },
+        {
+          "name": "Тыква",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Осень"
+          ]
+        },
+        {
+          "name": "Ямс",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Осень"
+          ]
+        },
+        {
+          "name": "Брокколи",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Осень"
+          ]
+        }
+      ],
+      "itemsRequired": 4,
+      "selectionMode": "choose",
+      "reward": {
+        "name": "Пчелиный домик",
+        "quantity": 1
+      },
+      "notes": "Любые 4 из 5."
+    },
+    {
+      "id": "remix-pantry-rare-crops",
+      "room": "pantry",
+      "name": "Редкие культуры",
+      "variant": "remixed",
+      "type": "items",
+      "color": {
+        "index": null,
+        "name": null,
+        "verification": "Цвет конкретного перемешанного варианта не указан на странице Wiki; не назначать цвет наугад."
+      },
+      "items": [
+        {
+          "name": "Древний фрукт",
+          "quantity": 1,
+          "methods": [
+            "Древние семена",
+            "Выращивание"
+          ],
+          "seasons": [
+            "Весна",
+            "Лето",
+            "Осень"
+          ]
+        },
+        {
+          "name": "Сладкая ягодка-самоцвет",
+          "quantity": 1,
+          "methods": [
+            "Редкое семя у Странствующего торговца",
+            "Выращивание осенью"
+          ],
+          "seasons": [
+            "Осень"
+          ]
+        }
+      ],
+      "itemsRequired": 1,
+      "selectionMode": "choose",
+      "reward": {
+        "name": "Банка для консервов",
+        "quantity": 1
+      },
+      "notes": "По странице Wiki - варианты редких культур; точное число сдаваемых предметов зависит от выбранного набора в игре."
+    },
+    {
+      "id": "remix-pantry-fish-farmer",
+      "room": "pantry",
+      "name": "Набор рыбовода",
+      "variant": "remixed",
+      "type": "items",
+      "color": {
+        "index": null,
+        "name": null,
+        "verification": "Цвет конкретного перемешанного варианта не указан на странице Wiki; не назначать цвет наугад."
+      },
+      "items": [
+        {
+          "name": "Икра",
+          "quantity": 15,
+          "methods": [
+            "Рыбный пруд",
+            "Сундуки при рыбалке"
+          ]
+        },
+        {
+          "name": "Выдержанная икра",
+          "quantity": 15,
+          "methods": [
+            "Икра в банке для консервов"
+          ]
+        },
+        {
+          "name": "Чернила кальмара",
+          "quantity": 1,
+          "methods": [
+            "Дроп с детей кальмара",
+            "Рыбный пруд с кальмаром или полуночным кальмаром"
+          ]
+        }
+      ],
+      "itemsRequired": 2,
+      "selectionMode": "choose",
+      "reward": {
+        "name": "Контейнер для червей",
+        "quantity": 1
+      }
+    },
+    {
+      "id": "remix-pantry-garden",
+      "room": "pantry",
+      "name": "Садовый набор",
+      "variant": "remixed",
+      "type": "items",
+      "color": {
+        "index": null,
+        "name": null,
+        "verification": "Цвет конкретного перемешанного варианта не указан на странице Wiki; не назначать цвет наугад."
+      },
+      "items": [
+        {
+          "name": "Тюльпан",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Весна"
+          ]
+        },
+        {
+          "name": "Голубой джаз",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Весна"
+          ]
+        },
+        {
+          "name": "Летний блёсток",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Лето"
+          ]
+        },
+        {
+          "name": "Подсолнух",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Лето",
+            "Осень"
+          ]
+        },
+        {
+          "name": "Сказочная роза",
+          "quantity": 1,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Осень"
+          ]
+        }
+      ],
+      "itemsRequired": 4,
+      "selectionMode": "choose",
+      "reward": {
+        "name": "Качественный разбрызгиватель",
+        "quantity": 1
+      }
+    },
+    {
+      "id": "remix-pantry-brewer",
+      "room": "pantry",
+      "name": "Набор пивовара",
+      "variant": "remixed",
+      "type": "items",
+      "color": {
+        "index": null,
+        "name": null,
+        "verification": "Цвет конкретного перемешанного варианта не указан на странице Wiki; не назначать цвет наугад."
+      },
+      "items": [
+        {
+          "name": "Медовуха",
+          "quantity": 1,
+          "methods": [
+            "Мёд в бочонке"
+          ]
+        },
+        {
+          "name": "Светлый эль",
+          "quantity": 1,
+          "methods": [
+            "Хмель в бочонке"
+          ]
+        },
+        {
+          "name": "Вино",
+          "quantity": 1,
+          "methods": [
+            "Фрукты в бочонке"
+          ]
+        },
+        {
+          "name": "Сок",
+          "quantity": 1,
+          "methods": [
+            "Овощи в бочонке"
+          ]
+        },
+        {
+          "name": "Зелёный чай",
+          "quantity": 1,
+          "methods": [
+            "Чайные листья в бочонке"
+          ]
+        }
+      ],
+      "itemsRequired": 4,
+      "selectionMode": "choose",
+      "reward": {
+        "name": "Бочонок",
+        "quantity": 1
+      }
+    },
+    {
+      "id": "remix-fish-quality",
+      "room": "fish-tank",
+      "name": "Набор качественной рыбы",
+      "variant": "remixed",
+      "type": "items",
+      "color": {
+        "index": null,
+        "name": null,
+        "verification": "Цвет конкретного перемешанного варианта не указан на странице Wiki; не назначать цвет наугад."
+      },
+      "items": [
+        {
+          "name": "Большеротый окунь",
+          "quantity": 1,
+          "minimumQuality": "золото",
+          "methods": [
+            "Горное озеро или ферма в глуши"
+          ],
+          "seasons": [
+            "Все"
+          ]
+        },
+        {
+          "name": "Шэд",
+          "quantity": 1,
+          "minimumQuality": "золото",
+          "methods": [
+            "Река в дождь"
+          ],
+          "seasons": [
+            "Весна",
+            "Лето",
+            "Осень"
+          ]
+        },
+        {
+          "name": "Тунец",
+          "quantity": 1,
+          "minimumQuality": "золото",
+          "methods": [
+            "Океан"
+          ],
+          "seasons": [
+            "Лето",
+            "Зима"
+          ]
+        },
+        {
+          "name": "Судак",
+          "quantity": 1,
+          "minimumQuality": "золото",
+          "methods": [
+            "Река, Горное озеро, пруд леса или Лесная ферма в дождь"
+          ],
+          "seasons": [
+            "Осень"
+          ]
+        }
+      ],
+      "itemsRequired": 4,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Морское блюдо",
+        "quantity": 5
+      },
+      "notes": "Золотое или иридиевое качество."
+    },
+    {
+      "id": "remix-fish-master",
+      "room": "fish-tank",
+      "name": "Набор мастера-рыболова",
+      "variant": "remixed",
+      "type": "items",
+      "color": {
+        "index": null,
+        "name": null,
+        "verification": "Цвет конкретного перемешанного варианта не указан на странице Wiki; не назначать цвет наугад."
+      },
+      "items": [
+        {
+          "name": "Лавовый угорь",
+          "quantity": 1,
+          "methods": [
+            "100-й этаж Шахты"
+          ],
+          "seasons": [
+            "Все"
+          ]
+        },
+        {
+          "name": "Скорпионовый карп",
+          "quantity": 1,
+          "methods": [
+            "Пустыня"
+          ],
+          "seasons": [
+            "Все"
+          ]
+        },
+        {
+          "name": "Осьминог",
+          "quantity": 1,
+          "methods": [
+            "Океан летом",
+            "Редко в мусорных баках",
+            "Подводная лодка на Ночном рынке (~2%)"
+          ],
+          "seasons": [
+            "Лето"
+          ]
+        },
+        {
+          "name": "Рыба-капля",
+          "quantity": 1,
+          "methods": [
+            "Подводная лодка на Ночном рынке"
+          ],
+          "seasons": [
+            "Зима"
+          ],
+          "time": "15:00–17:00"
+        }
+      ],
+      "itemsRequired": 2,
+      "selectionMode": "choose",
+      "reward": {
+        "name": "Морское блюдо",
+        "quantity": 5
+      }
+    },
+    {
+      "id": "remix-boiler-treasure",
+      "room": "boiler-room",
+      "name": "Набор охотника за сокровищами",
+      "variant": "remixed",
+      "type": "items",
+      "color": {
+        "index": null,
+        "name": null,
+        "verification": "Цвет конкретного перемешанного варианта не указан на странице Wiki; не назначать цвет наугад."
+      },
+      "items": [
+        {
+          "name": "Аметист",
+          "quantity": 1,
+          "methods": [
+            "Самоцветные узлы в Шахте",
+            "Промывка лотком",
+            "Сундуки при рыбалке"
+          ]
+        },
+        {
+          "name": "Аквамарин",
+          "quantity": 1,
+          "methods": [
+            "Самоцветные узлы в Шахте",
+            "Промывка лотком",
+            "Сундуки при рыбалке"
+          ]
+        },
+        {
+          "name": "Алмаз",
+          "quantity": 1,
+          "methods": [
+            "Самоцветные узлы в Шахте",
+            "Промывка лотком",
+            "Сундуки при рыбалке"
+          ]
+        },
+        {
+          "name": "Изумруд",
+          "quantity": 1,
+          "methods": [
+            "Самоцветные узлы в Шахте",
+            "Промывка лотком",
+            "Сундуки при рыбалке"
+          ]
+        },
+        {
+          "name": "Рубин",
+          "quantity": 1,
+          "methods": [
+            "Самоцветные узлы в Шахте",
+            "Промывка лотком",
+            "Сундуки при рыбалке"
+          ]
+        },
+        {
+          "name": "Топаз",
+          "quantity": 1,
+          "methods": [
+            "Самоцветные узлы в Шахте",
+            "Промывка лотком",
+            "Сундуки при рыбалке"
+          ]
+        }
+      ],
+      "itemsRequired": 5,
+      "selectionMode": "choose",
+      "reward": {
+        "name": "Счастливый обед",
+        "quantity": 1
+      },
+      "notes": "Вариант перемешанной Котельной."
+    },
+    {
+      "id": "remix-boiler-engineer",
+      "room": "boiler-room",
+      "name": "Набор инженера",
+      "variant": "remixed",
+      "type": "items",
+      "color": {
+        "index": null,
+        "name": null,
+        "verification": "Цвет конкретного перемешанного варианта не указан на странице Wiki; не назначать цвет наугад."
+      },
+      "items": [
+        {
+          "name": "Иридиевая руда",
+          "quantity": 1,
+          "methods": [
+            "Шахта",
+            "Пещера Черепа",
+            "Магматические и омни-геоды"
+          ]
+        },
+        {
+          "name": "Аккумулятор",
+          "quantity": 1,
+          "methods": [
+            "Молниеотвод",
+            "Странствующий торговец"
+          ]
+        },
+        {
+          "name": "Очищенный кварц",
+          "quantity": 5,
+          "methods": [
+            "Переплавка кварца или огненного кварца",
+            "Машина переработки из сломанных очков или CD"
+          ]
+        }
+      ],
+      "itemsRequired": 3,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Печь",
+        "quantity": 2
+      }
+    },
+    {
+      "id": "remix-bulletin-childrens",
+      "room": "bulletin-board",
+      "name": "Детский набор",
+      "variant": "remixed",
+      "type": "items",
+      "color": {
+        "index": null,
+        "name": null,
+        "verification": "Цвет конкретного перемешанного варианта не указан на странице Wiki; не назначать цвет наугад."
+      },
+      "items": [
+        {
+          "name": "Лососевая ягода",
+          "quantity": 10,
+          "methods": [
+            "Собирательство весной, дни 15–18"
+          ],
+          "seasons": [
+            "Весна"
+          ]
+        },
+        {
+          "name": "Печенье",
+          "quantity": 1,
+          "methods": [
+            "Приготовление",
+            "Случайное письмо от мамы или Эвелин"
+          ]
+        },
+        {
+          "name": "Древняя кукла",
+          "quantity": 1,
+          "methods": [
+            "Артефактные места: Горы, Автобусная остановка, Лес, Город",
+            "Сундуки при рыбалке"
+          ]
+        },
+        {
+          "name": "Мороженое",
+          "quantity": 1,
+          "methods": [
+            "Рецепт готовки",
+            "Ларёк летом",
+            "Оазис по воскресеньям"
+          ],
+          "seasons": [
+            "Лето"
+          ]
+        }
+      ],
+      "itemsRequired": 3,
+      "selectionMode": "choose",
+      "reward": {
+        "name": "Аккумулятор",
+        "quantity": 3
+      }
+    },
+    {
+      "id": "remix-bulletin-forager",
+      "room": "bulletin-board",
+      "name": "Набор собирателя",
+      "variant": "remixed",
+      "type": "items",
+      "color": {
+        "index": null,
+        "name": null,
+        "verification": "Цвет конкретного перемешанного варианта не указан на странице Wiki; не назначать цвет наугад."
+      },
+      "items": [
+        {
+          "name": "Лососевая ягода",
+          "quantity": 50,
+          "methods": [
+            "Собирательство весной, дни 15–18"
+          ],
+          "seasons": [
+            "Весна"
+          ]
+        },
+        {
+          "name": "Ежевика",
+          "quantity": 50,
+          "methods": [
+            "Собирательство осенью, особенно дни 8–11",
+            "Осенние семена"
+          ],
+          "seasons": [
+            "Осень"
+          ]
+        },
+        {
+          "name": "Дикая слива",
+          "quantity": 15,
+          "methods": [
+            "Собирательство осенью",
+            "Осенние семена",
+            "Пещера фермы (летучие мыши)"
+          ],
+          "seasons": [
+            "Осень"
+          ]
+        }
+      ],
+      "itemsRequired": 3,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Подсочник",
+        "quantity": 3
+      }
+    },
+    {
+      "id": "remix-bulletin-home-cook",
+      "room": "bulletin-board",
+      "name": "Набор домашнего повара",
+      "variant": "remixed",
+      "type": "items",
+      "color": {
+        "index": null,
+        "name": null,
+        "verification": "Цвет конкретного перемешанного варианта не указан на странице Wiki; не назначать цвет наугад."
+      },
+      "items": [
+        {
+          "name": "Яйцо",
+          "quantity": 10,
+          "methods": [
+            "Куры, утки, пустотные куры и страусы; не динозавр"
+          ]
+        },
+        {
+          "name": "Молоко",
+          "quantity": 10,
+          "methods": [
+            "Коровы или козы; любой размер"
+          ]
+        },
+        {
+          "name": "Пшеничная мука",
+          "quantity": 100,
+          "methods": [
+            "Мельница из пшеницы",
+            "Покупка у Пьера"
+          ]
+        }
+      ],
+      "itemsRequired": 3,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Полный завтрак",
+        "quantity": 5
+      }
+    },
+    {
+      "id": "remix-bulletin-helper",
+      "room": "bulletin-board",
+      "name": "Набор помощника",
+      "variant": "remixed",
+      "type": "items",
+      "color": {
+        "index": null,
+        "name": null,
+        "verification": "Цвет конкретного перемешанного варианта не указан на странице Wiki; не назначать цвет наугад."
+      },
+      "items": [
+        {
+          "name": "Билет с призом",
+          "quantity": 1,
+          "methods": [
+            "Награда за поручения на доске объявлений"
+          ]
+        },
+        {
+          "name": "Таинственная коробка",
+          "quantity": 5,
+          "methods": [
+            "Рыбалка",
+            "Добыча в шахтах",
+            "Рубка деревьев"
+          ]
+        }
+      ],
+      "itemsRequired": 2,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Чай из звёздной капли",
+        "quantity": 1
+      }
+    },
+    {
+      "id": "remix-bulletin-spirit-eve",
+      "room": "bulletin-board",
+      "name": "Набор Духа кануна",
+      "variant": "remixed",
+      "type": "items",
+      "color": {
+        "index": null,
+        "name": null,
+        "verification": "Цвет конкретного перемешанного варианта не указан на странице Wiki; не назначать цвет наугад."
+      },
+      "items": [
+        {
+          "name": "Фонарь Джека",
+          "quantity": 1,
+          "methods": [
+            "Покупка на празднике Дух кануна"
+          ]
+        },
+        {
+          "name": "Кукуруза",
+          "quantity": 10,
+          "methods": [
+            "Выращивание"
+          ],
+          "seasons": [
+            "Лето",
+            "Осень"
+          ]
+        },
+        {
+          "name": "Крыло летучей мыши",
+          "quantity": 10,
+          "methods": [
+            "Дроп с летучих мышей в Шахте и Пещере Черепа"
+          ]
+        }
+      ],
+      "itemsRequired": 3,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Полный завтрак",
+        "quantity": 5
+      }
+    },
+    {
+      "id": "remix-bulletin-winter-star",
+      "room": "bulletin-board",
+      "name": "Набор Зимней звезды",
+      "variant": "remixed",
+      "type": "items",
+      "color": {
+        "index": null,
+        "name": null,
+        "verification": "Цвет конкретного перемешанного варианта не указан на странице Wiki; не назначать цвет наугад."
+      },
+      "items": [
+        {
+          "name": "Падуб",
+          "quantity": 5,
+          "methods": [
+            "Зимнее собирательство"
+          ],
+          "seasons": [
+            "Зима"
+          ]
+        },
+        {
+          "name": "Сливовый пудинг",
+          "quantity": 1,
+          "methods": [
+            "Рецепт от Королевы соуса"
+          ]
+        },
+        {
+          "name": "Начинка",
+          "quantity": 1,
+          "methods": [
+            "Рецепт из события Пэм на 7 сердцах"
+          ]
+        },
+        {
+          "name": "Снежная дыня",
+          "quantity": 5,
+          "methods": [
+            "Зимняя культура"
+          ],
+          "seasons": [
+            "Зима"
+          ]
+        }
+      ],
+      "itemsRequired": 4,
+      "selectionMode": "all",
+      "reward": {
+        "name": "Таинственная коробка",
+        "quantity": 3
+      }
+    },
+    {
+      "id": "remix-bulletin-dye",
+      "room": "bulletin-board",
+      "name": "Набор красильщика (перемешанный)",
+      "variant": "remixed",
+      "type": "items",
+      "color": {
+        "index": 4,
+        "name": "Красный"
+      },
+      "items": [
+        {
+          "name": "Красный гриб",
+          "quantity": 1,
+          "methods": [
+            "Шахта",
+            "Тайный лес летом и осенью",
+            "Пещера фермы (грибы)",
+            "Грибное дерево"
+          ]
+        },
+        {
+          "name": "Свёкла",
+          "quantity": 1,
+          "methods": [
+            "Выращивание осенью",
+            "Семена в Оазисе"
+          ],
+          "seasons": [
+            "Осень"
+          ]
+        },
+        {
+          "name": "Морской ёж",
+          "quantity": 1,
+          "methods": [
+            "Собирательство на пляже за мостом",
+            "Пляжная ферма"
+          ]
+        },
+        {
+          "name": "Амарант",
+          "quantity": 1,
+          "methods": [
+            "Выращивание осенью"
+          ],
+          "seasons": [
+            "Осень"
+          ]
+        },
+        {
+          "name": "Подсолнух",
+          "quantity": 1,
+          "methods": [
+            "Выращивание летом или осенью"
+          ],
+          "seasons": [
+            "Лето",
+            "Осень"
+          ]
+        },
+        {
+          "name": "Карамбола",
+          "quantity": 1,
+          "methods": [
+            "Выращивание летом",
+            "Семена в Оазисе"
+          ],
+          "seasons": [
+            "Лето"
+          ]
+        },
+        {
+          "name": "Утиное перо",
+          "quantity": 1,
+          "methods": [
+            "Утка"
+          ]
+        },
+        {
+          "name": "Плод кактуса",
+          "quantity": 1,
+          "methods": [
+            "Собирательство в пустыне",
+            "Выращивание в помещении; семена в Оазисе"
+          ]
+        },
+        {
+          "name": "Аквамарин",
+          "quantity": 1,
+          "methods": [
+            "Узлы аквамарина и ящики в Шахте",
+            "Сундуки при рыбалке"
+          ]
+        },
+        {
+          "name": "Черника",
+          "quantity": 1,
+          "methods": [
+            "Выращивание летом"
+          ],
+          "seasons": [
+            "Лето"
+          ]
+        },
+        {
+          "name": "Красная капуста",
+          "quantity": 1,
+          "methods": [
+            "Выращивание летом; семена у Пьера со 2-го года",
+            "Странствующий торговец",
+            "Дроп со змей, мумий и фиолетовых слизней"
+          ],
+          "seasons": [
+            "Лето"
+          ]
+        },
+        {
+          "name": "Иридиевый слиток",
+          "quantity": 1,
+          "methods": [
+            "Переплавка иридиевой руды",
+            "Редкий дроп монстров"
+          ]
+        }
+      ],
+      "itemsRequired": 6,
+      "selectionMode": "choose",
+      "reward": {
+        "name": "Семенной экстрактор",
+        "quantity": 1
+      },
+      "notes": "Нужно по одному предмету из каждой из 6 пар альтернатив; точные пары представлены в порядке из Wiki."
+    },
+    {
+      "id": "remix-boiler-adventurer",
+      "room": "boiler-room",
+      "name": "Набор искателя приключений (перемешанный)",
+      "variant": "remixed",
+      "type": "items",
+      "color": {
+        "index": 4,
+        "name": "Красный"
+      },
+      "items": [
+        {
+          "name": "Слизь",
+          "quantity": 99,
+          "methods": [
+            "Дроп со слизней"
+          ]
+        },
+        {
+          "name": "Крыло летучей мыши",
+          "quantity": 10,
+          "methods": [
+            "Дроп с летучих мышей"
+          ]
+        },
+        {
+          "name": "Солнечная эссенция",
+          "quantity": 1,
+          "methods": [
+            "Дроп с призраков, детей кальмара и металлических голов",
+            "Мумии в Пещере Черепа",
+            "Рыбный пруд с солнечником",
+            "Покупка у Кробуса"
+          ]
+        },
+        {
+          "name": "Эссенция пустоты",
+          "quantity": 1,
+          "methods": [
+            "Дроп с теневых громил и змей",
+            "Рыбный пруд с лососем пустоты",
+            "Покупка у Кробуса"
+          ]
+        },
+        {
+          "name": "Костяной фрагмент",
+          "quantity": 10,
+          "methods": [
+            "Дроп со скелетов в Шахте",
+            "Ящики и бочки в Пещере Черепа",
+            "Артефактные места"
+          ]
+        }
+      ],
+      "itemsRequired": 4,
+      "selectionMode": "choose",
+      "reward": {
+        "name": "Малое магнитное кольцо",
+        "quantity": 1
+      },
+      "notes": "В перемешанном варианте нужно 4 из 5."
+    }
+  ],
+  "globalRules": {
+    "standardBundleCount": 30,
+    "roomCount": 6,
+    "vaultTotalCost": 42500,
+    "quality": "Если качество не указано, подходит любое. Если задан минимальный уровень, подходит он или выше. Для наборов с количеством можно складывать разные стопки.",
+    "chooseItems": "Если доступных предметов больше, чем слотов, требуется только указанное количество любых предметов из списка.",
+    "travelingCart": "Большинство требуемых предметов может редко появляться у Странствующего торговца. Исключения: предметы со звёздным качеством и отдельные предметы (включая древний фрукт, призматический осколок, алмазы, самоцветы, отдельную рыбу и продукты рыбных прудов).",
+    "fishTank16_4": "Начиная с версии 1.6.4 в Аквариум также можно сдавать ананас, древний меч, твёрдую древесину, раковину наутилуса, радужную раковину, газировку Joja, счастливые фиолетовые шорты и глину как допустимые альтернативы в отдельных слотах.",
+    "remixedMode": "При создании сохранения опция Remixed Bundles меняет часть стандартных наборов. Список remixedBundles хранит варианты отдельно; это не означает, что все они одновременно появляются в одном сохранении.",
+    "missingBundleUnlock": "Пропавший набор появляется в заброшенном JojaMart после завершения Центра сообщества; затем должна сработать сцена с молнией перед дождливым или грозовым днём."
+  }
+}

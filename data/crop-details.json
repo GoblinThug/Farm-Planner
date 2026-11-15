@@ -1,0 +1,1601 @@
+{
+  "Амарант": {
+    "seed": 70,
+    "source": "Магазин Пьера",
+    "sell": 150,
+    "yield": 1,
+    "xp": 20,
+    "use": "Овощные консервы / сок",
+    "bundles": "",
+    "growthDays": 7,
+    "regrowthDays": 0,
+    "seasons": [
+      "Осень"
+    ],
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Ананас": {
+    "seed": "1 магматический гриб",
+    "source": "Островной торговец",
+    "sell": 300,
+    "yield": 1,
+    "xp": 29,
+    "use": "Джем / вино",
+    "bundles": "",
+    "growthDays": 14,
+    "regrowthDays": 7,
+    "seasons": [
+      "Лето"
+    ],
+    "farmSeasons": [
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "repeat",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "islandYearRound": true,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "seedAvailability": "Ананасовые семена можно получить у островного торговца в обмен на 1 магматический гриб; также встречаются в источниках добычи/обмена на Имбирном острове.",
+    "dataNotes": [],
+    "seedCostType": "varies_or_exchange"
+  },
+  "Артишок": {
+    "seed": 30,
+    "source": "Магазин Пьера",
+    "sell": 160,
+    "yield": 1,
+    "xp": 21,
+    "use": "Овощные консервы / сок",
+    "bundles": "",
+    "growthDays": 8,
+    "regrowthDays": 0,
+    "seasons": [
+      "Осень"
+    ],
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "seedAvailability": "Обычно доступен в магазине Пьера начиная со 2-го года; может быть получен из смешанных семян осенью.",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Баклажан": {
+    "seed": 20,
+    "source": "Магазин Пьера",
+    "sell": 60,
+    "yield": 1,
+    "xp": 11,
+    "use": "Овощные консервы / сок",
+    "bundles": "",
+    "growthDays": 5,
+    "regrowthDays": 5,
+    "seasons": [
+      "Осень"
+    ],
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "repeat",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Батат": {
+    "seed": 60,
+    "source": "Магазин Пьера / ДжоджаМарт",
+    "sell": 160,
+    "yield": 1,
+    "xp": null,
+    "use": "Глазированный батат; Дары осени",
+    "bundles": "Осенний набор",
+    "growthDays": 10,
+    "regrowthDays": 0,
+    "seasons": [
+      "Осень"
+    ],
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [
+      "Опыт за сбор не указан в исходных данных; значение не подставлено без отдельной проверки."
+    ],
+    "seedCostType": "gold"
+  },
+  "Бок-чой": {
+    "seed": 50,
+    "source": "Магазин Пьера",
+    "sell": 80,
+    "yield": 1,
+    "xp": 14,
+    "use": "Овощные консервы / сок",
+    "bundles": "",
+    "growthDays": 4,
+    "regrowthDays": 0,
+    "seasons": [
+      "Осень"
+    ],
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Брокколи": {
+    "seed": "Бесплатно",
+    "source": "Семенные места / билеты-призы / игровые награды и выпадения (1.6)",
+    "sell": 70,
+    "yield": 1,
+    "xp": null,
+    "use": "Повторный урожай каждые 4 дня",
+    "bundles": "Нет",
+    "growthDays": 8,
+    "regrowthDays": 4,
+    "seasons": [
+      "Осень"
+    ],
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "repeat",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "seedAvailability": "Семена 1.6: семенные места, билеты-призы и некоторые игровые награды/выпадения.",
+    "dataNotes": [
+      "Опыт за сбор не указан в исходных данных; значение не подставлено без отдельной проверки."
+    ],
+    "seedCostType": "non_shop_or_reward"
+  },
+  "Виноград": {
+    "seed": 60,
+    "source": "Магазин Пьера",
+    "sell": 80,
+    "yield": 1,
+    "xp": 14,
+    "use": "Изюм (сушилка); джем / вино",
+    "bundles": "",
+    "growthDays": 10,
+    "regrowthDays": 3,
+    "seasons": [
+      "Осень"
+    ],
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": true,
+    "giantCropPossible": false,
+    "growingCondition": "Требуется шпалера; через зрелое растение нельзя пройти.",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Волокна": {
+    "seed": "Бесплатно",
+    "source": "Изготовление семян волокон",
+    "sell": 1,
+    "yield": "4–7",
+    "xp": null,
+    "use": "Растёт круглый год, не требует полива; урожай 4–7 волокон",
+    "bundles": "Нет",
+    "growthDays": 7,
+    "regrowthDays": 0,
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "farmSeasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "harvestYield": {
+      "min": 4,
+      "max": 7
+    },
+    "harvestType": "single",
+    "requiresWatering": false,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "seedAvailability": "Семена волокон создаются по рецепту; рецепт открывается через специальный игровой прогресс.",
+    "dataNotes": [
+      "Опыт за сбор не указан в исходных данных; значение не подставлено без отдельной проверки."
+    ],
+    "seedCostType": "non_shop_or_reward"
+  },
+  "Древний плод": {
+    "seed": "Артефакт / Экстрактор семян / Странствующая торговка",
+    "source": "Несколько способов получения",
+    "sell": 550,
+    "yield": 1,
+    "xp": null,
+    "use": "Растёт весной, летом и осенью; повторный урожай каждые 7 дней",
+    "bundles": "Нет",
+    "growthDays": 28,
+    "regrowthDays": 7,
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень"
+    ],
+    "farmSeasons": [
+      "Весна",
+      "Лето",
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "repeat",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [
+      "Опыт за сбор не указан в исходных данных; значение не подставлено без отдельной проверки."
+    ],
+    "seedCostType": "varies_or_exchange"
+  },
+  "Дыня": {
+    "seed": 80,
+    "source": "Магазин Пьера",
+    "sell": 250,
+    "yield": 1,
+    "xp": 27,
+    "use": "Джем / вино",
+    "bundles": "Летний набор; набор качественных культур",
+    "growthDays": 12,
+    "regrowthDays": 0,
+    "seasons": [
+      "Лето"
+    ],
+    "farmSeasons": [
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": true,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Жгучий перец": {
+    "seed": 40,
+    "source": "Магазин Пьера",
+    "sell": 40,
+    "yield": 1,
+    "xp": 8,
+    "use": "Овощные консервы / сок",
+    "bundles": "",
+    "growthDays": 5,
+    "regrowthDays": 3,
+    "seasons": [
+      "Лето"
+    ],
+    "farmSeasons": [
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "repeat",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Зелёная фасоль": {
+    "seed": 60,
+    "source": "Магазин Пьера",
+    "sell": 40,
+    "yield": 1,
+    "xp": 8,
+    "use": "Овощные консервы / сок",
+    "bundles": "Весенний набор",
+    "growthDays": 10,
+    "regrowthDays": 3,
+    "seasons": [
+      "Весна"
+    ],
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "repeat",
+    "requiresWatering": true,
+    "trellis": true,
+    "giantCropPossible": false,
+    "growingCondition": "Требуется шпалера; через зрелое растение нельзя пройти.",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Карамбола": {
+    "seed": 400,
+    "source": "Оазис (пустыня)",
+    "sell": 750,
+    "yield": 1,
+    "xp": 42,
+    "use": "Джем / вино",
+    "bundles": "",
+    "growthDays": 13,
+    "regrowthDays": 0,
+    "seasons": [
+      "Лето"
+    ],
+    "farmSeasons": [
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Картофель": {
+    "seed": 50,
+    "source": "Магазин Пьера",
+    "sell": 80,
+    "yield": "1–2",
+    "xp": 14,
+    "use": "Овощные консервы / сок",
+    "bundles": "Весенний набор",
+    "growthDays": 6,
+    "regrowthDays": 0,
+    "seasons": [
+      "Весна"
+    ],
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 2,
+      "average": 1.25
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Клубника": {
+    "seed": 100,
+    "source": "Праздник Яичной охоты",
+    "sell": 120,
+    "yield": 1,
+    "xp": 18,
+    "use": "Джем / вино",
+    "bundles": "",
+    "growthDays": 8,
+    "regrowthDays": 4,
+    "seasons": [
+      "Весна"
+    ],
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "repeat",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "seedAvailability": "Семена продаются на Празднике Яичной охоты; после получения можно размножить семенами из урожая через Экстрактор семян.",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Клюква": {
+    "seed": 240,
+    "source": "Магазин Пьера",
+    "sell": 75,
+    "yield": 2,
+    "xp": 13,
+    "use": "Джем / вино",
+    "bundles": "",
+    "growthDays": 7,
+    "regrowthDays": 5,
+    "seasons": [
+      "Осень"
+    ],
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 2,
+      "max": 2
+    },
+    "harvestType": "repeat",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Корень таро": {
+    "seed": "2 костяных фрагмента",
+    "source": "Островной торговец",
+    "sell": 100,
+    "yield": 1,
+    "xp": 16,
+    "use": "Овощные консервы / сок",
+    "bundles": "",
+    "growthDays": 10,
+    "regrowthDays": 0,
+    "seasons": [
+      "Лето"
+    ],
+    "farmSeasons": [
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "growingCondition": "Базовый срок - 10 дней; при орошении рядом с водой - 7 дней.",
+    "irrigatedGrowthDays": 7,
+    "islandYearRound": true,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "seedAvailability": "Клубни таро можно получить у островного торговца в обмен на 2 костяных фрагмента; также встречаются на Имбирном острове.",
+    "dataNotes": [],
+    "seedCostType": "varies_or_exchange"
+  },
+  "Кофейное зерно": {
+    "seed": 2500,
+    "source": "Странствующая тележка; также выпадает с Пыльных духов (шанс 1%)",
+    "sell": 15,
+    "yield": 4,
+    "xp": 3,
+    "use": "Кофе (5 зёрен в бочонке)",
+    "bundles": "",
+    "growthDays": 10,
+    "regrowthDays": 2,
+    "seasons": [
+      "Весна",
+      "Лето"
+    ],
+    "farmSeasons": [
+      "Весна",
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 4,
+      "max": 4
+    },
+    "harvestType": "repeat",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "seedAvailability": "Падает с Пыльных духов с шансом 1%; также продаётся у Странствующей тележки. Само кофейное зерно можно посадить как семя.",
+    "dataNotes": [],
+    "seedCostType": "gold_or_drop"
+  },
+  "Красная капуста": {
+    "seed": 100,
+    "source": "Магазин Пьера",
+    "sell": 260,
+    "yield": 1,
+    "xp": 27,
+    "use": "Овощные консервы / сок",
+    "bundles": "",
+    "growthDays": 9,
+    "regrowthDays": 0,
+    "seasons": [
+      "Лето"
+    ],
+    "farmSeasons": [
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "seedAvailability": "Обычно доступна в магазине Пьера начиная со 2-го года; в 1-й год может появиться у Странствующей тележки.",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Кудрявая капуста": {
+    "seed": 70,
+    "source": "Магазин Пьера",
+    "sell": 110,
+    "yield": 1,
+    "xp": 17,
+    "use": "Овощные консервы / сок",
+    "bundles": "Весенний набор",
+    "growthDays": 6,
+    "regrowthDays": 0,
+    "seasons": [
+      "Весна"
+    ],
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Кукуруза": {
+    "seed": 150,
+    "source": "Магазин Пьера",
+    "sell": 50,
+    "yield": 1,
+    "xp": 10,
+    "use": "Овощные консервы / сок",
+    "bundles": "Летний набор; осенний набор; набор качественных культур",
+    "growthDays": 14,
+    "regrowthDays": 4,
+    "seasons": [
+      "Лето",
+      "Осень"
+    ],
+    "farmSeasons": [
+      "Лето",
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "repeat",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Летний блестник": {
+    "seed": 50,
+    "source": "Магазин Пьера",
+    "sell": 90,
+    "yield": 1,
+    "xp": 15,
+    "use": "Цветочный мёд",
+    "bundles": "",
+    "growthDays": 8,
+    "regrowthDays": 0,
+    "seasons": [
+      "Лето"
+    ],
+    "farmSeasons": [
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Мак": {
+    "seed": 100,
+    "source": "Магазин Пьера",
+    "sell": 140,
+    "yield": 1,
+    "xp": 20,
+    "use": "Цветочный мёд",
+    "bundles": "",
+    "growthDays": 7,
+    "regrowthDays": 0,
+    "seasons": [
+      "Лето"
+    ],
+    "farmSeasons": [
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Морковь": {
+    "seed": "Бесплатно",
+    "source": "Семенные места / билеты-призы / игровые награды и выпадения (1.6)",
+    "sell": 35,
+    "yield": 1,
+    "xp": 7,
+    "use": "Овощные консервы / сок",
+    "bundles": "",
+    "growthDays": 3,
+    "regrowthDays": 0,
+    "seasons": [
+      "Весна"
+    ],
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "seedAvailability": "Семена 1.6: семенные места, билеты-призы и некоторые игровые награды/выпадения.",
+    "dataNotes": [],
+    "seedCostType": "non_shop_or_reward"
+  },
+  "Неочищенный рис": {
+    "seed": 40,
+    "source": "Магазин Пьера",
+    "sell": 30,
+    "yield": 1,
+    "xp": 6,
+    "use": "Рис после обработки на мельнице",
+    "bundles": "",
+    "growthDays": 8,
+    "regrowthDays": 0,
+    "seasons": [
+      "Весна"
+    ],
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "growingCondition": "Базовый срок - 8 дней. При естественном орошении рядом с водой - 6 дней.",
+    "irrigatedGrowthDays": 6,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Пастернак": {
+    "seed": 20,
+    "source": "Магазин Пьера",
+    "sell": 35,
+    "yield": 1,
+    "xp": 7,
+    "use": "Овощная консервация / сок",
+    "bundles": "Весенний набор",
+    "growthDays": 4,
+    "regrowthDays": 0,
+    "seasons": [
+      "Весна"
+    ],
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Плод кактуса": {
+    "seed": 150,
+    "source": "Оазис",
+    "sell": 75,
+    "yield": 1,
+    "xp": null,
+    "use": "Только теплица, комнатный горшок или Имбирный остров; повторный урожай каждые 3 дня",
+    "bundles": "Узелок заготовки экзотики",
+    "growthDays": 12,
+    "regrowthDays": 3,
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "farmSeasons": [],
+    "growingLocations": [
+      "greenhouse",
+      "indoorPot",
+      "gingerIsland"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "repeat",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "growingCondition": "Не выращивается на открытой обычной ферме.",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "seedAvailability": "Семена кактуса покупаются в Оазисе; выращивание возможно только в теплице, садовом горшке в помещении или на Имбирном острове.",
+    "dataNotes": [
+      "Опыт за сбор не указан в исходных данных; значение не подставлено без отдельной проверки."
+    ],
+    "seedCostType": "gold"
+  },
+  "Подсолнух": {
+    "seed": "125–200",
+    "source": "ДжоджаМарт (125) / Магазин Пьера (200)",
+    "sell": 80,
+    "yield": 1,
+    "xp": 14,
+    "use": "Подсолнечное масло (маслопресс)",
+    "bundles": "",
+    "growthDays": 8,
+    "regrowthDays": 0,
+    "seasons": [
+      "Лето",
+      "Осень"
+    ],
+    "farmSeasons": [
+      "Лето",
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [],
+    "seedCostType": "varies_or_exchange"
+  },
+  "Помидор": {
+    "seed": 50,
+    "source": "Магазин Пьера",
+    "sell": 60,
+    "yield": 1,
+    "xp": 11,
+    "use": "Овощные консервы / сок",
+    "bundles": "",
+    "growthDays": 11,
+    "regrowthDays": 4,
+    "seasons": [
+      "Лето"
+    ],
+    "farmSeasons": [
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "repeat",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Пшеница": {
+    "seed": 10,
+    "source": "Магазин Пьера",
+    "sell": 25,
+    "yield": 1,
+    "xp": 5,
+    "use": "Пиво (бочонок); мука (мельница)",
+    "bundles": "",
+    "growthDays": 4,
+    "regrowthDays": 0,
+    "seasons": [
+      "Лето",
+      "Осень"
+    ],
+    "farmSeasons": [
+      "Лето",
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Ревень": {
+    "seed": 100,
+    "source": "Оазис (пустыня)",
+    "sell": 220,
+    "yield": 1,
+    "xp": 25,
+    "use": "Джем / вино",
+    "bundles": "",
+    "growthDays": 13,
+    "regrowthDays": 0,
+    "seasons": [
+      "Весна"
+    ],
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Редис": {
+    "seed": 40,
+    "source": "Магазин Пьера",
+    "sell": 90,
+    "yield": 1,
+    "xp": 15,
+    "use": "Овощные консервы / сок",
+    "bundles": "",
+    "growthDays": 6,
+    "regrowthDays": 0,
+    "seasons": [
+      "Лето"
+    ],
+    "farmSeasons": [
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Свёкла": {
+    "seed": 20,
+    "source": "Оазис (пустыня)",
+    "sell": 100,
+    "yield": 1,
+    "xp": 16,
+    "use": "Сахар (мельница); овощные консервы",
+    "bundles": "",
+    "growthDays": 6,
+    "regrowthDays": 0,
+    "seasons": [
+      "Осень"
+    ],
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Синий яркоцвет": {
+    "seed": 30,
+    "source": "Магазин Пьера",
+    "sell": 50,
+    "yield": 1,
+    "xp": 10,
+    "use": "Цветочный мёд",
+    "bundles": "",
+    "growthDays": 7,
+    "regrowthDays": 0,
+    "seasons": [
+      "Весна"
+    ],
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Сказочная роза": {
+    "seed": 200,
+    "source": "Магазин Пьера / ДжоджаМарт",
+    "sell": 290,
+    "yield": 1,
+    "xp": null,
+    "use": "Волшебный порошок; цветочный мёд",
+    "bundles": "Красочный узелок",
+    "growthDays": 12,
+    "regrowthDays": 0,
+    "seasons": [
+      "Осень"
+    ],
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [
+      "Опыт за сбор не указан в исходных данных; значение не подставлено без отдельной проверки."
+    ],
+    "seedCostType": "gold"
+  },
+  "Сквош": {
+    "seed": "Бесплатно",
+    "source": "Семенные места / билеты-призы / игровые награды и выпадения (1.6)",
+    "sell": 45,
+    "yield": 1,
+    "xp": null,
+    "use": "Повторный урожай каждые 3 дня",
+    "bundles": "Нет",
+    "growthDays": 6,
+    "regrowthDays": 3,
+    "seasons": [
+      "Лето"
+    ],
+    "farmSeasons": [
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "repeat",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "seedAvailability": "Семена 1.6: семенные места, билеты-призы и некоторые игровые награды/выпадения.",
+    "dataNotes": [
+      "Опыт за сбор не указан в исходных данных; значение не подставлено без отдельной проверки."
+    ],
+    "seedCostType": "non_shop_or_reward"
+  },
+  "Сладкая самоцветинка": {
+    "seed": 1000,
+    "source": "Странствующая тележка",
+    "sell": 3000,
+    "yield": 1,
+    "xp": 64,
+    "use": "Джем / вино",
+    "bundles": "",
+    "growthDays": 24,
+    "regrowthDays": 0,
+    "seasons": [
+      "Осень"
+    ],
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "seedAvailability": "Редкие семена продаются у Странствующей тележки весной и летом; редко осенью и зимой.",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Снегодыня": {
+    "seed": "Бесплатно",
+    "source": "Семенные места / билеты-призы / игровые награды и выпадения (1.6)",
+    "sell": 60,
+    "yield": 1,
+    "xp": null,
+    "use": "Может стать гигантской",
+    "bundles": "Зимняя культура",
+    "growthDays": 7,
+    "regrowthDays": 0,
+    "seasons": [
+      "Зима"
+    ],
+    "farmSeasons": [
+      "Зима"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": true,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "seedAvailability": "Семена 1.6: семенные места, билеты-призы и некоторые игровые награды/выпадения.",
+    "dataNotes": [
+      "Опыт за сбор не указан в исходных данных; значение не подставлено без отдельной проверки."
+    ],
+    "seedCostType": "non_shop_or_reward"
+  },
+  "Тыква": {
+    "seed": 100,
+    "source": "Магазин Пьера",
+    "sell": 320,
+    "yield": 1,
+    "xp": 30,
+    "use": "Джем / вино",
+    "bundles": "Осенний набор; набор качественных культур",
+    "growthDays": 13,
+    "regrowthDays": 0,
+    "seasons": [
+      "Осень"
+    ],
+    "farmSeasons": [
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": true,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Тюльпан": {
+    "seed": 20,
+    "source": "Магазин Пьера",
+    "sell": 30,
+    "yield": 1,
+    "xp": 6,
+    "use": "Цветочный мёд",
+    "bundles": "",
+    "growthDays": 6,
+    "regrowthDays": 0,
+    "seasons": [
+      "Весна"
+    ],
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Фрукт Ки": {
+    "seed": "Особое задание Ки",
+    "source": "Задание на Имбирном острове",
+    "sell": 1,
+    "yield": 1,
+    "xp": null,
+    "use": "Особый квестовый урожай; отдельная культура задания Ки",
+    "bundles": "Нет",
+    "growthDays": 4,
+    "regrowthDays": 0,
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "farmSeasons": [
+      "Весна",
+      "Лето",
+      "Осень",
+      "Зима"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "gingerIsland"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": true,
+    "growingCondition": "Только при активном особом заказе «Урожай Ки». Уже выросший гигантский фрукт Ки не исчезает после завершения заказа.",
+    "requiresActiveQuest": "Урожай Ки",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "seedAvailability": "Бобы Ки получаются только во время особого заказа «Урожай Ки»; их нужно посадить, чтобы получить фрукты Ки.",
+    "dataNotes": [
+      "Опыт за сбор не указан в исходных данных; значение не подставлено без отдельной проверки."
+    ],
+    "seedCostType": "non_shop_or_reward"
+  },
+  "Хмель": {
+    "seed": 60,
+    "source": "Магазин Пьера",
+    "sell": 25,
+    "yield": 1,
+    "xp": 5,
+    "use": "Бледный эль (бочонок)",
+    "bundles": "",
+    "growthDays": 11,
+    "regrowthDays": 1,
+    "seasons": [
+      "Лето"
+    ],
+    "farmSeasons": [
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "repeat",
+    "requiresWatering": true,
+    "trellis": true,
+    "giantCropPossible": false,
+    "growingCondition": "Требуется шпалера; через зрелое растение нельзя пройти.",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Цветная капуста": {
+    "seed": 80,
+    "source": "Магазин Пьера",
+    "sell": 175,
+    "yield": 1,
+    "xp": 22,
+    "use": "Овощные консервы / сок",
+    "bundles": "Весенний набор; набор качественных культур",
+    "growthDays": 12,
+    "regrowthDays": 0,
+    "seasons": [
+      "Весна"
+    ],
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": true,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Чайные листья": {
+    "seed": "Бесплатно",
+    "source": "Изготовление саженца чая",
+    "sell": 50,
+    "yield": 1,
+    "xp": null,
+    "use": "Зелёный чай; растёт круглый год, сбор ежедневно в последнюю неделю весны, лета и осени (зимой - в помещении)",
+    "bundles": "Нет",
+    "growthDays": 20,
+    "regrowthDays": 1,
+    "seasons": [
+      "Весна",
+      "Лето",
+      "Осень"
+    ],
+    "farmSeasons": [
+      "Весна",
+      "Лето",
+      "Осень"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse",
+      "indoorPot"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "seasonalDaily",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "harvestWindow": {
+      "startDay": 22,
+      "endDay": 28,
+      "seasons": [
+        "Весна",
+        "Лето",
+        "Осень"
+      ]
+    },
+    "winterHarvestCondition": "Зимой куст можно держать в помещении; сбор листьев возможен только в помещении/теплице.",
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "seedAvailability": "Чайный саженец создаётся по рецепту или получается как игровой предмет; листья собираются с уже выросшего чайного куста.",
+    "dataNotes": [
+      "Опыт за сбор не указан в исходных данных; значение не подставлено без отдельной проверки."
+    ],
+    "seedCostType": "non_shop_or_reward"
+  },
+  "Черника": {
+    "seed": 80,
+    "source": "Магазин Пьера",
+    "sell": 50,
+    "yield": 3,
+    "xp": 10,
+    "use": "Джем / вино",
+    "bundles": "",
+    "growthDays": 13,
+    "regrowthDays": 4,
+    "seasons": [
+      "Лето"
+    ],
+    "farmSeasons": [
+      "Лето"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 3,
+      "max": 3
+    },
+    "harvestType": "repeat",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  },
+  "Чеснок": {
+    "seed": 40,
+    "source": "Магазин Пьера",
+    "sell": 60,
+    "yield": 1,
+    "xp": 11,
+    "use": "Овощные консервы / сок",
+    "bundles": "",
+    "growthDays": 4,
+    "regrowthDays": 0,
+    "seasons": [
+      "Весна"
+    ],
+    "farmSeasons": [
+      "Весна"
+    ],
+    "growingLocations": [
+      "farm",
+      "greenhouse"
+    ],
+    "harvestYield": {
+      "min": 1,
+      "max": 1
+    },
+    "harvestType": "single",
+    "requiresWatering": true,
+    "trellis": false,
+    "giantCropPossible": false,
+    "wikiSource": "https://stardewvalleywiki.com/Crops",
+    "seedAvailability": "Доступен в магазине Пьера начиная со 2-го года.",
+    "dataNotes": [],
+    "seedCostType": "gold"
+  }
+}

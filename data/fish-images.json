@@ -1,0 +1,233 @@
+{
+  "Иглобрюх": {
+    "file": "assets/fish/fish-01.png"
+  },
+  "Анчоус": {
+    "file": "assets/fish/fish-02.png"
+  },
+  "Тунец": {
+    "file": "assets/fish/fish-03.png"
+  },
+  "Сардина": {
+    "file": "assets/fish/fish-04.png"
+  },
+  "Барабулька": {
+    "file": "assets/fish/fish-05.png"
+  },
+  "Сельдь": {
+    "file": "assets/fish/fish-06.png"
+  },
+  "Угорь": {
+    "file": "assets/fish/fish-07.png"
+  },
+  "Осьминог": {
+    "file": "assets/fish/fish-08.png"
+  },
+  "Берикс": {
+    "file": "assets/fish/fish-09.png"
+  },
+  "Кальмар": {
+    "file": "assets/fish/fish-10.png"
+  },
+  "Морской огурец": {
+    "file": "assets/fish/fish-11.png"
+  },
+  "Суперогурец": {
+    "file": "assets/fish/fish-12.png"
+  },
+  "Камбала": {
+    "file": "assets/fish/fish-13.png"
+  },
+  "Тиляпия": {
+    "file": "assets/fish/fish-14.png"
+  },
+  "Альбакор": {
+    "file": "assets/fish/fish-15.png"
+  },
+  "Палтус": {
+    "file": "assets/fish/fish-16.png"
+  },
+  "Лещ": {
+    "file": "assets/fish/fish-17.png"
+  },
+  "Большеротый окунь": {
+    "file": "assets/fish/fish-18.png"
+  },
+  "Малоротый окунь": {
+    "file": "assets/fish/fish-19.png"
+  },
+  "Радужная форель": {
+    "file": "assets/fish/fish-20.png"
+  },
+  "Лосось": {
+    "file": "assets/fish/fish-21.png"
+  },
+  "Судак": {
+    "file": "assets/fish/fish-22.png"
+  },
+  "Окунь": {
+    "file": "assets/fish/fish-23.png"
+  },
+  "Карп": {
+    "file": "assets/fish/fish-24.png"
+  },
+  "Сом": {
+    "file": "assets/fish/fish-25.png"
+  },
+  "Щука": {
+    "file": "assets/fish/fish-26.png"
+  },
+  "Солнечник": {
+    "file": "assets/fish/fish-27.png"
+  },
+  "Полуночный карп": {
+    "file": "assets/fish/fish-28.png"
+  },
+  "Осётр": {
+    "file": "assets/fish/fish-29.png"
+  },
+  "Тигровая форель": {
+    "file": "assets/fish/fish-30.png"
+  },
+  "Сомик": {
+    "file": "assets/fish/fish-31.png"
+  },
+  "Голавль": {
+    "file": "assets/fish/fish-32.png"
+  },
+  "Дорадо": {
+    "file": "assets/fish/fish-33.png"
+  },
+  "Шэд": {
+    "file": "assets/fish/fish-34.png"
+  },
+  "Змеезуб": {
+    "file": "assets/fish/fish-35.png"
+  },
+  "Лесоплюх": {
+    "file": "assets/fish/fish-36.png"
+  },
+  "Бычок": {
+    "file": "assets/fish/fish-37.png"
+  },
+  "Песковник": {
+    "file": "assets/fish/fish-38.png"
+  },
+  "Скорпионовый карп": {
+    "file": "assets/fish/fish-39.png"
+  },
+  "Пятнистый криворот": {
+    "file": "assets/fish/fish-40.png"
+  },
+  "Рыба-камень": {
+    "file": "assets/fish/fish-41.png"
+  },
+  "Ледопип": {
+    "file": "assets/fish/fish-42.png"
+  },
+  "Лавовый угорь": {
+    "file": "assets/fish/fish-43.png"
+  },
+  "Пустотный лосось": {
+    "file": "assets/fish/fish-44.png"
+  },
+  "Слаймджек": {
+    "file": "assets/fish/fish-45.png"
+  },
+  "Скат": {
+    "file": "assets/fish/fish-46.png"
+  },
+  "Крылатка": {
+    "file": "assets/fish/fish-47.png"
+  },
+  "Голубой дискус": {
+    "file": "assets/fish/fish-48.png"
+  },
+  "Ночной кальмар": {
+    "file": "assets/fish/fish-49.png"
+  },
+  "Жуть-рыба": {
+    "file": "assets/fish/fish-50.png"
+  },
+  "Рыба-капля": {
+    "file": "assets/fish/fish-51.png"
+  },
+  "Багрянник": {
+    "file": "assets/fish/fish-52.png"
+  },
+  "Морской черт": {
+    "file": "assets/fish/fish-53.png"
+  },
+  "Легенда": {
+    "file": "assets/fish/fish-54.png"
+  },
+  "Ледорыб": {
+    "file": "assets/fish/fish-55.png"
+  },
+  "Карп-мутант": {
+    "file": "assets/fish/fish-56.png"
+  },
+  "Малек Багрянника": {
+    "file": "assets/fish/fish-57.png"
+  },
+  "Мисс Морской черт": {
+    "file": "assets/fish/fish-58.png"
+  },
+  "Легенда II": {
+    "file": "assets/fish/fish-59.png"
+  },
+  "Ледорыб-младший": {
+    "file": "assets/fish/fish-60.png"
+  },
+  "Радиоактивный карп": {
+    "file": "assets/fish/fish-61.png"
+  },
+  "Гребешок": {
+    "file": "assets/fish/fish-62.png"
+  },
+  "Сердцевидка": {
+    "file": "assets/fish/fish-63.png"
+  },
+  "Краб": {
+    "file": "assets/fish/fish-64.png"
+  },
+  "Рак": {
+    "file": "assets/fish/fish-65.png"
+  },
+  "Омар": {
+    "file": "assets/fish/fish-66.png"
+  },
+  "Мидия": {
+    "file": "assets/fish/fish-67.png"
+  },
+  "Устрица": {
+    "file": "assets/fish/fish-68.png"
+  },
+  "Литорина": {
+    "file": "assets/fish/fish-69.png"
+  },
+  "Креветка": {
+    "file": "assets/fish/fish-70.png"
+  },
+  "Улитка": {
+    "file": "assets/fish/fish-71.png"
+  },
+  "Морская водоросль": {
+    "file": "assets/fish/fish-72.png"
+  },
+  "Зелёная водоросль": {
+    "file": "assets/fish/fish-73.png"
+  },
+  "Белая водоросль": {
+    "file": "assets/fish/fish-74.png"
+  },
+  "Морское желе": {
+    "file": "assets/fish/fish-75.png"
+  },
+  "Речное желе": {
+    "file": "assets/fish/fish-76.png"
+  },
+  "Пещерное желе": {
+    "file": "assets/fish/fish-77.png"
+  }
+}
