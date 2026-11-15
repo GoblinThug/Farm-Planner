@@ -610,6 +610,21 @@ export default function App() {
       "Яичница": require('./assets/items/wiki/Fried_Egg.png'),
       "Яйцо": require('./assets/items/wiki/Egg.png'),
       "Ямс": require('./assets/crops/yam.png'),
+      "Волокно": require('./assets/crops/fiber.png'),
+      "Дикая слива": require('./assets/crops/wild-plum.png'),
+      "Дикий хрен": require('./assets/crops/wild-horseradish.png'),
+      "Душистый горошек": require('./assets/crops/wild-horseradish.png'),
+      "Ежевика": require('./assets/crops/blackberry.png'),
+      "Лесной орех": require('./assets/crops/hazelnut.png'),
+      "Крокус": require('./assets/crops/crocus.png'),
+      "Корень зимы": require('./assets/crops/winter-root.png'),
+      "Лук-порей": require('./assets/crops/leek.png'),
+      "Нарцисс": require('./assets/crops/daffodil.png'),
+      "Одуванчик": require('./assets/crops/dandelion.png'),
+      "Обыкновенный гриб": require('./assets/crops/common-mushroom.png'),
+      "Острая ягода": require('./assets/crops/spice-berry.png'),
+      "Снежный ямс": require('./assets/crops/snow-yam.png'),
+      "Хрустальный фрукт": require('./assets/crops/crystal-fruit.png'),
     };
         const bundleColors = ['#79a85a','#9365a8','#d88b3c','#e4c34e','#c94e45','#5c8fc2','#55b9b0'];
     const bundleCardTints = ['rgba(121,168,90,0.13)','rgba(147,101,168,0.13)','rgba(216,139,60,0.14)','rgba(228,195,78,0.16)','rgba(201,78,69,0.12)','rgba(92,143,194,0.13)','rgba(85,185,176,0.13)'];
