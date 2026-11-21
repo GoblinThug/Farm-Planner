@@ -769,6 +769,7 @@ export function createStyles(palette) {
   /* —— Modals / menus —— */
   navMenuCard: {
     maxHeight: '88%',
+    overflow: 'hidden',
     backgroundColor: palette.paperLight,
     borderWidth: border.hairline,
     borderColor: palette.lineSoft,

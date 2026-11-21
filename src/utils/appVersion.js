@@ -1,9 +1,10 @@
 import Constants from 'expo-constants';
 import { Linking, Alert, Platform } from 'react-native';
 import { githubReleasesApiUrl, githubReleasesPageUrl, APP_CONFIG } from '../config/appConfig';
+import packageJson from '../../package.json';
 
 export function getInstalledVersion() {
-  return Constants.expoConfig?.version || Constants.nativeAppVersion || '1.1.1';
+  return Constants.expoConfig?.version || Constants.nativeAppVersion || packageJson.version;
 }
 
 /** Compare semver-ish strings. Returns 1 if a>b, -1 if a<b, 0 if equal. */

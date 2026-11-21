@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, TouchableOpacity, ActivityIndicator } from 'react-native';
+import { View, Text, TouchableOpacity, ActivityIndicator, ScrollView } from 'react-native';
 import { Feather } from '@expo/vector-icons';
 import { AnimatedModal } from './AnimatedModal';
 import { ConfirmDialog } from './ConfirmDialog';
@@ -102,58 +102,60 @@ export function SettingsModal({ visible, onClose }) {
           </TouchableOpacity>
         </View>
 
-        <Text style={[st.modalEyebrow, st.sectionEyebrowTight]}>ОФОРМЛЕНИЕ</Text>
-        <View style={st.themeToggleRow}>
-          <TouchableOpacity
-            activeOpacity={0.85}
-            onPress={() => setMode('light')}
-            style={[st.themeOption, mode === 'light' && st.themeOptionOn]}
-          >
-            <Feather name="sun" size={18} color={mode === 'light' ? palette.greenDark : palette.muted} />
-            <Text style={[st.themeOptionText, mode === 'light' && st.btnTextOn]}>Светлая</Text>
-          </TouchableOpacity>
-          <TouchableOpacity
-            activeOpacity={0.85}
-            onPress={() => setMode('dark')}
-            style={[st.themeOption, mode === 'dark' && st.themeOptionOn]}
-          >
-            <Feather name="moon" size={18} color={mode === 'dark' ? palette.greenDark : palette.muted} />
-            <Text style={[st.themeOptionText, mode === 'dark' && st.btnTextOn]}>Тёмная</Text>
-          </TouchableOpacity>
-        </View>
+        <ScrollView style={st.modalBody} showsVerticalScrollIndicator={false} keyboardShouldPersistTaps="handled">
+          <Text style={[st.modalEyebrow, st.sectionEyebrowTight]}>ОФОРМЛЕНИЕ</Text>
+          <View style={st.themeToggleRow}>
+            <TouchableOpacity
+              activeOpacity={0.85}
+              onPress={() => setMode('light')}
+              style={[st.themeOption, mode === 'light' && st.themeOptionOn]}
+            >
+              <Feather name="sun" size={18} color={mode === 'light' ? palette.greenDark : palette.muted} />
+              <Text style={[st.themeOptionText, mode === 'light' && st.btnTextOn]}>Светлая</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              activeOpacity={0.85}
+              onPress={() => setMode('dark')}
+              style={[st.themeOption, mode === 'dark' && st.themeOptionOn]}
+            >
+              <Feather name="moon" size={18} color={mode === 'dark' ? palette.greenDark : palette.muted} />
+              <Text style={[st.themeOptionText, mode === 'dark' && st.btnTextOn]}>Тёмная</Text>
+            </TouchableOpacity>
+          </View>
 
-        <Text style={[st.modalEyebrow, st.sectionEyebrow]}>ОБНОВЛЕНИЯ</Text>
-        <SettingRow
-          st={st}
-          palette={palette}
-          icon="info"
-          title={`Версия ${version}`}
-          hint="Установленная сборка"
-        />
-        <SettingRow
-          st={st}
-          palette={palette}
-          icon="download-cloud"
-          title="Проверить обновления"
-          hint="Смотрим последний релиз на GitHub"
-          onPress={() => runUpdateCheck()}
-          right={
-            checking ? (
-              <ActivityIndicator color={palette.greenDark} />
-            ) : (
-              <Feather name="chevron-right" size={18} color={palette.muted} />
-            )
-          }
-        />
-        <SettingRow
-          st={st}
-          palette={palette}
-          icon="external-link"
-          title="Страница релизов"
-          hint="Открыть GitHub Releases"
-          onPress={openReleases}
-          right={<Feather name="chevron-right" size={18} color={palette.muted} />}
-        />
+          <Text style={[st.modalEyebrow, st.sectionEyebrow]}>ОБНОВЛЕНИЯ</Text>
+          <SettingRow
+            st={st}
+            palette={palette}
+            icon="info"
+            title={`Версия ${version}`}
+            hint="Установленная сборка"
+          />
+          <SettingRow
+            st={st}
+            palette={palette}
+            icon="download-cloud"
+            title="Проверить обновления"
+            hint="Смотрим последний релиз на GitHub"
+            onPress={() => runUpdateCheck()}
+            right={
+              checking ? (
+                <ActivityIndicator color={palette.greenDark} />
+              ) : (
+                <Feather name="chevron-right" size={18} color={palette.muted} />
+              )
+            }
+          />
+          <SettingRow
+            st={st}
+            palette={palette}
+            icon="external-link"
+            title="Страница релизов"
+            hint="Открыть GitHub Releases"
+            onPress={openReleases}
+            right={<Feather name="chevron-right" size={18} color={palette.muted} />}
+          />
+        </ScrollView>
 
         <TouchableOpacity onPress={onClose} style={st.cancelButton}>
           <Text style={st.cancelText}>Закрыть</Text>
