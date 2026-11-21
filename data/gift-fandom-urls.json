@@ -1,0 +1,278 @@
+{
+  "Пиво": {
+    "file": "assets/items/gifts/gift-10502.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/c/c8/%D0%9F%D0%B8%D0%B2%D0%BE.png/revision/latest?cb=20180328152250&path-prefix=ru"
+  },
+  "Пицца": {
+    "file": "assets/items/gifts/gift-6757.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/6/6e/%D0%9F%D0%B8%D1%86%D1%86%D0%B0.png/revision/latest?cb=20180314083613&path-prefix=ru"
+  },
+  "Розовый торт": {
+    "file": "assets/items/gifts/gift-6874.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/3/30/%D0%A0%D0%BE%D0%B7%D0%BE%D0%B2%D1%8B%D0%B9_%D1%82%D0%BE%D1%80%D1%82.png/revision/latest?cb=20180323060620&path-prefix=ru"
+  },
+  "«Бургер для выживания»": {
+    "file": "assets/items/gifts/gift-6955.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/5/58/%D0%91%D1%83%D1%80%D0%B3%D0%B5%D1%80_%D0%B4%D0%BB%D1%8F_%D0%B2%D1%8B%D0%B6%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.png/revision/latest?cb=20180325172806&path-prefix=ru"
+  },
+  "«Дары осени»": {
+    "file": "assets/items/gifts/gift-6861.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/f/f6/%D0%94%D0%B0%D1%80%D1%8B_%D0%BE%D1%81%D0%B5%D0%BD%D0%B8.png/revision/latest?cb=20180322212944&path-prefix=ru"
+  },
+  "«Морское блюдо»": {
+    "file": "assets/items/gifts/gift-6965.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/8/88/%D0%9C%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B5_%D0%B1%D0%BB%D1%8E%D0%B4%D0%BE.png/revision/latest?cb=20180326125048&path-prefix=ru"
+  },
+  "«Обед фермера»": {
+    "file": "assets/items/gifts/gift-6999.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/b/b4/%D0%9E%D0%B1%D0%B5%D0%B4_%D1%84%D0%B5%D1%80%D0%BC%D0%B5%D1%80%D0%B0.png/revision/latest?cb=20180327141508&path-prefix=ru"
+  },
+  "«Объеденье»": {
+    "file": "assets/items/gifts/gift-6952.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/a/a8/%D0%9E%D0%B1%D1%8A%D0%B5%D0%B4%D0%B5%D0%BD%D1%8C%D0%B5.png/revision/latest?cb=20180325172836&path-prefix=ru"
+  },
+  "Артишоковый дип": {
+    "file": "assets/items/gifts/gift-6733.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/d/d1/%D0%90%D1%80%D1%82%D0%B8%D1%88%D0%BE%D0%BA%D0%BE%D0%B2%D1%8B%D0%B9_%D0%B4%D0%B8%D0%BF.png/revision/latest?cb=20180313175411&path-prefix=ru"
+  },
+  "Баклажаны с пармезаном": {
+    "file": "assets/items/gifts/gift-6741.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/c/c1/%D0%91%D0%B0%D0%BA%D0%BB%D0%B0%D0%B6%D0%B0%D0%BD%D1%8B_%D1%81_%D0%BF%D0%B0%D1%80%D0%BC%D0%B5%D0%B7%D0%B0%D0%BD%D0%BE%D0%BC.png/revision/latest?cb=20180314060710&path-prefix=ru"
+  },
+  "Банановый пудинг": {
+    "file": "assets/items/gifts/gift-18570.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/c/ce/%D0%91%D0%B0%D0%BD%D0%B0%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%83%D0%B4%D0%B8%D0%BD%D0%B3.png/revision/latest?cb=20201226113503&path-prefix=ru"
+  },
+  "Блины": {
+    "file": "assets/items/gifts/gift-6621.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/4/43/%D0%91%D0%BB%D0%B8%D0%BD%D1%8B.png/revision/latest?cb=20180307120434&path-prefix=ru"
+  },
+  "Глазированный батат": {
+    "file": "assets/items/gifts/gift-6716.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/8/87/%D0%93%D0%BB%D0%B0%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B1%D0%B0%D1%82%D0%B0%D1%82.png/revision/latest?cb=20180313070103&path-prefix=ru"
+  },
+  "Джемы и консервы": {
+    "file": "assets/items/gifts/gift-10654.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/c/cb/%D0%94%D0%B6%D0%B5%D0%BC.png/revision/latest?cb=20180318090832&path-prefix=ru"
+  },
+  "Жареные грибы": {
+    "file": "assets/items/gifts/gift-6631.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/1/15/%D0%96%D0%B0%D1%80%D0%B5%D0%BD%D1%8B%D0%B5_%D0%B3%D1%80%D0%B8%D0%B1%D1%8B.png/revision/latest?cb=20180308071903&path-prefix=ru"
+  },
+  "Жареный кальмар": {
+    "file": "assets/items/gifts/gift-6668.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/e/ec/%D0%96%D0%B0%D1%80%D0%B5%D0%BD%D1%8B%D0%B9_%D0%BA%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0%D1%80.png/revision/latest?cb=20180309153839&path-prefix=ru"
+  },
+  "Жареный угорь": {
+    "file": "assets/items/gifts/gift-6912.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/4/4e/%D0%96%D0%B0%D1%80%D0%B5%D0%BD%D1%8B%D0%B9_%D1%83%D0%B3%D0%BE%D1%80%D1%8C.png/revision/latest?cb=20180325064258&path-prefix=ru"
+  },
+  "Жареный фундук": {
+    "file": "assets/items/gifts/gift-6959.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/4/4a/%D0%96%D0%B0%D1%80%D0%B5%D0%BD%D1%8B%D0%B9_%D1%84%D1%83%D0%BD%D0%B4%D1%83%D0%BA.png/revision/latest?cb=20180326102922&path-prefix=ru"
+  },
+  "Жаркое из фасоли": {
+    "file": "assets/items/gifts/gift-6638.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/9/9a/%D0%96%D0%B0%D1%80%D0%BA%D0%BE%D0%B5_%D0%B8%D0%B7_%D1%84%D0%B0%D1%81%D0%BE%D0%BB%D0%B8.png/revision/latest?cb=20180308082338&path-prefix=ru"
+  },
+  "Изюм": {
+    "file": "assets/items/gifts/gift-19842.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/f/f1/%D0%98%D0%B7%D1%8E%D0%BC.png/revision/latest?cb=20240328105526&path-prefix=ru"
+  },
+  "Икринка лягушки": {
+    "file": "assets/items/gifts/gift-20566.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/4/40/%D0%98%D0%BA%D1%80%D0%B8%D0%BD%D0%BA%D0%B0_%D0%BB%D1%8F%D0%B3%D1%83%D1%88%D0%BA%D0%B8.png/revision/latest?cb=20240324094429&path-prefix=ru"
+  },
+  "Имбирный эль": {
+    "file": "assets/items/gifts/gift-18569.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/8/81/%D0%98%D0%BC%D0%B1%D0%B8%D1%80%D0%BD%D1%8B%D0%B9_%D1%8D%D0%BB%D1%8C.png/revision/latest?cb=20201226113504&path-prefix=ru"
+  },
+  "Каталог цен": {
+    "file": "assets/items/gifts/gift-20010.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/4/45/%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3_%D1%86%D0%B5%D0%BD.png/revision/latest?cb=20240321140500&path-prefix=ru"
+  },
+  "Кленовый пончик": {
+    "file": "assets/items/gifts/gift-6979.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/f/f9/%D0%9A%D0%BB%D0%B5%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D0%BE%D0%BD%D1%87%D0%B8%D0%BA.png/revision/latest?cb=20180326182210&path-prefix=ru"
+  },
+  "Клюквенная сласть": {
+    "file": "assets/items/gifts/gift-6986.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/d/d2/%D0%9A%D0%BB%D1%8E%D0%BA%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D1%81%D0%BB%D0%B0%D1%81%D1%82%D1%8C.png/revision/latest?cb=20180327070744&path-prefix=ru"
+  },
+  "Книга тайн": {
+    "file": "assets/items/gifts/gift-20097.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/3/36/%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_%D1%82%D0%B0%D0%B9%D0%BD.png/revision/latest?cb=20240322071917&path-prefix=ru"
+  },
+  "Компендиум монстров": {
+    "file": "assets/items/gifts/gift-19690.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/d/d1/%D0%9A%D0%BE%D0%BC%D0%BF%D0%B5%D0%BD%D0%B4%D0%B8%D1%83%D0%BC_%D0%BC%D0%BE%D0%BD%D1%81%D1%82%D1%80%D0%BE%D0%B2.png/revision/latest?cb=20240322065301&path-prefix=ru"
+  },
+  "Коренья на блюде": {
+    "file": "assets/items/gifts/gift-6715.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/8/86/%D0%9A%D0%BE%D1%80%D0%B5%D0%BD%D1%8C%D1%8F_%D0%BD%D0%B0_%D0%B1%D0%BB%D1%8E%D0%B4%D0%B5.png/revision/latest?cb=20180311080428&path-prefix=ru"
+  },
+  "Кофе": {
+    "file": "assets/items/gifts/gift-10536.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/5/59/%D0%9A%D0%BE%D1%84%D0%B5.png/revision/latest?cb=20180315091035&path-prefix=ru"
+  },
+  "Крабовые котлетки": {
+    "file": "assets/items/gifts/gift-6988.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/2/2b/%D0%9A%D1%80%D0%B0%D0%B1%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BA%D0%BE%D1%82%D0%BB%D0%B5%D1%82%D0%BA%D0%B8.png/revision/latest?cb=20180327072305&path-prefix=ru"
+  },
+  "Краболовное искусство": {
+    "file": "assets/items/gifts/gift-20550.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/8/81/%D0%9A%D1%80%D0%B0%D0%B1%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE.png/revision/latest?cb=20240322065255&path-prefix=ru"
+  },
+  "Красное блюдо": {
+    "file": "assets/items/gifts/gift-6916.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/e/ea/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B5_%D0%B1%D0%BB%D1%8E%D0%B4%D0%BE.png/revision/latest?cb=20180325082842&path-prefix=ru"
+  },
+  "Ловкий, быстрый, живой": {
+    "file": "assets/items/gifts/gift-19615.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/8/87/%D0%9B%D0%BE%D0%B2%D0%BA%D0%B8%D0%B9%2C_%D0%B1%D1%8B%D1%81%D1%82%D1%80%D1%8B%D0%B9%2C_%D0%B6%D0%B8%D0%B2%D0%BE%D0%B9.png/revision/latest?cb=20240322065259&path-prefix=ru"
+  },
+  "Майонез Пустоты": {
+    "file": "assets/items/gifts/gift-10647.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/b/b3/%D0%9C%D0%B0%D0%B9%D0%BE%D0%BD%D0%B5%D0%B7_%D0%BF%D1%83%D1%81%D1%82%D0%BE%D1%82%D1%8B.png/revision/latest?cb=20180314083144&path-prefix=ru"
+  },
+  "Манго": {
+    "file": "assets/items/gifts/gift-18305.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/f/f8/%D0%9C%D0%B0%D0%BD%D0%B3%D0%BE.png/revision/latest?cb=20201226112845&path-prefix=ru"
+  },
+  "Манговый клейкий рис": {
+    "file": "assets/items/gifts/gift-18571.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/6/65/%D0%9C%D0%B0%D0%BD%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BA%D0%BB%D0%B5%D0%B9%D0%BA%D0%B8%D0%B9_%D1%80%D0%B8%D1%81.png/revision/latest?cb=20201226113504&path-prefix=ru"
+  },
+  "Нефрит": {
+    "file": "assets/items/gifts/gift-5936.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/3/33/%D0%9D%D0%B5%D1%84%D1%80%D0%B8%D1%82.png/revision/latest?cb=20180302083419&path-prefix=ru"
+  },
+  "Обсидиан": {
+    "file": "assets/items/gifts/gift-5908.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/a/a0/%D0%9E%D0%B1%D1%81%D0%B8%D0%B4%D0%B8%D0%B0%D0%BD.png/revision/latest?cb=20180304083304&path-prefix=ru"
+  },
+  "Овощное ассорти": {
+    "file": "assets/items/gifts/gift-6737.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/4/4e/%D0%9E%D0%B2%D0%BE%D1%89%D0%BD%D0%BE%D0%B5_%D0%B0%D1%81%D1%81%D0%BE%D1%80%D1%82%D0%B8.png/revision/latest?cb=20180313145219&path-prefix=ru"
+  },
+  "Окунь с хрустящей корочкой": {
+    "file": "assets/items/gifts/gift-6945.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/3/3c/%D0%9E%D0%BA%D1%83%D0%BD%D1%8C_%D1%81_%D1%85%D1%80%D1%83%D1%81%D1%82%D1%8F%D1%89%D0%B5%D0%B9_%D0%BA%D0%BE%D1%80%D0%BE%D1%87%D0%BA%D0%BE%D0%B9.png/revision/latest?cb=20180325155639&path-prefix=ru"
+  },
+  "Острый угорь": {
+    "file": "assets/items/gifts/gift-6906.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/a/ac/%D0%9E%D1%81%D1%82%D1%80%D1%8B%D0%B9_%D1%83%D0%B3%D0%BE%D1%80%D1%8C.png/revision/latest?cb=20180325051127&path-prefix=ru"
+  },
+  "Переулочный буфет": {
+    "file": "assets/items/gifts/gift-19698.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/7/77/%D0%9F%D0%B5%D1%80%D0%B5%D1%83%D0%BB%D0%BE%D1%87%D0%BD%D1%8B%D0%B9_%D0%B1%D1%83%D1%84%D0%B5%D1%82.png/revision/latest?cb=20240322065256&path-prefix=ru"
+  },
+  "Перечные бомбочки": {
+    "file": "assets/items/gifts/gift-7006.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/d/de/%D0%9F%D0%B5%D1%80%D0%B5%D1%87%D0%BD%D1%8B%D0%B5_%D0%B1%D0%BE%D0%BC%D0%B1%D0%BE%D1%87%D0%BA%D0%B8.png/revision/latest?cb=20180327155943&path-prefix=ru"
+  },
+  "Пина колада": {
+    "file": "assets/items/gifts/gift-18503.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/3/3a/%D0%9F%D0%B8%D0%BD%D0%B0_%D0%BA%D0%BE%D0%BB%D0%B0%D0%B4%D0%B0.png/revision/latest?cb=20201227115905&path-prefix=ru"
+  },
+  "Пои": {
+    "file": "assets/items/gifts/gift-18555.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/c/ca/%D0%9F%D0%BE%D0%B8.png/revision/latest?cb=20201226112726&path-prefix=ru"
+  },
+  "Полный завтрак": {
+    "file": "assets/items/gifts/gift-6862.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/7/76/%D0%9F%D0%BE%D0%BB%D0%BD%D1%8B%D0%B9_%D0%B7%D0%B0%D0%B2%D1%82%D1%80%D0%B0%D0%BA.png/revision/latest?cb=20180309192631&path-prefix=ru"
+  },
+  "Ризотто с папоротником": {
+    "file": "assets/items/gifts/gift-7004.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/4/4f/%D0%A0%D0%B8%D0%B7%D0%BE%D1%82%D1%82%D0%BE_%D1%81_%D0%BF%D0%B0%D0%BF%D0%BE%D1%80%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%BC.png/revision/latest?cb=20180327150331&path-prefix=ru"
+  },
+  "Рисовый пудинг": {
+    "file": "assets/items/gifts/gift-6685.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/a/a3/%D0%A0%D0%B8%D1%81%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%83%D0%B4%D0%B8%D0%BD%D0%B3.png/revision/latest?cb=20180310064114&path-prefix=ru"
+  },
+  "Рыбное тако": {
+    "file": "assets/items/gifts/gift-6936.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/d/df/%D0%A0%D1%8B%D0%B1%D0%BD%D0%BE%D0%B5_%D1%82%D0%B0%D0%BA%D0%BE.png/revision/latest?cb=20180325141215&path-prefix=ru"
+  },
+  "Сашими": {
+    "file": "assets/items/gifts/gift-6724.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/1/1e/%D0%A1%D0%B0%D1%88%D0%B8%D0%BC%D0%B8.png/revision/latest?cb=20180313174504&path-prefix=ru"
+  },
+  "Секрет дровосека": {
+    "file": "assets/items/gifts/gift-19614.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/4/4c/%D0%A1%D0%B5%D0%BA%D1%80%D0%B5%D1%82_%D0%B4%D1%80%D0%BE%D0%B2%D0%BE%D1%81%D0%B5%D0%BA%D0%B0.png/revision/latest?cb=20240322071914&path-prefix=ru"
+  },
+  "Спагетти": {
+    "file": "assets/items/gifts/gift-6888.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/0/08/%D0%A1%D0%BF%D0%B0%D0%B3%D0%B5%D1%82%D1%82%D0%B8.png/revision/latest?cb=20180323140305&path-prefix=ru"
+  },
+  "Странная кукла (желтая)": {
+    "file": "assets/items/gifts/gift-6061.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/d/d8/%D0%A1%D1%82%D1%80%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BA%D1%83%D0%BA%D0%BB%D0%B0_%28%D0%B6%D1%91%D0%BB%D1%82%D0%B0%D1%8F%29.png/revision/latest?cb=20180305063425&path-prefix=ru"
+  },
+  "Странная кукла (зеленая)": {
+    "file": "assets/items/gifts/gift-6060.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/1/1d/%D0%A1%D1%82%D1%80%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BA%D1%83%D0%BA%D0%BB%D0%B0_%28%D0%B7%D0%B5%D0%BB%D1%91%D0%BD%D0%B0%D1%8F%29.png/revision/latest?cb=20180305061925&path-prefix=ru"
+  },
+  "Суп том кха": {
+    "file": "assets/items/gifts/gift-6993.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/c/cc/%D0%A1%D1%83%D0%BF_%D1%82%D0%BE%D0%BC_%D0%BA%D1%85%D0%B0.png/revision/latest?cb=20180327083148&path-prefix=ru"
+  },
+  "Тигровый глаз": {
+    "file": "assets/items/gifts/gift-5893.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/4/48/%D0%A2%D0%B8%D0%B3%D1%80%D0%BE%D0%B2%D1%8B%D0%B9_%D0%B3%D0%BB%D0%B0%D0%B7.png/revision/latest?cb=20180228110326&path-prefix=ru"
+  },
+  "Тропическое карри": {
+    "file": "assets/items/gifts/gift-18638.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/a/a7/%D0%A2%D1%80%D0%BE%D0%BF%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D0%BA%D0%B0%D1%80%D1%80%D0%B8.png/revision/latest?cb=20201226113504&path-prefix=ru"
+  },
+  "Тыквенный пирог": {
+    "file": "assets/items/gifts/gift-6995.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/0/08/%D0%A2%D1%8B%D0%BA%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BF%D0%B8%D1%80%D0%BE%D0%B3.png/revision/latest?cb=20180327091056&path-prefix=ru"
+  },
+  "Тыквенный суп": {
+    "file": "assets/items/gifts/gift-6763.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/5/5a/%D0%A2%D1%8B%D0%BA%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D1%83%D0%BF.png/revision/latest?cb=20180314102324&path-prefix=ru"
+  },
+  "Ужин из лосося": {
+    "file": "assets/items/gifts/gift-6864.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/2/24/%D0%A3%D0%B6%D0%B8%D0%BD_%D0%B8%D0%B7_%D0%BB%D0%BE%D1%81%D0%BE%D1%81%D1%8F.png/revision/latest?cb=20180322215611&path-prefix=ru"
+  },
+  "Черничный пирог": {
+    "file": "assets/items/gifts/gift-6938.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/2/2c/%D0%A7%D0%B5%D1%80%D0%BD%D0%B8%D1%87%D0%BD%D1%8B%D0%B9_%D1%82%D0%B0%D1%80%D1%82.png/revision/latest?cb=20180325142024&path-prefix=ru"
+  },
+  "Чудо-блюдо": {
+    "file": "assets/items/gifts/gift-6879.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/4/4c/%D0%A7%D1%83%D0%B4%D0%BE-%D0%B1%D0%BB%D1%8E%D0%B4%D0%BE.png/revision/latest?cb=20180323092457&path-prefix=ru"
+  },
+  "Чудо-огурец": {
+    "file": "assets/items/gifts/gift-6119.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/d/da/%D0%A7%D1%83%D0%B4%D0%BE-%D0%BE%D0%B3%D1%83%D1%80%D0%B5%D1%86.png/revision/latest?cb=20180222055342&path-prefix=ru"
+  },
+  "Эскарго": {
+    "file": "assets/items/gifts/gift-6962.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/6/6c/%D0%AD%D1%81%D0%BA%D0%B0%D1%80%D0%B3%D0%BE.png/revision/latest?cb=20180326115909&path-prefix=ru"
+  },
+  "Яйцо попугая": {
+    "file": "assets/items/gifts/gift-20689.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/2/24/%D0%AF%D0%B9%D1%86%D0%BE_%D0%BF%D0%BE%D0%BF%D1%83%D0%B3%D0%B0%D1%8F.png/revision/latest?cb=20240324094429&path-prefix=ru"
+  },
+  "Салат": {
+    "file": "assets/items/gifts/gift-6645.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/4/42/%D0%A1%D0%B0%D0%BB%D0%B0%D1%82.png/revision/latest?cb=20180308143350&path-prefix=ru"
+  },
+  "Стир-фрай": {
+    "file": "assets/items/gifts/gift-6981.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/c/cc/%D0%A1%D1%82%D0%B8%D1%80-%D1%84%D1%80%D0%B0%D0%B9.png/revision/latest?cb=20180326214230&path-prefix=ru"
+  },
+  "Маффин с маком": {
+    "file": "assets/items/gifts/gift-6928.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/6/64/%D0%9C%D0%B0%D1%84%D1%84%D0%B8%D0%BD_%D1%81_%D0%BC%D0%B0%D0%BA%D0%BE%D0%BC.png/revision/latest?cb=20180325083710&path-prefix=ru"
+  },
+  "Фруктовый салат": {
+    "file": "assets/items/gifts/gift-6876.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/3/3a/%D0%A4%D1%80%D1%83%D0%BA%D1%82%D0%BE%D0%B2%D1%8B%D0%B9_%D1%81%D0%B0%D0%BB%D0%B0%D1%82.png/revision/latest?cb=20180323071833&path-prefix=ru"
+  }
+}

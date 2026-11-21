@@ -1,6 +1,6 @@
 {
   "name": "stardew-farm-planner",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "private": true,
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -8,7 +8,12 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
-    "sync:assets": "node scripts/extract-asset-manifests.mjs"
+    "sync:assets": "node scripts/extract-asset-manifests.mjs && node scripts/verify-asset-registry.mjs",
+    "fetch:villagers": "node scripts/fetch-villager-portraits.mjs && npm run sync:assets",
+    "import:portraits-cdp": "node scripts/import-portraits-cdp.mjs",
+    "import:gift-icons-cdp": "node scripts/import-gift-icons-cdp.mjs",
+    "gifts:missing-icons": "node scripts/list-missing-gift-icons.mjs",
+    "fetch:gift-icons-fandom": "node scripts/fetch-gift-icons-fandom.mjs && npm run sync:assets"
   },
   "dependencies": {
     "@expo/vector-icons": "^15.0.2",

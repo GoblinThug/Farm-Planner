@@ -52,14 +52,6 @@ const normalizeAssetPath = (file) => {
   return file.replace(/\.png\.png$/i, '.png');
 };
 
-const mergedBundleItems = { ...existingBundleItems };
-for (const [name, file] of Object.entries(bundleItemIconsFromApp)) {
-  mergedBundleItems[name] = normalizeAssetPath(file);
-}
-for (const name of Object.keys(mergedBundleItems)) {
-  mergedBundleItems[name] = normalizeAssetPath(mergedBundleItems[name]);
-}
-
 const cropImages = JSON.parse(fs.readFileSync(path.join(root, 'data/crop-images.json'), 'utf8'));
 const fishImages = JSON.parse(fs.readFileSync(path.join(root, 'data/fish-images.json'), 'utf8'));
 const animalImages = fs.existsSync(path.join(root, 'data/animal-images.json'))
@@ -68,6 +60,46 @@ const animalImages = fs.existsSync(path.join(root, 'data/animal-images.json'))
 const animalProductImages = fs.existsSync(path.join(root, 'data/animal-product-images.json'))
   ? JSON.parse(fs.readFileSync(path.join(root, 'data/animal-product-images.json'), 'utf8'))
   : {};
+const villagerPortraits = fs.existsSync(path.join(root, 'data/villager-portraits.json'))
+  ? JSON.parse(fs.readFileSync(path.join(root, 'data/villager-portraits.json'), 'utf8'))
+  : {};
+
+const giftItemIcons = fs.existsSync(path.join(root, 'data/gift-item-icons.json'))
+  ? JSON.parse(fs.readFileSync(path.join(root, 'data/gift-item-icons.json'), 'utf8'))
+  : {};
+const giftIconAliases = fs.existsSync(path.join(root, 'data/gift-icon-aliases.json'))
+  ? JSON.parse(fs.readFileSync(path.join(root, 'data/gift-icon-aliases.json'), 'utf8'))
+  : {};
+const giftFandomTitles = fs.existsSync(path.join(root, 'data/gift-fandom-titles.json'))
+  ? JSON.parse(fs.readFileSync(path.join(root, 'data/gift-fandom-titles.json'), 'utf8'))
+  : {};
+
+const mergedBundleItems = { ...existingBundleItems };
+for (const [name, file] of Object.entries(bundleItemIconsFromApp)) {
+  mergedBundleItems[name] = normalizeAssetPath(file);
+}
+for (const [name, entry] of Object.entries(cropImages)) {
+  if (entry?.file) mergedBundleItems[name] = normalizeAssetPath(entry.file);
+}
+for (const [name, entry] of Object.entries(fishImages)) {
+  if (entry?.file) mergedBundleItems[name] = normalizeAssetPath(entry.file);
+}
+for (const [name, entry] of Object.entries(animalProductImages)) {
+  if (entry?.file) mergedBundleItems[name] = normalizeAssetPath(entry.file);
+}
+for (const [name, file] of Object.entries(giftItemIcons)) {
+  mergedBundleItems[name] = normalizeAssetPath(file);
+}
+for (const [name, target] of Object.entries(giftIconAliases)) {
+  if (typeof target === 'string' && target.startsWith('assets/')) {
+    mergedBundleItems[name] = normalizeAssetPath(target);
+  } else if (mergedBundleItems[target]) {
+    mergedBundleItems[name] = mergedBundleItems[target];
+  }
+}
+for (const name of Object.keys(mergedBundleItems)) {
+  mergedBundleItems[name] = normalizeAssetPath(mergedBundleItems[name]);
+}
 
 const allPaths = new Set();
 const addPath = (p) => {
@@ -81,6 +113,7 @@ Object.values(animalProductImages).forEach((v) => addPath(v.file));
 Object.values(bundleImageAssets).forEach(addPath);
 Object.values(bundleRoomImages).forEach(addPath);
 Object.values(mergedBundleItems).forEach(addPath);
+Object.values(villagerPortraits).forEach(addPath);
 while ((m = requireRe.exec(appJs)) !== null) addPath(m[1]);
 
 const uiPaths = [

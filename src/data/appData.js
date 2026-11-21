@@ -38,7 +38,9 @@ export {
   animalImagesData,
   animalProductImagesData,
   gameEvents,
+  villagerGifts,
 } from './loadGameData';
+export { getVillagerGifts } from './villagerGifts';
 export {
   bundleImageAssets,
   bundleItemIcons,

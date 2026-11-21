@@ -10,6 +10,7 @@ import animalsData from '../../data/animals.json';
 import animalImagesData from '../../data/animal-images.json';
 import animalProductImagesData from '../../data/animal-product-images.json';
 import gameEventsData from '../../data/game-events.json';
+import villagerGiftsData from '../../data/villager-gifts.json';
 
 // JSON — единственный источник характеристик культур.
 // Внутренние имена days/regrow оставлены для совместимости с календарём и карточками.
@@ -32,4 +33,5 @@ export {
   animalImagesData,
   animalProductImagesData,
   gameEventsData as gameEvents,
+  villagerGiftsData as villagerGifts,
 };

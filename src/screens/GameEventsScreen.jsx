@@ -5,6 +5,7 @@ import { Feather } from '@expo/vector-icons';
 import { seasons, week, SeasonIcon, gameEvents, dateText } from '../data/appData';
 import { useTheme } from '../context/ThemeContext';
 import { Panel } from '../components/Panel';
+import { BirthdayGiftCard } from '../components/BirthdayGiftCard';
 import {
   buildEventFilterOptions,
   dayMatchesEventFilter,
@@ -61,6 +62,19 @@ export function GameEventsScreen() {
   };
 
   const showAllMarkers = selectedEventId === EVENT_FILTER_ALL;
+
+  const birthdaysForGifts = useMemo(() => {
+    if (!includeBirthdays) return [];
+    if (
+      selectedFilter.kind === 'birthday' &&
+      selectedFilter.season === season &&
+      selectedFilter.day === day
+    ) {
+      return [{ name: selectedFilter.name }];
+    }
+    if (showAllMarkers) return dayInfo.birthdays;
+    return [];
+  }, [includeBirthdays, selectedFilter, season, day, showAllMarkers, dayInfo.birthdays]);
 
   return (
     <>
@@ -189,6 +203,17 @@ export function GameEventsScreen() {
           </View>
         </View>
       </Panel>
+      {birthdaysForGifts.length > 0 ? (
+        <Panel>
+          <Text style={st.panelTitle}>Дни рождения · подарки</Text>
+          <Text style={[st.muted, { marginBottom: 8 }]}>
+            Любимые подарки для выбранного дня ({birthdaysForGifts.length})
+          </Text>
+          {birthdaysForGifts.map(b => (
+            <BirthdayGiftCard key={b.name} name={b.name} />
+          ))}
+        </Panel>
+      ) : null}
       <Panel>
         <Text style={st.panelTitle}>
           {dateText({ season, day, year: 1 })} · {weekdayNameForDay(day)}

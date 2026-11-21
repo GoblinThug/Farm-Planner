@@ -14,12 +14,11 @@ const MENU_PROTRUDE = 22;
 function NavTab({ tabDef, active, onPress }) {
   const { st } = useTheme();
   if (!tabDef) return null;
-  const iconEl =
-    tabDef.icon === 'bundles' && tabDef.navIcon ? (
-      <Image source={tabDef.navIcon} style={[st.navTabIcon, active && st.navTabIconActive]} resizeMode="contain" />
-    ) : (
-      <UIIcon name={tabDef.icon} size={22} />
-    );
+  const iconEl = tabDef.navIcon ? (
+    <Image source={tabDef.navIcon} style={[st.navTabIcon, active && st.navTabIconActive]} resizeMode="contain" />
+  ) : (
+    <UIIcon name={tabDef.icon} size={22} />
+  );
   return (
     <TouchableOpacity
       onPress={onPress}

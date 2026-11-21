@@ -5,6 +5,7 @@ import animalImagesData from '../../data/animal-images.json';
 import animalProductImagesData from '../../data/animal-product-images.json';
 import bundleImageManifest from '../../data/bundle-image-manifest.json';
 import bundleItemIconsData from '../../data/bundle-item-icons.json';
+import villagerPortraitsData from '../../data/villager-portraits.json';
 
 export const cropSpriteAssets = mapManifestToSprites(cropImagesData);
 export const fishSpriteAssets = mapManifestToSprites(fishImagesData);
@@ -13,6 +14,7 @@ export const animalProductSpriteAssets = mapManifestToSprites(animalProductImage
 export const bundleImageAssets = mapManifestToSprites(bundleImageManifest.bundleIcons);
 export const bundleRoomImages = mapManifestToSprites(bundleImageManifest.roomIcons);
 export const bundleItemIcons = mapManifestToSprites(bundleItemIconsData);
+export const villagerPortraitSprites = mapManifestToSprites(villagerPortraitsData);
 export const bundleNavIcon = resolveAssetPath('assets/ui/bundle.png');
 
 export const uiSprites = {

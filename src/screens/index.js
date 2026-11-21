@@ -4,6 +4,7 @@ import { FishScreen } from './FishScreen';
 import { BundlesScreen } from './BundlesScreen';
 import { AnimalsScreen } from './AnimalsScreen';
 import { GameEventsScreen } from './GameEventsScreen';
+import { VillagersScreen } from './VillagersScreen';
 
 export const SCREENS_BY_TAB_ID = {
   calendar: CalendarScreen,
@@ -12,4 +13,5 @@ export const SCREENS_BY_TAB_ID = {
   fish: FishScreen,
   bundles: BundlesScreen,
   'game-events': GameEventsScreen,
+  villagers: VillagersScreen,
 };

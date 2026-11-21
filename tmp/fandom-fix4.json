@@ -1,0 +1,18 @@
+{
+  "Салат": {
+    "file": "assets/items/gifts/gift-6645.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/4/42/%D0%A1%D0%B0%D0%BB%D0%B0%D1%82.png/revision/latest?cb=20180308143350&path-prefix=ru"
+  },
+  "Стир-фрай": {
+    "file": "assets/items/gifts/gift-6981.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/c/cc/%D0%A1%D1%82%D0%B8%D1%80-%D1%84%D1%80%D0%B0%D0%B9.png/revision/latest?cb=20180326214230&path-prefix=ru"
+  },
+  "Маффин с маком": {
+    "file": "assets/items/gifts/gift-6928.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/6/64/%D0%9C%D0%B0%D1%84%D1%84%D0%B8%D0%BD_%D1%81_%D0%BC%D0%B0%D0%BA%D0%BE%D0%BC.png/revision/latest?cb=20180325083710&path-prefix=ru"
+  },
+  "Фруктовый салат": {
+    "file": "assets/items/gifts/gift-6876.png",
+    "iconUrl": "https://static.wikia.nocookie.net/stardewvalley/images/3/3a/%D0%A4%D1%80%D1%83%D0%BA%D1%82%D0%BE%D0%B2%D1%8B%D0%B9_%D1%81%D0%B0%D0%BB%D0%B0%D1%82.png/revision/latest?cb=20180323071833&path-prefix=ru"
+  }
+}

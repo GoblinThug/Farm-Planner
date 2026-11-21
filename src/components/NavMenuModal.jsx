@@ -28,12 +28,11 @@ export function NavMenuModal({ visible, activeTabId, onClose, onSelectTab }) {
           <ScrollView style={st.navMenuList} showsVerticalScrollIndicator={false}>
             {APP_TABS.map(tab => {
               const active = activeTabId === tab.id;
-              const iconEl =
-                tab.icon === 'bundles' && tab.navIcon ? (
-                  <Image source={tab.navIcon} style={st.navMenuRowIcon} resizeMode="contain" />
-                ) : (
-                  <UIIcon name={tab.icon} size={28} />
-                );
+              const iconEl = tab.navIcon ? (
+                <Image source={tab.navIcon} style={st.navMenuRowIcon} resizeMode="contain" />
+              ) : (
+                <UIIcon name={tab.icon} size={28} />
+              );
               return (
                 <TouchableOpacity
                   key={tab.id}
@@ -53,12 +52,11 @@ export function NavMenuModal({ visible, activeTabId, onClose, onSelectTab }) {
             <Text style={[st.modalEyebrow, st.sectionEyebrow]}>ДОПОЛНИТЕЛЬНО</Text>
             {MENU_EXTRA_TABS.map(tab => {
               const active = activeTabId === tab.id;
-              const iconEl =
-                tab.icon === 'bundles' && tab.navIcon ? (
-                  <Image source={tab.navIcon} style={st.navMenuRowIcon} resizeMode="contain" />
-                ) : (
-                  <UIIcon name={tab.icon} size={28} />
-                );
+              const iconEl = tab.navIcon ? (
+                <Image source={tab.navIcon} style={st.navMenuRowIcon} resizeMode="contain" />
+              ) : (
+                <UIIcon name={tab.icon} size={28} />
+              );
               return (
                 <TouchableOpacity
                   key={tab.id}
