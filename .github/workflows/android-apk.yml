@@ -37,6 +37,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Verify image assets
+        run: npm run sync:assets
+
       - name: Read app version
         id: version
         run: |

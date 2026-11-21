@@ -8,7 +8,7 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
-    "sync:assets": "node scripts/extract-asset-manifests.mjs && node scripts/verify-asset-registry.mjs",
+    "sync:assets": "node scripts/extract-asset-manifests.mjs && node scripts/verify-asset-registry.mjs && node scripts/verify-png-assets.mjs",
     "fetch:villagers": "node scripts/fetch-villager-portraits.mjs && npm run sync:assets",
     "import:portraits-cdp": "node scripts/import-portraits-cdp.mjs",
     "import:gift-icons-cdp": "node scripts/import-gift-icons-cdp.mjs",

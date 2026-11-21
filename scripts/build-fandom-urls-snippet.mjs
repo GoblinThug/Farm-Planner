@@ -54,7 +54,7 @@ const fn = `(async () => {
       }
       const pid = await pageId(wiki);
       out[display] = {
-        file: 'assets/items/gifts/gift-' + (pid || 'x') + '.png',
+        file: 'assets/items/gifts/gift-' + (pid || 'x') + '.webp',
         iconUrl,
         wiki,
       };

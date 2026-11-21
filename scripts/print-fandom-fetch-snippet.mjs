@@ -56,7 +56,7 @@ const fn = `(async () => {
       for (let i = 0; i < bytes.length; i += 0x8000) {
         bin += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
       }
-      const rel = 'assets/items/gifts/gift-' + (pageid || title.length) + '.png';
+      const rel = 'assets/items/gifts/gift-' + (pageid || title.length) + '.webp';
       out[title] = { file: rel, b64: btoa(bin), bytes: bytes.length, iconUrl };
       await new Promise((r) => setTimeout(r, 120));
     } catch (e) {
