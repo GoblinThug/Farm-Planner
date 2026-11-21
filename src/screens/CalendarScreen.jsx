@@ -307,7 +307,7 @@ export function CalendarScreen() {
               onPress={() => setDeleteTarget(e.p)}
               style={st.deletePlantButton}
             >
-              <Feather name="trash-2" size={16} color="#8b3e2f" />
+              <Feather name="trash-2" size={16} color={palette.danger} />
             </TouchableOpacity>
           </Panel>
         ))

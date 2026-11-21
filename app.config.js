@@ -5,5 +5,6 @@ module.exports = {
   expo: {
     ...appJson.expo,
     version: packageJson.version,
+    plugins: [...(appJson.expo.plugins || []), './plugins/withAndroidLinkingQueries.js'],
   },
 };

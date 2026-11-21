@@ -148,10 +148,7 @@ export function ProfileMenuModal({ visible, onClose }) {
           placeholderTextColor={palette.muted}
           style={[st.modalSearch, st.profileModalInput]}
         />
-        <View style={[st.confirmActions, st.profileConfirmActions]}>
-          <TouchableOpacity onPress={() => setNewProfileOpen(false)} style={st.confirmCancel}>
-            <Text style={st.confirmCancelText}>Отмена</Text>
-          </TouchableOpacity>
+        <View style={[st.confirmActionsStacked, st.profileConfirmActions]}>
           <TouchableOpacity
             onPress={() => {
               addProfile(newProfileName);
@@ -159,9 +156,12 @@ export function ProfileMenuModal({ visible, onClose }) {
               setNewProfileOpen(false);
               onClose();
             }}
-            style={st.confirmDelete}
+            style={[st.confirmDelete, st.confirmActionFull]}
           >
             <Text style={st.confirmDeleteText}>Создать</Text>
+          </TouchableOpacity>
+          <TouchableOpacity onPress={() => setNewProfileOpen(false)} style={[st.confirmCancel, st.confirmActionFull]}>
+            <Text style={st.confirmCancelText}>Отмена</Text>
           </TouchableOpacity>
         </View>
       </AnimatedModal>
@@ -179,18 +179,18 @@ export function ProfileMenuModal({ visible, onClose }) {
           placeholderTextColor={palette.muted}
           style={[st.modalSearch, st.profileModalInput]}
         />
-        <View style={[st.confirmActions, st.profileConfirmActions]}>
-          <TouchableOpacity onPress={() => setRenameOpen(false)} style={st.confirmCancel}>
-            <Text style={st.confirmCancelText}>Отмена</Text>
-          </TouchableOpacity>
+        <View style={[st.confirmActionsStacked, st.profileConfirmActions]}>
           <TouchableOpacity
             onPress={() => {
               if (activeProfile?.id) renameProfile(activeProfile.id, renameValue);
               setRenameOpen(false);
             }}
-            style={st.confirmDelete}
+            style={[st.confirmDelete, st.confirmActionFull]}
           >
             <Text style={st.confirmDeleteText}>Сохранить</Text>
+          </TouchableOpacity>
+          <TouchableOpacity onPress={() => setRenameOpen(false)} style={[st.confirmCancel, st.confirmActionFull]}>
+            <Text style={st.confirmCancelText}>Отмена</Text>
           </TouchableOpacity>
         </View>
       </AnimatedModal>
@@ -200,23 +200,27 @@ export function ProfileMenuModal({ visible, onClose }) {
         onRequestClose={() => setImportOpen(false)}
         cardStyle={[st.modalCard, { maxHeight: '85%' }]}
       >
-        <Text style={st.modalTitle}>Импорт данных</Text>
-        <Text style={st.modalIntro}>Вставь JSON из экспорта. Текущие профили будут заменены.</Text>
-        <TextInput
-          value={importValue}
-          onChangeText={setImportValue}
-          placeholder="Вставь JSON сюда..."
-          placeholderTextColor={palette.muted}
-          style={[st.modalSearch, { minHeight: 140, textAlignVertical: 'top' }]}
-          multiline
-        />
-        <View style={st.confirmActions}>
-          <TouchableOpacity onPress={() => setImportOpen(false)} style={st.confirmCancel}>
-            <Text style={st.confirmCancelText}>Отмена</Text>
-          </TouchableOpacity>
-          <TouchableOpacity onPress={runImport} style={st.confirmDelete}>
-            <Text style={st.confirmDeleteText}>Импортировать</Text>
-          </TouchableOpacity>
+        <ScrollView style={st.modalBody} keyboardShouldPersistTaps="handled" showsVerticalScrollIndicator={false}>
+          <Text style={st.modalTitle}>Импорт данных</Text>
+          <Text style={st.modalIntro}>Вставь JSON из экспорта. Текущие профили будут заменены.</Text>
+          <TextInput
+            value={importValue}
+            onChangeText={setImportValue}
+            placeholder="Вставь JSON сюда..."
+            placeholderTextColor={palette.muted}
+            style={[st.modalSearch, { minHeight: 140, textAlignVertical: 'top' }]}
+            multiline
+          />
+        </ScrollView>
+        <View style={st.modalBottom}>
+          <View style={st.confirmActionsStacked}>
+            <TouchableOpacity onPress={runImport} style={[st.confirmDelete, st.confirmActionFull]}>
+              <Text style={st.confirmDeleteText}>Импортировать</Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => setImportOpen(false)} style={[st.confirmCancel, st.confirmActionFull]}>
+              <Text style={st.confirmCancelText}>Отмена</Text>
+            </TouchableOpacity>
+          </View>
         </View>
       </AnimatedModal>
     </>

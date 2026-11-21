@@ -46,7 +46,7 @@ function NavTab({ tabDef, active, onPress }) {
 }
 
 export function BottomNav({ activeTabId, onSelectTab, onOpenMenu }) {
-  const { st, palette } = useTheme();
+  const { st, palette, isDark } = useTheme();
   const left = LEFT_TAB_IDS.map(id => tabById(id)).filter(Boolean);
   const right = RIGHT_TAB_IDS.map(id => tabById(id)).filter(Boolean);
   const menuSectionActive = activeTabId && !BOTTOM_TAB_IDS.has(activeTabId);
@@ -78,7 +78,7 @@ export function BottomNav({ activeTabId, onSelectTab, onOpenMenu }) {
             accessibilityState={{ selected: menuSectionActive }}
             accessibilityLabel="Открыть меню разделов"
           >
-            <Feather name="menu" size={22} color={palette.ink} />
+            <Feather name="menu" size={22} color={isDark ? palette.cream : palette.ink} />
           </TouchableOpacity>
           <Text
             style={[

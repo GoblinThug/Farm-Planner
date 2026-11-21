@@ -65,11 +65,21 @@ export async function checkGitHubUpdate() {
 
 export async function openUpdateLink(info) {
   const url = Platform.OS === 'android' && info?.apkUrl ? info.apkUrl : info?.releaseUrl || githubReleasesPageUrl();
-  const can = await Linking.canOpenURL(url);
-  if (!can) {
+  let canOpen = false;
+  try {
+    canOpen = await Linking.canOpenURL(url);
+  } catch {
+    /* Android 11+ may block canOpenURL without manifest queries — fall through to openURL */
+  }
+  if (canOpen) {
+    await Linking.openURL(url);
+    return;
+  }
+  try {
+    await Linking.openURL(url);
+  } catch {
     throw new Error('Не удалось открыть ссылку');
   }
-  await Linking.openURL(url);
 }
 
 export function promptUpdateAvailable(info, { onLater } = {}) {

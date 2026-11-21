@@ -19,7 +19,7 @@ function itemKey(variant, bundleId, index) {
 }
 
 export function BundlesScreen() {
-  const { st, palette } = useTheme();
+  const { st, palette, isDark } = useTheme();
   const { ready, save, setSave } = useActiveProfileSave();
   const tracker = save.bundleTracker;
   const [bundleSearch, setBundleSearch] = useState('');
@@ -199,9 +199,11 @@ export function BundlesScreen() {
                     st.cropCard,
                     bundleComplete && st.fishCardCaught,
                     {
-                      backgroundColor: bundleCardTints[colorIndex] || 'rgba(185,154,108,0.12)',
+                      backgroundColor: isDark
+                        ? palette.paperSoft
+                        : bundleCardTints[colorIndex] || 'rgba(185,154,108,0.12)',
                       borderWidth: 1,
-                      borderColor: 'rgba(120,88,53,0.22)',
+                      borderColor: isDark ? palette.lineSoft : 'rgba(120,88,53,0.22)',
                       borderLeftWidth: 4,
                       borderLeftColor: color,
                       marginTop: 0,

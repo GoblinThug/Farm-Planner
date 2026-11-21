@@ -22,6 +22,7 @@ export const seasonThemes = {
 };
 
 export function createStyles(palette) {
+  const isDark = palette.mode === 'dark';
   const surface = {
     card: palette.paperLight,
     muted: palette.paperSoft,
@@ -299,7 +300,10 @@ export function createStyles(palette) {
   white: { color: palette.cream },
   dayDot: { fontSize: 9, position: 'absolute', bottom: 0 },
   dayHasPlant: { borderColor: palette.green, borderBottomWidth: 3 },
-  dayHasHarvest: { backgroundColor: '#fff1c4', borderColor: palette.gold },
+  dayHasHarvest: {
+    backgroundColor: isDark ? '#3a3224' : '#fff1c4',
+    borderColor: palette.gold,
+  },
   dayMarkers: {
     flexDirection: 'row',
     gap: 3,
@@ -312,7 +316,7 @@ export function createStyles(palette) {
     height: 6,
     borderRadius: 3,
     borderWidth: border.hairline,
-    borderColor: 'rgba(65,48,28,0.2)',
+    borderColor: isDark ? 'rgba(243,234,216,0.2)' : 'rgba(65,48,28,0.2)',
   },
   plantMarker: { backgroundColor: '#4f8b45' },
   harvestMarker: { backgroundColor: '#e4a72e' },
@@ -429,7 +433,7 @@ export function createStyles(palette) {
   inputs: { flexDirection: 'row', gap: space.xs },
   input: {
     flex: 1,
-    backgroundColor: palette.cream,
+    backgroundColor: isDark ? surface.chip : palette.cream,
     borderWidth: border.hairline,
     borderColor: palette.lineSoft,
     borderRadius: radius.sm,
@@ -452,7 +456,7 @@ export function createStyles(palette) {
   /* —— Fish / animals filters —— */
   fishProgress: {
     height: 6,
-    backgroundColor: 'rgba(255,248,234,0.22)',
+    backgroundColor: isDark ? 'rgba(243,234,216,0.12)' : 'rgba(255,248,234,0.22)',
     borderRadius: radius.pill,
     overflow: 'hidden',
     marginTop: space.sm,
@@ -507,13 +511,13 @@ export function createStyles(palette) {
     height: 28,
     borderRadius: radius.sm,
     borderWidth: border.hairline,
-    borderColor: palette.line,
+    borderColor: isDark ? palette.line : palette.line,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: palette.cream,
+    backgroundColor: isDark ? surface.muted : palette.cream,
   },
   fishCheckOn: { backgroundColor: palette.greenDark, borderColor: palette.greenDark },
-  fishCheckText: { fontSize: 16, fontWeight: '800', color: palette.brown },
+  fishCheckText: { fontSize: 16, fontWeight: '800', color: isDark ? palette.ink : palette.brown },
   fishCheckTextOn: { color: palette.cream },
   fishTapHint: { fontSize: 8, color: palette.muted, marginTop: space.xs, marginLeft: 56 },
   fishDetails: {
@@ -751,19 +755,19 @@ export function createStyles(palette) {
     height: 50,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: palette.accent,
+    backgroundColor: isDark ? palette.greenDark : palette.accent,
     borderWidth: border.thick,
-    borderColor: palette.paperLight,
+    borderColor: isDark ? palette.line : palette.paperLight,
     borderRadius: radius.lg,
-    shadowColor: '#2b1b10',
+    shadowColor: isDark ? '#000' : '#2b1b10',
     shadowOffset: { width: 0, height: 3 },
-    shadowOpacity: 0.18,
+    shadowOpacity: isDark ? 0.35 : 0.18,
     shadowRadius: 5,
     elevation: 6,
   },
   navMenuButtonActive: {
-    backgroundColor: '#b8d67a',
-    borderColor: palette.cream,
+    backgroundColor: isDark ? palette.green : '#b8d67a',
+    borderColor: isDark ? palette.accent : palette.cream,
   },
 
   /* —— Modals / menus —— */
@@ -825,6 +829,7 @@ export function createStyles(palette) {
   },
   modalCard: {
     maxHeight: '92%',
+    overflow: 'hidden',
     backgroundColor: palette.paperLight,
     borderWidth: border.hairline,
     borderColor: palette.lineSoft,
@@ -1002,8 +1007,8 @@ export function createStyles(palette) {
     height: 34,
     borderRadius: radius.sm,
     borderWidth: border.hairline,
-    borderColor: '#d6a18f',
-    backgroundColor: palette.dangerSoft,
+    borderColor: palette.danger,
+    backgroundColor: isDark ? 'rgba(196, 106, 85, 0.28)' : palette.dangerSoft,
     alignItems: 'center',
     justifyContent: 'center',
     marginLeft: 2,
@@ -1051,6 +1056,8 @@ export function createStyles(palette) {
     marginBottom: space.md,
   },
   confirmActions: { flexDirection: 'row', width: '100%', gap: space.xs },
+  confirmActionsStacked: { flexDirection: 'column', width: '100%', gap: space.xs },
+  confirmActionFull: { flex: 0, width: '100%', alignSelf: 'stretch' },
   confirmCancel: {
     flex: 1,
     paddingVertical: space.sm,
