@@ -2,10 +2,8 @@ import React from 'react';
 import { Image, Text } from 'react-native';
 import cropImagesData from '../../data/crop-images.json';
 import { cropSpriteAssets, seasonSprites, uiSprites } from '../assets/sprites';
-import { st } from '../styles/styles';
-
 export const UIIcon = ({ name, size = 24 }) => (
-  <Image source={uiSprites[name]} style={{ width: size, height: size }} resizeMode="stretch" />
+  <Image source={uiSprites[name]} style={{ width: size, height: size }} resizeMode="contain" />
 );
 
 export const SeasonIcon = ({ name, size = 22 }) => (
@@ -20,5 +18,5 @@ export const CropIcon = ({ crop, size = 42 }) =>
       resizeMode="contain"
     />
   ) : crop?.icon ? (
-    <Text style={st.cropIcon}>{crop.icon}</Text>
+    <Text style={{ fontSize: size * 0.7, width: size, textAlign: 'center' }}>{crop.icon}</Text>
   ) : null;

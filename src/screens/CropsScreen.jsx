@@ -1,7 +1,6 @@
 import React, { useMemo, useState } from 'react';
 import { View, Text, TouchableOpacity, TextInput } from 'react-native';
 import {
-  palette,
   seasons,
   UIIcon,
   SeasonIcon,
@@ -12,11 +11,12 @@ import {
   cropGrowingPlaceLines,
   cropGrowingSummary,
 } from '../data/appData';
-import { st } from '../styles/styles';
+import { useTheme } from '../context/ThemeContext';
 import { Panel } from '../components/Panel';
 import { buildEncyclopediaCrops } from '../utils/encyclopediaCrops';
 
 export function CropsScreen() {
+  const { st, palette } = useTheme();
   const [filter, setFilter] = useState('Все');
   const [cropSearch, setCropSearch] = useState('');
   const [expandedCrop, setExpandedCrop] = useState(null);
@@ -76,7 +76,7 @@ export function CropsScreen() {
             onPress={() => setFilter(s.name)}
           >
             {s.name === 'Все' ? <UIIcon name="crops" size={24} /> : <SeasonIcon name={s.name} size={24} />}
-            <Text numberOfLines={1} style={st.btnText}>
+            <Text numberOfLines={1} style={[st.btnText, filter === s.name && st.btnTextOn]}>
               {s.name}
             </Text>
           </TouchableOpacity>
@@ -91,7 +91,7 @@ export function CropsScreen() {
             <Panel style={st.cropCard}>
               <View style={st.row}>
                 <CropIcon crop={c} size={46} />
-                <View style={{ flex: 1 }}>
+                <View style={st.flex1}>
                   <Text style={st.itemTitle}>{c.name}</Text>
                   <Text style={st.growingSummary}>{cropGrowingSummary(c)}</Text>
                   <Text style={st.detail}>

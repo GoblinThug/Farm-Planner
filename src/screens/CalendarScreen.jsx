@@ -1,9 +1,9 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { View, Text, TouchableOpacity, ScrollView, TextInput, Modal, Alert } from 'react-native';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+import { View, Text, TouchableOpacity, ScrollView, TextInput, Alert } from 'react-native';
+import { AnimatedModal } from '../components/AnimatedModal';
+import { useActiveProfileSave } from '../context/ProfileContext';
 import { Feather } from '@expo/vector-icons';
 import {
-  palette,
   seasons,
   week,
   UIIcon,
@@ -12,7 +12,7 @@ import {
   addDays,
   dateText,
 } from '../data/appData';
-import { seasonThemes, st } from '../styles/styles';
+import { useTheme } from '../context/ThemeContext';
 import { Panel } from '../components/Panel';
 import { buildEncyclopediaCrops } from '../utils/encyclopediaCrops';
 import { computeAllEvents } from '../utils/plantingEvents';
@@ -25,11 +25,18 @@ const LOCATION_LABELS = {
 };
 
 export function CalendarScreen() {
+  const { st, palette, seasonThemes } = useTheme();
+  const { ready, save, setSave } = useActiveProfileSave();
+  const plantings = save.plantings;
+  const setPlantings = updater =>
+    setSave(current => ({
+      ...current,
+      plantings: typeof updater === 'function' ? updater(current.plantings) : updater,
+    }));
   const [season, setSeason] = useState('Весна');
   const [day, setDay] = useState(1);
   const [year, setYear] = useState(1);
-  const [plantings, setPlantings] = useState([]);
-  const [loaded, setLoaded] = useState(false);
+  const [datesSynced, setDatesSynced] = useState(false);
   const [deleteTarget, setDeleteTarget] = useState(null);
   const [dayModal, setDayModal] = useState(false);
   const [modalSelected, setModalSelected] = useState([]);
@@ -41,33 +48,18 @@ export function CalendarScreen() {
   const encyclopediaCrops = useMemo(() => buildEncyclopediaCrops(), []);
 
   useEffect(() => {
-    AsyncStorage.getItem('farm-plantings-v1')
-      .then(v => {
-        if (v) {
-          const loadedPlantings = JSON.parse(v).map(p => ({ ...p, year: p.year || 1 }));
-          setPlantings(loadedPlantings);
-          const order = { Весна: 0, Лето: 1, Осень: 2, Зима: 3 };
-          const latest = [...loadedPlantings].sort(
-            (a, b) => (b.year - a.year) || (order[b.season] - order[a.season]) || (b.day - a.day)
-          )[0];
-          if (latest) {
-            setYear(latest.year);
-            setSeason(latest.season);
-            setDay(latest.day);
-          }
-        }
-      })
-      .catch(() => {})
-      .finally(() => setLoaded(true));
-  }, []);
-
-  useEffect(() => {
-    if (loaded) {
-      AsyncStorage.setItem('farm-plantings-v1', JSON.stringify(plantings)).catch(() =>
-        Alert.alert('Не удалось сохранить', 'Проверь доступность хранилища устройства.')
-      );
+    if (!ready || datesSynced) return;
+    const order = { Весна: 0, Лето: 1, Осень: 2, Зима: 3 };
+    const latest = [...plantings].sort(
+      (a, b) => (b.year - a.year) || (order[b.season] - order[a.season]) || (b.day - a.day)
+    )[0];
+    if (latest) {
+      setYear(latest.year);
+      setSeason(latest.season);
+      setDay(latest.day);
     }
-  }, [plantings, loaded]);
+    setDatesSynced(true);
+  }, [ready, plantings, datesSynced]);
 
   const modalCrops = useMemo(
     () =>
@@ -141,6 +133,14 @@ export function CalendarScreen() {
   const allEvents = useMemo(() => computeAllEvents(plantings, encyclopediaCrops), [plantings, encyclopediaCrops]);
   const dayEvents = allEvents.filter(e => e.year === year && e.season === season && e.day === day);
 
+  if (!ready) {
+    return (
+      <Panel>
+        <Text style={st.muted}>Загрузка календаря…</Text>
+      </Panel>
+    );
+  }
+
   const openDayModal = () => {
     setPlantingLocation('farm');
     setModalCropSearch('');
@@ -200,9 +200,10 @@ export function CalendarScreen() {
               activeOpacity={0.85}
               style={[
                 st.btn,
+                st.heroChip,
                 st.seasonBtn,
                 st.calendarSeasonBtn,
-                season === s.name && [st.btnOn, seasonThemes[season]?.selected],
+                season === s.name && [st.heroChipOn, seasonThemes[season]?.selected],
               ]}
               onPress={() => {
                 if (season === 'Зима' && s.name === 'Весна') setYear(y => y + 1);
@@ -211,7 +212,12 @@ export function CalendarScreen() {
               }}
             >
               <SeasonIcon name={s.name} size={24} />
-              <Text numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.82} style={st.btnText}>
+              <Text
+                numberOfLines={1}
+                adjustsFontSizeToFit
+                minimumFontScale={0.82}
+                style={[st.btnTextLight, season === s.name && st.calendarSeasonTextOn]}
+              >
                 {s.name}
               </Text>
             </TouchableOpacity>
@@ -260,7 +266,7 @@ export function CalendarScreen() {
         <View style={st.selected}>
           <View style={st.selectedDateRow}>
             <Text style={st.bigDay}>{day}</Text>
-            <View style={{ flex: 1 }}>
+            <View style={st.flex1}>
               <Text style={st.itemTitle}>{dateText({ season, day, year })}</Text>
               <Text style={st.muted}>
                 {dayEvents.length
@@ -283,7 +289,7 @@ export function CalendarScreen() {
             style={[st.eventCard, e.kind === 'Посадка' ? st.plantEventCard : st.harvestEventCard]}
           >
             <CropIcon crop={e.c} size={40} />
-            <View style={{ flex: 1 }}>
+            <View style={st.flex1}>
               <Text style={st.eventKind}>{e.kind === 'Посадка' ? 'ПОСАДИТЬ' : 'ПОРА СОБИРАТЬ'}</Text>
               <Text style={st.itemTitle}>{e.c.name}</Text>
               <Text style={st.muted}>
@@ -311,11 +317,9 @@ export function CalendarScreen() {
         </Panel>
       )}
 
-      <Modal visible={dayModal} transparent animationType="fade" onRequestClose={() => setDayModal(false)}>
-        <View style={st.modalBackdrop}>
-          <View style={st.modalCard}>
+      <AnimatedModal visible={dayModal} onRequestClose={() => setDayModal(false)} cardStyle={st.modalCard}>
             <View style={st.modalHeader}>
-              <View style={{ flex: 1 }}>
+              <View style={st.flex1}>
                 <Text style={st.modalEyebrow}>НОВАЯ ПОСАДКА</Text>
                 <Text style={st.modalTitle}>
                   <SeasonIcon name={season} size={24} /> {day} день · {season.toLowerCase()}
@@ -349,7 +353,7 @@ export function CalendarScreen() {
                     <View style={[st.locationRadio, plantingLocation === key && st.locationRadioActive]}>
                       {plantingLocation === key && <View style={st.locationRadioDot} />}
                     </View>
-                    <View style={{ flex: 1 }}>
+                    <View style={st.flex1}>
                       <Text style={st.locationTitle}>{label}</Text>
                       <Text style={st.locationDescription}>{description}</Text>
                     </View>
@@ -363,7 +367,7 @@ export function CalendarScreen() {
                     <View style={[st.checkCircle, irrigated && st.checkCircleOn]}>
                       {irrigated && <Text style={st.checkMark}>✓</Text>}
                     </View>
-                    <View style={{ flex: 1 }}>
+                    <View style={st.flex1}>
                       <Text style={st.itemTitle}>Рядом есть вода</Text>
                       <Text style={st.muted}>Для риса и корня таро рост будет быстрее</Text>
                     </View>
@@ -376,14 +380,14 @@ export function CalendarScreen() {
                   <View style={[st.checkCircle, qiQuestActive && st.checkCircleOn]}>
                     {qiQuestActive && <Text style={st.checkMark}>✓</Text>}
                   </View>
-                  <View style={{ flex: 1 }}>
+                  <View style={st.flex1}>
                     <Text style={st.itemTitle}>Я выполняю это задание</Text>
                     <Text style={st.muted}>Включи, если выращиваешь специальные культуры для задания</Text>
                   </View>
                 </TouchableOpacity>
               </View>
               <View style={st.cropPickerHeader}>
-                <View style={{ flex: 1 }}>
+                <View style={st.flex1}>
                   <Text style={st.modalSectionTitle}>2. Какие культуры посадить?</Text>
                   <Text style={st.muted}>
                     Доступно: {modalCrops.length} · Выбрано: {modalSelected.length}
@@ -409,7 +413,7 @@ export function CalendarScreen() {
                     style={[st.modalCrop, st.cropChoice, selected && st.modalCropSelected]}
                   >
                     <CropIcon crop={c} size={42} />
-                    <View style={{ flex: 1 }}>
+                    <View style={st.flex1}>
                       <Text style={st.itemTitle}>{c.name}</Text>
                       <Text style={st.harvestDate}>Первый урожай: {dateText(harvest)}</Text>
                       <Text style={st.muted}>
@@ -452,13 +456,9 @@ export function CalendarScreen() {
                 <Text style={st.cancelText}>Отмена</Text>
               </TouchableOpacity>
             </View>
-          </View>
-        </View>
-      </Modal>
+      </AnimatedModal>
 
-      <Modal visible={!!deleteTarget} transparent animationType="fade" onRequestClose={() => setDeleteTarget(null)}>
-        <View style={st.modalBackdrop}>
-          <View style={st.confirmCard}>
+      <AnimatedModal visible={!!deleteTarget} onRequestClose={() => setDeleteTarget(null)} cardStyle={st.confirmCard}>
             <View style={st.confirmIconWrap}>
               <Feather name="trash-2" size={25} color="#8b3e2f" />
             </View>
@@ -485,9 +485,7 @@ export function CalendarScreen() {
                 <Text style={st.confirmDeleteText}>Да, удалить</Text>
               </TouchableOpacity>
             </View>
-          </View>
-        </View>
-      </Modal>
+      </AnimatedModal>
     </>
   );
 }

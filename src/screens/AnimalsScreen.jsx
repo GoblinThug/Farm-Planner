@@ -1,7 +1,6 @@
 import React, { useMemo, useState } from 'react';
 import { View, Text, TouchableOpacity, ScrollView, TextInput, Image } from 'react-native';
 import {
-  palette,
   UIIcon,
   animals,
   animalSpriteAssets,
@@ -13,7 +12,7 @@ import {
   animalProduceSummary,
   animalSearchText,
 } from '../data/appData';
-import { st } from '../styles/styles';
+import { useTheme } from '../context/ThemeContext';
 import { Panel } from '../components/Panel';
 
 const ANIMAL_CATEGORIES = [
@@ -24,6 +23,7 @@ const ANIMAL_CATEGORIES = [
 ];
 
 export function AnimalsScreen() {
+  const { st, palette } = useTheme();
   const [category, setCategory] = useState('Все');
   const [search, setSearch] = useState('');
   const [expanded, setExpanded] = useState(null);
@@ -66,7 +66,7 @@ export function AnimalsScreen() {
             onPress={() => setCategory(c.id)}
             style={[st.btn, st.fishCategoryBtn, category === c.id && st.btnOn]}
           >
-            <Text numberOfLines={1} style={st.btnText}>
+            <Text numberOfLines={1} style={[st.btnText, category === c.id && st.btnTextOn]}>
               {c.label}
             </Text>
           </TouchableOpacity>
@@ -107,7 +107,7 @@ export function AnimalsScreen() {
                     <Image source={animalSpriteAssets[a.name]} style={{ width: 46, height: 46 }} resizeMode="contain" />
                   ) : null}
                 </View>
-                <View style={{ flex: 1 }}>
+                <View style={st.flex1}>
                   <Text style={st.itemTitle}>{a.name}</Text>
                   <Text style={st.growingSummary}>
                     {animalCategoryLabel(a)} · {a.building}
@@ -140,7 +140,7 @@ export function AnimalsScreen() {
                               <Image source={animalProductSpriteAssets[p.name]} style={{ width: 40, height: 40 }} resizeMode="contain" />
                             ) : null}
                           </View>
-                          <View style={{ flex: 1 }}>
+                          <View style={st.flex1}>
                             <Text style={st.detailLabel}>{p.name}</Text>
                             <Text style={st.growingPlaceText}>
                               {p.basePrice != null ? `${p.basePrice} з.` : 'Цена не указана'}

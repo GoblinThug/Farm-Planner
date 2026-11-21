@@ -1,7 +1,6 @@
 import React, { useMemo, useState } from 'react';
 import { View, Text, TouchableOpacity, ScrollView, TextInput, Image } from 'react-native';
 import {
-  palette,
   bundlesData,
   bundleImageAssets,
   bundleRoomImages,
@@ -11,14 +10,62 @@ import {
   bundleColors,
   bundleCardTints,
 } from '../data/appData';
-import { st } from '../styles/styles';
+import { useTheme } from '../context/ThemeContext';
 import { Panel } from '../components/Panel';
+import { useActiveProfileSave } from '../context/ProfileContext';
+
+function itemKey(variant, bundleId, index) {
+  return `${variant}:${bundleId}:${index}`;
+}
 
 export function BundlesScreen() {
+  const { st, palette } = useTheme();
+  const { ready, save, setSave } = useActiveProfileSave();
+  const tracker = save.bundleTracker;
   const [bundleSearch, setBundleSearch] = useState('');
-  const [bundleVariant, setBundleVariant] = useState('standard');
+  const [bundleVariant, setBundleVariant] = useState(tracker.variant || 'standard');
   const [bundleRoom, setBundleRoom] = useState('Все');
   const [expandedBundle, setExpandedBundle] = useState(null);
+
+  const patchTracker = updater =>
+    setSave(current => ({
+      ...current,
+      bundleTracker: typeof updater === 'function' ? updater(current.bundleTracker) : { ...current.bundleTracker, ...updater },
+    }));
+
+  const setVariant = v => {
+    setBundleVariant(v);
+    patchTracker(t => ({ ...t, variant: v }));
+    setExpandedBundle(null);
+  };
+
+  const toggleItem = (bundleId, index) => {
+    const key = itemKey(bundleVariant, bundleId, index);
+    patchTracker(t => {
+      const next = { ...t.checkedItems };
+      if (next[key]) delete next[key];
+      else next[key] = true;
+      return { ...t, checkedItems: next };
+    });
+  };
+
+  const toggleBundleComplete = bundleId => {
+    const key = `${bundleVariant}:${bundleId}`;
+    patchTracker(t => {
+      const next = { ...t.completedBundles };
+      if (next[key]) delete next[key];
+      else next[key] = true;
+      return { ...t, completedBundles: next };
+    });
+  };
+
+  const setBundleNote = (bundleId, text) => {
+    const key = `${bundleVariant}:${bundleId}`;
+    patchTracker(t => ({
+      ...t,
+      bundleNotes: { ...t.bundleNotes, [key]: text },
+    }));
+  };
 
   const sourceBundles = bundleVariant === 'standard' ? bundlesData.standardBundles : bundlesData.remixedBundles;
   const visibleBundles = useMemo(
@@ -40,17 +87,45 @@ export function BundlesScreen() {
     [visibleBundles]
   );
 
+  const stats = useMemo(() => {
+    let checked = 0;
+    let total = 0;
+    let completed = 0;
+    for (const b of sourceBundles) {
+      total += b.items.length;
+      b.items.forEach((_, i) => {
+        if (tracker.checkedItems[itemKey(bundleVariant, b.id, i)]) checked += 1;
+      });
+      if (tracker.completedBundles[`${bundleVariant}:${b.id}`]) completed += 1;
+    }
+    return { checked, total, completed, bundleCount: sourceBundles.length };
+  }, [sourceBundles, tracker, bundleVariant]);
+
+  if (!ready) {
+    return (
+      <Panel>
+        <Text style={st.muted}>Загрузка…</Text>
+      </Panel>
+    );
+  }
+
   return (
     <>
       <Panel style={st.hero}>
         <Text style={st.eyebrow}>СПРАВОЧНИК ЦЕНТРА СООБЩЕСТВА</Text>
-        <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
-          <Image source={bundleNavIcon} style={{ width: 30, height: 30 }} resizeMode="contain" />
+        <View style={st.rowHeader}>
+          <Image source={bundleNavIcon} style={st.heroInlineIcon} resizeMode="contain" />
           <Text style={st.heroTitle}>Узелки</Text>
         </View>
         <Text style={st.heroSub}>Что собрать, где найти и как завершить наборы</Text>
         <Text style={st.beginnerHint}>
-          Открой набор, чтобы посмотреть все необходимые предметы, способы получения, сезоны и награду. Стандартные и перемешанные наборы разделены.
+          Отмечай предметы и целые наборы — прогресс сохраняется в текущем профиле фермы. Открой карточку для справки и заметок.
+        </Text>
+        <View style={st.fishProgress}>
+          <View style={[st.fishProgressFill, { width: `${stats.total ? (stats.checked / stats.total) * 100 : 0}%` }]} />
+        </View>
+        <Text style={st.heroProgressText}>
+          Предметов: {stats.checked} / {stats.total} · Наборов: {stats.completed} / {stats.bundleCount}
         </Text>
       </Panel>
       <TextInput
@@ -62,22 +137,16 @@ export function BundlesScreen() {
       />
       <View style={st.bundleModeRow}>
         <TouchableOpacity
-          onPress={() => {
-            setBundleVariant('standard');
-            setExpandedBundle(null);
-          }}
+          onPress={() => setVariant('standard')}
           style={[st.btn, st.bundleModeBtn, bundleVariant === 'standard' && st.btnOn]}
         >
-          <Text style={st.btnText}>Обычные наборы</Text>
+          <Text style={[st.btnText, bundleVariant === 'standard' && st.btnTextOn]}>Обычные наборы</Text>
         </TouchableOpacity>
         <TouchableOpacity
-          onPress={() => {
-            setBundleVariant('remixed');
-            setExpandedBundle(null);
-          }}
+          onPress={() => setVariant('remixed')}
           style={[st.btn, st.bundleModeBtn, bundleVariant === 'remixed' && st.btnOn]}
         >
-          <Text style={st.btnText}>Перемешанные</Text>
+          <Text style={[st.btnText, bundleVariant === 'remixed' && st.btnTextOn]}>Перемешанные</Text>
         </TouchableOpacity>
       </View>
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={st.bundleRoomTabs}>
@@ -109,23 +178,26 @@ export function BundlesScreen() {
         <View key={group.id} style={st.bundleRoomSection}>
           <View style={st.bundleRoomHeading}>
             <Image source={bundleRoomImages[group.id]} style={st.bundleRoomHeadingImage} resizeMode="cover" />
-            <View style={{ flex: 1 }}>
+            <View style={st.flex1}>
               <Text style={st.panelTitle}>{group.name}</Text>
               <Text style={st.detail}>{group.bundles.length} наборов</Text>
             </View>
           </View>
           {group.bundles.map(b => {
             const opened = expandedBundle === b.id;
+            const bundleComplete = !!tracker.completedBundles[`${bundleVariant}:${b.id}`];
             const room = group;
             const colorIndex = b.color?.index;
             const color = colorIndex == null ? '#b99a6c' : bundleColors[colorIndex] || '#b99a6c';
             const bundleIcon =
               bundleImageAssets[b.id] || (b.room === 'abandoned-joja-mart' ? bundleImageAssets['missing-bundle'] : null);
+            const doneCount = b.items.filter((_, i) => tracker.checkedItems[itemKey(bundleVariant, b.id, i)]).length;
             return (
               <TouchableOpacity key={b.id} activeOpacity={0.9} onPress={() => setExpandedBundle(opened ? null : b.id)}>
                 <Panel
                   style={[
                     st.cropCard,
+                    bundleComplete && st.fishCardCaught,
                     {
                       backgroundColor: bundleCardTints[colorIndex] || 'rgba(185,154,108,0.12)',
                       borderWidth: 1,
@@ -147,38 +219,65 @@ export function BundlesScreen() {
                         <View style={st.bundleSackFold} />
                       </View>
                     )}
-                    <View style={{ flex: 1 }}>
+                    <View style={st.flex1}>
                       <Text style={st.itemTitle}>{b.name}</Text>
                       <Text style={st.growingSummary}>
-                        {room?.name || 'Центр сообщества'} · {b.itemsRequired} из {b.items.length} предметов
+                        {room?.name || 'Центр сообщества'} · {doneCount} / {b.items.length} предметов
+                        {b.itemsRequired !== b.items.length ? ` (нужно ${b.itemsRequired})` : ''}
                       </Text>
                       <Text style={st.detail}>
                         {b.color?.name ? `Цвет узелка: ${b.color.name}` : 'Цвет узелка для этого варианта не указан'}
                       </Text>
                     </View>
-                    <Text style={st.expandMark}>{opened ? '−' : '+'}</Text>
+                    <TouchableOpacity
+                      onPress={e => {
+                        e?.stopPropagation?.();
+                        toggleBundleComplete(b.id);
+                      }}
+                      style={[st.fishCheck, st.bundleTrackerCheck, { marginLeft: 8 }, bundleComplete && st.fishCheckOn]}
+                    >
+                      <Text style={[st.fishCheckText, bundleComplete && st.fishCheckTextOn]}>{bundleComplete ? '✓' : '+'}</Text>
+                    </TouchableOpacity>
                   </View>
                   {opened && (
                     <View style={st.cropDetails}>
                       <Text style={st.detailSection}>Что нужно собрать</Text>
-                      {b.items.map((it, i) => (
-                        <View key={`${b.id}-${i}`} style={st.bundleItem}>
-                          <Image source={bundleItemIcons[it.name]} style={st.bundleItemIcon} resizeMode="contain" />
-                          <View style={{ flex: 1 }}>
-                            <Text style={st.itemTitle}>
-                              {it.name}
-                              {it.quantity > 1 ? ` × ${it.quantity}` : ''}
-                            </Text>
-                            {it.minimumQuality ? <Text style={st.detail}>Качество: {it.minimumQuality}</Text> : null}
-                            {it.seasons?.length ? <Text style={st.detail}>Сезон: {it.seasons.join(', ')}</Text> : null}
-                            {it.methods?.length ? <Text style={st.detail}>Как получить: {it.methods.join('; ')}</Text> : null}
-                            {it.locations?.length ? <Text style={st.detail}>Где найти: {it.locations.join('; ')}</Text> : null}
-                            {it.time ? <Text style={st.detail}>Время: {it.time}</Text> : null}
-                            {it.weather ? <Text style={st.detail}>Погода: {it.weather}</Text> : null}
-                            {it.notes ? <Text style={st.simpleNote}>{it.notes}</Text> : null}
+                      {b.items.map((it, i) => {
+                        const on = !!tracker.checkedItems[itemKey(bundleVariant, b.id, i)];
+                        return (
+                          <View key={`${b.id}-${i}`} style={st.bundleTrackerItem}>
+                            <TouchableOpacity
+                              onPress={() => toggleItem(b.id, i)}
+                              style={[st.fishCheck, st.bundleTrackerCheck, on && st.fishCheckOn]}
+                            >
+                              <Text style={[st.fishCheckText, on && st.fishCheckTextOn]}>{on ? '✓' : '+'}</Text>
+                            </TouchableOpacity>
+                            <Image source={bundleItemIcons[it.name]} style={st.bundleItemIcon} resizeMode="contain" />
+                            <View style={st.flex1}>
+                              <Text style={[st.itemTitle, on && { textDecorationLine: 'line-through', opacity: 0.75 }]}>
+                                {it.name}
+                                {it.quantity > 1 ? ` × ${it.quantity}` : ''}
+                              </Text>
+                              {it.minimumQuality ? <Text style={st.detail}>Качество: {it.minimumQuality}</Text> : null}
+                              {it.seasons?.length ? <Text style={st.detail}>Сезон: {it.seasons.join(', ')}</Text> : null}
+                              {it.methods?.length ? <Text style={st.detail}>Как получить: {it.methods.join('; ')}</Text> : null}
+                              {it.locations?.length ? <Text style={st.detail}>Где найти: {it.locations.join('; ')}</Text> : null}
+                              {it.time ? <Text style={st.detail}>Время: {it.time}</Text> : null}
+                              {it.weather ? <Text style={st.detail}>Погода: {it.weather}</Text> : null}
+                              {it.notes ? <Text style={st.simpleNote}>{it.notes}</Text> : null}
+                            </View>
                           </View>
-                        </View>
-                      ))}
+                        );
+                      })}
+                      <Text style={st.detailSection}>Заметка</Text>
+                      <TextInput
+                        value={tracker.bundleNotes[`${bundleVariant}:${b.id}`] || ''}
+                        onChangeText={t => setBundleNote(b.id, t)}
+                        placeholder="Что осталось найти, где хранишь предметы..."
+                        placeholderTextColor={palette.muted}
+                        style={st.searchInput}
+                        multiline
+                      />
                       <Text style={st.detailSection}>Условия завершения</Text>
                       <Text style={st.detailBody}>
                         {b.selectionMode === 'choose'
@@ -212,10 +311,10 @@ export function BundlesScreen() {
         </Panel>
       ) : null}
       <Panel>
-        <Text style={st.panelTitle}>Как пользоваться справочником</Text>
-        <Text style={st.detailBody}>• Выбери обычные или перемешанные наборы в зависимости от настроек новой игры.</Text>
+        <Text style={st.panelTitle}>Как пользоваться</Text>
+        <Text style={st.detailBody}>• «+» у набора — весь узелок сдан; у предмета — отдельная позиция собрана.</Text>
+        <Text style={st.detailBody}>• Выбери обычные или перемешанные наборы в зависимости от настроек игры.</Text>
         <Text style={st.detailBody}>• Фильтр по комнате помогает найти нужный раздел Центра сообщества.</Text>
-        <Text style={st.detailBody}>• Открой карточку, чтобы увидеть количество, качество и способы получения каждого предмета.</Text>
       </Panel>
     </>
   );

@@ -37,6 +37,7 @@ export {
   animals,
   animalImagesData,
   animalProductImagesData,
+  gameEvents,
 } from './loadGameData';
 export {
   bundleImageAssets,

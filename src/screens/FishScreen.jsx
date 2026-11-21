@@ -1,8 +1,7 @@
-import React, { useEffect, useMemo, useState } from 'react';
-import { View, Text, TouchableOpacity, ScrollView, TextInput, Image, Alert } from 'react-native';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+import React, { useMemo, useState } from 'react';
+import { View, Text, TouchableOpacity, ScrollView, TextInput, Image } from 'react-native';
+import { useActiveProfileSave } from '../context/ProfileContext';
 import {
-  palette,
   seasons,
   UIIcon,
   SeasonIcon,
@@ -22,37 +21,26 @@ import {
   isOtherCatch,
   fishSearchText,
 } from '../data/appData';
-import { st } from '../styles/styles';
+import { useTheme } from '../context/ThemeContext';
 import { Panel } from '../components/Panel';
 
 const FISH_CATEGORIES = ['Все', 'Удочка', 'Крабовые ловушки', 'Легендарные', 'Остров', 'Ночной рынок', 'Особый улов'];
 
 export function FishScreen() {
+  const { st, palette } = useTheme();
+  const { ready, save, setSave } = useActiveProfileSave();
+  const caughtFish = save.caughtFish;
+  const setCaughtFish = updater =>
+    setSave(current => ({
+      ...current,
+      caughtFish: typeof updater === 'function' ? updater(current.caughtFish) : updater,
+    }));
   const [fishCategory, setFishCategory] = useState('Все');
   const [fishSearch, setFishSearch] = useState('');
   const [fishSeason, setFishSeason] = useState('Все сезоны');
-  const [caughtFish, setCaughtFish] = useState([]);
-  const [fishLoaded, setFishLoaded] = useState(false);
   const [expandedFish, setExpandedFish] = useState(null);
 
   const fishSeasons = useMemo(() => [{ name: 'Все сезоны' }, ...seasons], []);
-
-  useEffect(() => {
-    AsyncStorage.getItem('farm-caught-v1')
-      .then(v => {
-        if (v) setCaughtFish(JSON.parse(v));
-      })
-      .catch(() => {})
-      .finally(() => setFishLoaded(true));
-  }, []);
-
-  useEffect(() => {
-    if (fishLoaded) {
-      AsyncStorage.setItem('farm-caught-v1', JSON.stringify(caughtFish)).catch(() =>
-        Alert.alert('Не удалось сохранить', 'Проверь доступность хранилища устройства.')
-      );
-    }
-  }, [caughtFish, fishLoaded]);
 
   const visibleFish = useMemo(
     () =>
@@ -89,6 +77,14 @@ export function FishScreen() {
     [fishCategory, fishSeason, fishSearch]
   );
 
+  if (!ready) {
+    return (
+      <Panel>
+        <Text style={st.muted}>Загрузка списка рыб…</Text>
+      </Panel>
+    );
+  }
+
   return (
     <>
       <Panel style={st.hero}>
@@ -116,7 +112,7 @@ export function FishScreen() {
             onPress={() => setFishCategory(c)}
             style={[st.btn, st.fishCategoryBtn, fishCategory === c && st.btnOn]}
           >
-            <Text numberOfLines={1} style={st.btnText}>
+            <Text numberOfLines={1} style={[st.btnText, fishCategory === c && st.btnTextOn]}>
               {c}
             </Text>
           </TouchableOpacity>
@@ -131,7 +127,12 @@ export function FishScreen() {
             onPress={() => setFishSeason(s.name)}
           >
             {s.name === 'Все сезоны' ? <UIIcon name="crops" size={24} /> : <SeasonIcon name={s.name} size={24} />}
-            <Text numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.82} style={st.btnText}>
+            <Text
+              numberOfLines={1}
+              adjustsFontSizeToFit
+              minimumFontScale={0.82}
+              style={[st.btnText, fishSeason === s.name && st.btnTextOn]}
+            >
               {s.name === 'Все сезоны' ? 'Все' : s.name}
             </Text>
           </TouchableOpacity>
@@ -179,10 +180,10 @@ export function FishScreen() {
               <View style={st.row}>
                 <View style={st.fishThumb}>
                   {fishSpriteAssets[f.name] ? (
-                    <Image source={fishSpriteAssets[f.name]} style={{ width: 46, height: 46 }} resizeMode="contain" />
+                    <Image source={fishSpriteAssets[f.name]} style={st.fishThumb} resizeMode="contain" />
                   ) : null}
                 </View>
-                <View style={{ flex: 1 }}>
+                <View style={st.flex1}>
                   <Text style={st.itemTitle}>{f.name}</Text>
                   <Text style={st.growingSummary}>
                     {fishTypeLabel(f)} · {fishCatchMethodText(f)}
@@ -194,7 +195,7 @@ export function FishScreen() {
                   </Text>
                   {weather ? <Text style={st.detail}>Погода: {weather}</Text> : null}
                 </View>
-                <View style={{ alignItems: 'center', gap: 5 }}>
+                <View style={st.fishCheckColumn}>
                   <TouchableOpacity
                     onPress={() => setCaughtFish(old => (isCaught ? old.filter(n => n !== f.name) : [...old, f.name]))}
                     style={[st.fishCheck, isCaught && st.fishCheckOn]}
